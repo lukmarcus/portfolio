@@ -1,16 +1,16 @@
 import type { AllFilterTag, IFilter } from ".";
 
 export type IProjectBadge =
-  | "Angular"
-  | "Java"
-  | "C/C++"
   | "Android"
-  | "Python"
-  | "Django"
-  | "Vue"
-  | "TypeScript"
+  | "Angular"
   | "Blockchain"
+  | "C/C++"
+  | "Django"
+  | "Java"
   | "jQuery"
+  | "Python"
+  | "TypeScript"
+  | "Vue"
   | "Game"
   | "Board Game"
   | "Open Source"
@@ -54,18 +54,21 @@ export type ITechnology =
   | "solr"
   | "sqlalchemy"
   | "stripe"
-  | "stripe"
   | "typescript"
   | "vue"
   | "windows"
   | "xbox360";
 
 export type IProjectFilterTag =
-  | "responsive"
+  | "android"
+  | "blockchain"
   | "bootstrap"
-  | "vue"
+  | "c-cpp"
+  | "java"
+  | "js-ts"
   | "python-django"
-  | "js-ts";
+  | "responsive"
+  | "vue";
 
 export interface IProjectFilter extends IFilter {
   name: string;

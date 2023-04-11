@@ -187,7 +187,7 @@ const db: IDB = {
       title: "CEO of New Deal",
       type: "written",
       signature: "bartlomiej-rynkiewicz-signature.png",
-      body: "Marek worked for New Deal / DR Traiding for 8 years. His skills provided substential value for both companies. I recommend him as a solid and trustowrthy employee with a wide range of technical knowledge.",
+      body: "Marek worked for New Deal / DR Trading for 8 years. His skills provided substantial value for both companies. I recommend him as a solid and trustworthy employee with a wide range of technical knowledge.",
       relevantForProjects: ["spistresci-pl"],
       url: "https://lukmarcus.github.io/recommendations/Marek%20Szumny%20NDDR%20EN.pdf",
     },

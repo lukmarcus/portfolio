@@ -6,7 +6,7 @@
 
   <div class="section-row">
     <h3 class="section-title">Challenges</h3>
-    <h4 class="section-title">Implementing Cutting Edge HTML standard</h4>
+    <h4 class="section-title">Implementing Cutting-Edge HTML Standard</h4>
     <h4 class="section-title">
       Non reliable BTS Stations &amp; Weather (sic!)
     </h4>

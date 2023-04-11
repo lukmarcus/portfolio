@@ -51,7 +51,7 @@
       necessary evil.
     </p>
 
-    <h4 class="section-subtitle">Semi-open worlds</h4>
+    <h4 class="section-subtitle">Semi-Open Worlds</h4>
     <p>
       Dead Island consists of several acts in which players navigate through
       semi-open worlds. It means there were many places on the game map which
@@ -64,10 +64,10 @@
       stages.
     </p>
 
-    <h4 class="section-subtitle">Escort missions</h4>
+    <h4 class="section-subtitle">Escort Missions</h4>
     <p></p>
 
-    <h4 class="section-subtitle">Multiplayer cooperation</h4>
+    <h4 class="section-subtitle">Multiplayer Cooperation</h4>
     <p></p>
   </div>
 

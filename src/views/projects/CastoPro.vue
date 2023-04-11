@@ -10,7 +10,7 @@
   </div>
 
   <div class="section-row">
-    <h3 class="section-title">My role in this project</h3>
+    <h3 class="section-title">My Role in This Project</h3>
     <p>
       As a part of my recruitment process for a prominent Polish analytics
       company, I was tasked with testing the CastoPro website. The objective was
@@ -71,7 +71,7 @@
   </div>
 
   <div class="section-row">
-    <h3 class="section-title">The task</h3>
+    <h3 class="section-title">The Task</h3>
     <p>
       I noticed only one minor technical error on the main page, so I assumed
       this task was about the whole site. I also decided to use the most popular
@@ -779,7 +779,7 @@
   </div>
 
   <div class="section-row">
-    <h3 class="section-title">What I learned</h3>
+    <h3 class="section-title">What I Learned</h3>
     <p>
       This task reminded me that in the real world, we don't always have access
       to perfect information or clear requirements. However, this lack of

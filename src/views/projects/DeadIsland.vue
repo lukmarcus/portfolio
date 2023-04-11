@@ -23,7 +23,7 @@
       ></iframe>
     </p>
 
-    <h3 class="section-title">My role in this project</h3>
+    <h3 class="section-title">My Role in This Project</h3>
     <p>
       I joined Techland's Quality Assurance team when Dead Island was in the
       advanced production phase. Daily testing of this game's new builds was the

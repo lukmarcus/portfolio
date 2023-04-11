@@ -27,7 +27,7 @@
       </iframe>
     </div>
   </div>
-  <h3 class="section-title">My role in this project &amp; our team</h3>
+  <h3 class="section-title">My Role in This Project &amp; our team</h3>
   <p>
     I was a founder, a lead developer, and a CEO of this project. My college
     Piotr Zawiślak from Opera Software, become a co-founder. After the start of

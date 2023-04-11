@@ -1,7 +1,7 @@
 <template>
   <div class="section-row">
     <h3 class="section-title">Project Background</h3>
-    <h3 class="section-title">My role in this project</h3>
+    <h3 class="section-title">My Role in This Project</h3>
     <Carousel :items-to-show="5" :paths="imagesPaths" />
   </div>
 

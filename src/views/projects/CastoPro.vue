@@ -1,6 +1,4 @@
 <template>
-  <CoverImage :url="`@/images/projects/${project.thumbnail}`" />
-
   <div class="section-row">
     <h3 class="section-title">Project background</h3>
     <p>
@@ -797,7 +795,6 @@
 </template>
 
 <script setup lang="ts">
-import { CoverImage } from "@/components";
 import type { IProject, ITestimonial } from "@/types";
 import { Collapse } from "bootstrap";
 defineProps<{

@@ -25,7 +25,7 @@
       ></iframe>
     </p>
 
-    <h3 class="section-title">My role in this project</h3>
+    <h3 class="section-title">My Role in This Project</h3>
     <p>
       I've worked on Seerene during my years at
       <a href="https://www.stxnext.com/">Software House STXnext</a>. It is a

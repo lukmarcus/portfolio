@@ -7,7 +7,7 @@
 
   <div class="section-row">
     <h3 class="section-title">Payment Handling</h3>
-    <h4 class="section-title">Complex workflow of components</h4>
+    <h4 class="section-title">Complex Workflow of Components</h4>
   </div>
   <div class="section-row">
     <h3 class="section-title">Biggest Lessons Learned</h3>

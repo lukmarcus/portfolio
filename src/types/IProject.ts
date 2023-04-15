@@ -57,7 +57,8 @@ export type ITechnology =
   | "typescript"
   | "vue"
   | "windows"
-  | "xbox360";
+  | "xbox360"
+  | "xstate";
 
 export type IProjectFilterTag =
   | "android"

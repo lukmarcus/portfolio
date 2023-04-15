@@ -8,13 +8,11 @@ describe("Top navigation test", () => {
     cy.visit("/");
     cy.get('.navbar a[href="/"]').as("home");
     cy.get('.navbar a[href="/projects"]').as("projects");
-    cy.get('.navbar a[href="/talks"]').as("talks");
-    cy.get('.navbar a[href="/blog"]').as("blog");
     cy.get('.navbar a[href="#hire-me"]').as("contact");
   });
 
   it("Should check if top navigation buttons have correct addresses", () => {
-    ["Home", "Projects", "Talks", "Blog", "Contact"].forEach((item) => {
+    ["Home", "Projects", "Contact"].forEach((item) => {
       cy.get(`@${item.toLowerCase()}`).should("include.text", item);
     });
   });
@@ -24,7 +22,7 @@ describe("Top navigation test", () => {
       return cy.go("back").location("pathname").should("eq", "/");
     }
 
-    ["Projects", "Talks", "Blog"].forEach((page) => {
+    ["Projects"].forEach((page) => {
       it(`Should go to ${page} and back`, () => {
         cy.get(`@${page.toLowerCase()}`).click();
         cy.location("pathname").should("eq", `/${page.toLowerCase()}`);
@@ -57,9 +55,9 @@ describe("Top navigation test", () => {
       cy.get("#slide-line").should("have.css", "left", `${leftOffset}px`);
     }
 
-    ["projects", "talks", "blog", "home"].forEach((page) => {
+    ["projects", "home"].forEach((page) => {
       cy.get(`@${page}`).click().then(checkSlideLinePosition);
-      ["home", "projects", "talks", "blog", "contact"].forEach((page) => {
+      ["home", "projects", "contact"].forEach((page) => {
         cy.get(`@${page}`).realHover().then(checkSlideLinePosition);
       });
     });

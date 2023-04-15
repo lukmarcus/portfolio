@@ -239,7 +239,7 @@ const db: IDB = {
         "Git CLI / GitHub",
         "Chrome Dev Tools / XPath",
         "SQL / SQLite / MySQL",
-        "HTML / CSS",
+        "HTML / CSS / Bootstrap",
         "Linux /  Windows",
       ],
       icon: "@/images/tools-icon.svg",

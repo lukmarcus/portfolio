@@ -4,7 +4,7 @@
   <Companies />
   <Testimonials :testimonials="testimonials" />
   <FeaturedProjects />
-  <!-- <LatestBlogPosts /> -->
+  <LatestBlogPosts />
   <!-- <FeaturedIn /> -->
 </template>
 
@@ -14,7 +14,7 @@ import {
   Companies,
   // FeaturedIn,
   FeaturedProjects,
-  // LatestBlogPosts,
+  LatestBlogPosts,
   SkillsOverview,
   Testimonials,
 } from "@/components";

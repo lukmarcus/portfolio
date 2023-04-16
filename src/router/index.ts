@@ -1,7 +1,6 @@
-import { Blog, BlogPost, Home, Project, Projects, Talks } from "@/views";
+import { Home, Project, Projects } from "@/views";
 import type { RouteRecordRaw, RouterScrollBehavior } from "vue-router";
 import { createRouter, createWebHistory } from "vue-router";
-import { blogPosts } from "./blogPosts";
 import { projects } from "./projects";
 
 const routes: Array<RouteRecordRaw> = [
@@ -20,22 +19,6 @@ const routes: Array<RouteRecordRaw> = [
     name: "project",
     component: Project,
     children: projects,
-  },
-  {
-    path: "/talks",
-    name: "talks",
-    component: Talks,
-  },
-  {
-    path: "/blog",
-    name: "blog",
-    component: Blog,
-  },
-  {
-    path: "/post/",
-    name: "post",
-    component: BlogPost,
-    children: blogPosts,
   },
   {
     path: "/contact",

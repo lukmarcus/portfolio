@@ -10,7 +10,7 @@ const db: IDB = {
     title: "",
     email: "szumny.marek@gmail.com",
     github: "https://github.com/lukmarcus",
-    linkedin: "https://www.linkedin.com/in/marek-szumny-63ba3295/",
+    linkedin: "https://www.linkedin.com/in/marekszumny/",
     location: "",
   },
   projects: [
@@ -202,7 +202,7 @@ const db: IDB = {
     },
   ],
   links: {
-    linkedinProfile: "https://www.linkedin.com/in/marek-szumny-63ba3295/",
+    linkedinProfile: "https://www.linkedin.com/in/marekszumny/",
     githubProfile: "https://github.com/lukmarcus",
   },
   flags: {
@@ -239,7 +239,7 @@ const db: IDB = {
         "Git CLI / GitHub",
         "Chrome Dev Tools / XPath",
         "SQL / SQLite / MySQL",
-        "HTML / CSS",
+        "HTML / CSS / Bootstrap",
         "Linux /  Windows",
       ],
       icon: "@/images/tools-icon.svg",

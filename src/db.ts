@@ -238,7 +238,7 @@ const db: IDB = {
       skills: [
         "Cypress",
         "Newman (Postman CLI)",
-        "BrowserStack / Sauce Labs",
+        "BrowserStack",
         "Page Object Pattern",
         "Cucumber / BDD",
       ],

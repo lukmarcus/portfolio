@@ -209,7 +209,18 @@ const db: IDB = {
     polish: "🇵🇱",
     english: "🇬🇧",
   },
-  blogPosts: [],
+  blogPosts: [
+    {
+      title: "Cypress in Action: GitHub and Cloud Test Automation",
+      author: "Marek Szumny",
+      slug: "cypress-in-action",
+      published: true,
+      thumbnail: "@/images/blog/cypress-in-action/thumbnail.png",
+      publishedAt: new Date("2023-04-16"),
+      intro: "Cypress in Action.....",
+      tagline: "tagline",
+    },
+  ],
   skillsGroups: [
     {
       name: "Manual Testing",

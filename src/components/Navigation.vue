@@ -78,6 +78,14 @@
                 Projects
               </router-link>
             </li>
+            <li class="nav-item me-lg-3">
+              <router-link
+                class="nav-link"
+                :to="{ name: 'blog' }"
+                @click="closeMenu()"
+                >Blog</router-link
+              >
+            </li>
             <li class="nav-item me-0">
               <!-- <router-link
                 class="nav-link"

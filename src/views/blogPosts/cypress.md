@@ -1,35 +1,66 @@
+---
+marp: true
+theme: gaia
+backgroundImage: url('https://marp.app/assets/hero-background.svg')
+_class: lead
+paginate: true
+size: 16:9
+---
+
+<!-- https://marketplace.visualstudio.com/items?itemName=marp-team.marp-vscode -->
+
 # How to configure Cypress in own project
 
-## Time needed to write simple test
+---
 
-- Example of simple test, which checks existence of one element
+## How much time is needed to configure Github
 
-# How to configure Cypress with Github repository with Cypress Github Action
+... to run simple test like this
 
-## For master/main/dev and release branches
+```typescript
+describe("My Awesome Website", () => {
+  it('should contain "my awesome website" in an h1 tag', () => {
+    cy.visit("https://www.myawesomewebsite.com");
+    cy.get("h1").contains("my awesome website");
+  });
+});
+```
+
+For every commit in master/main/dev/release branches/PRs?
+
+---
+
+### How to configure Cypress with Github repository with Cypress Github Action
+
+#### For master/main/dev and release branches
 
 - Requirenment: Dedicated instance of application refreshed after each commit
 - Example configuration of .github/workflows/cypress.yml
 
 Main benefit:
+
 - Speed up release process, because a lot of tests could be checked automatically
+
+---
 
 ## How to configure Cypress for every PR
 
 - Requirenment (still!): Dedicated instance of application refreshed after each commit
-    - instance do not have to be publicly available (with subdomain, ssl certificate, etc.)
-    - instance can be created in the same environment in which cypress tests are run as on localhost
+  - instance do not have to be publicly available (with subdomain, ssl certificate, etc.)
+  - instance can be created in the same environment in which cypress tests are run as on localhost
 
+---
 
 My own experience:
 
 - My application is basically do not have a backend, so I can very quickly create a new instance with:
 
-    - `git clone`
-    - `npm install`
-    - `npm run build`
-    - `npm run preview`
+  - `git clone`
+  - `npm install`
+  - `npm run build`
+  - `npm run preview`
 
+---
 
 ### Problems:
 
@@ -39,12 +70,11 @@ Most projects are not so simple (duh!)
 
 - If your project do not requires complicated database setup, then you are lucky.
 
+---
 
 ### Let's assume that you are lucky :)
 
-1. Github action needs to be modified
-
-from:
+Github action needs to be modified from/to
 
 ```yaml
 on:
@@ -52,8 +82,6 @@ on:
     branches:
       - main
 ```
-
-to:
 
 ```yaml
 on:
@@ -62,6 +90,8 @@ on:
       - main
   pull_request:
 ```
+
+---
 
 ### How to enable Cypress comments in Pull Requests and why in my opinion this is important
 
@@ -72,28 +102,79 @@ You need to determined what is the reason of failing tests:
 - Is it a bug in the application?
 - Or test simply needs to be updated?
 
-Of course you can check it locally, but this requires additional time and effort. There is a faster way to do it.
+---
 
-Screenshots and video recordings!
+Of course you can check it locally, but this requires additional time and effort. There is a faster way to do it:
 
-### You can start recording videos in couple of different ways
+# Screenshots and video recordings!
 
-1. You can produce videos recording and store them as artefacts in Github Actions
+---
+
+# You can start recording videos in couple of different ways
+
+---
+
+1. You can produce videos recordings and videos, by adding the following properties to your `cypress.config.ts` file:
+
+```json
+{
+  //...
+  "video": true,
+  "videosFolder": "cypress/videos",
+  "screenshotOnRunFailure": true,
+  "screenshotsFolder": "cypress/screenshots"
+}
+```
+
+---
+
+and store them as artefacts in Github Actions, by adding the following step to your workflow file:
+
+```yaml
+- name: E2E tests - Upload test artifacts
+  if: ${{ failure() }}
+  uses: actions/upload-artifact@v3
+  with:
+    name: cypress-artifacts
+    path: |
+      cypress/screenshots/
+      cypress/videos/
+```
+
+---
+
+But this will be far from being perfect, because:
+
+- you will have to go to a summary of failed github action, to find attached artifacts
+- you will have to download & unzip them locally to view them
+- there is also a retention limit for artefacts ([more info](https://docs.github.com/en/actions/learn-github-actions/usage-limits-billing-and-administration#artifact-and-log-retention-policy))
+
+---
+
+![](../../images/blog/cypress-in-action/github-artifacts.png)
+
+---
+
+# You can use Cypress Dashboard
 
 Drawbacks:
 
-- To view them, you need to download them and check them locally
-- You need to manage them
-
-2. You can use Cypress Dashboard
-
-Drawbacks:
 - You need to pay for it (limited free plan)
 
 But there are a lot of other cool features!
 
+---
 
---------------
+To configure it, you need to add `record` property to your `cypress.json` file:
+
+```json
+{
+  "projectId": "your-project-id",
+  "record": true
+}
+```
+
+---
 
 # Interesting ideas
 

@@ -174,8 +174,26 @@ const db: IDB = {
       logo: "logos/drtrading.png",
     },
   ],
-  talks: [],
-  talkFilters: [],
+  talks: [
+    {
+      source: "youtube",
+      id: "qpqDNbDzpg8",
+      type: "video",
+      language: "polish",
+      title:
+        "Cypress & Github - Efficient Setup for Pull Requests with Cypress Cloud and Alternatives",
+      description:
+        "Ta prezentacja skupia się na opisie procesu konfiguracji Cypressa z Githubem, w sposób by w konsekwencji maksymalnie ułatwić proces rozpoznawania przyczyny failujących testów. W prezentacji omawiany jest serwis Cypress Cloud a także dwie jego alternatywy: Sorry-Cypress i Currents.dev. Prezentacja zawiera przykładowe pliki konfiguracyjne, które można wykorzystać do samodzielnej konfiguracji własnego projektu.",
+      date: "May 25, 2023",
+      filterTags: ["e2e", "cypress", "github"],
+    },
+  ],
+  talkFilters: [
+    { name: "All", tag: allFilterTag, isActive: true },
+    { name: "Cypress", tag: "cypress", isActive: false },
+    { name: "E2E", tag: "e2e", isActive: false },
+    { name: "Github", tag: "github", isActive: false },
+  ],
   languageFilters: [
     { name: "🌎", tag: allFilterTag, isActive: true },
     { name: "🇬🇧", tag: "english", isActive: false },

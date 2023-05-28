@@ -9,10 +9,10 @@
   </PageHeader>
   <section class="section pt-5 px-3 px-lg-0">
     <FilterableList>
-      <template #filters>
+      <!-- <template #filters>
         <Filters name="talk-filters" v-model="talkFilters" />
         <Filters name="language-filters" v-model="languageFilters" />
-      </template>
+      </template> -->
       <template #items>
         <div class="container position-relative">
           <Talk
@@ -29,7 +29,7 @@
 </template>
 
 <script setup lang="ts">
-import { FilterableList, Filters, PageHeader, Talk } from "@/components";
+import { FilterableList, PageHeader, Talk } from "@/components";
 import { useTalks } from "@/composables";
 import { allFilterTag } from "@/types";
 import { computed } from "vue";

@@ -177,7 +177,7 @@ const db: IDB = {
   talks: [
     {
       source: "youtube",
-      id: "qpqDNbDzpg8",
+      id: "SzGjZW2VJ0Q",
       type: "video",
       language: "polish",
       title:

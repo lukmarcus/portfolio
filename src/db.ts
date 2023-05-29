@@ -154,6 +154,11 @@ const db: IDB = {
       logo: "logos/techland.svg",
     },
     {
+      name: "IndieBI",
+      url: "https://indiebi.com/",
+      logo: "logos/indiebi.svg",
+    },
+    {
       name: "Wise-Team",
       url: "http://web.archive.org/web/20200811211508/https://wise-team.io/",
       logo: "logos/wise-team.svg",

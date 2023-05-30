@@ -248,11 +248,11 @@ const db: IDB = {
     {
       name: "Automated Testing",
       skills: [
-        "Cypress",
-        "Newman (Postman CLI)",
-        "BrowserStack / Sauce Labs",
+        "Cypress / Playwright",
+        "Currents.dev / Sorry-Cypress",
         "Page Object Pattern",
         "Cucumber / BDD",
+        "Newman (Postman CLI)",
       ],
       icon: "@/images/automated-testing-icon.svg",
     },

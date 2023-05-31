@@ -154,6 +154,11 @@ const db: IDB = {
       logo: "logos/techland.svg",
     },
     {
+      name: "IndieBI",
+      url: "https://indiebi.com/",
+      logo: "logos/indiebi.svg",
+    },
+    {
       name: "Wise-Team",
       url: "http://web.archive.org/web/20200811211508/https://wise-team.io/",
       logo: "logos/wise-team.svg",
@@ -243,11 +248,11 @@ const db: IDB = {
     {
       name: "Automated Testing",
       skills: [
-        "Cypress",
-        "Newman (Postman CLI)",
-        "BrowserStack / Sauce Labs",
+        "Cypress / Playwright",
+        "Currents.dev / Sorry-Cypress",
         "Page Object Pattern",
         "Cucumber / BDD",
+        "Newman (Postman CLI)",
       ],
       icon: "@/images/automated-testing-icon.svg",
     },

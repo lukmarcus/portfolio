@@ -10,7 +10,7 @@ describe("Top navigation test", () => {
     cy.get('.navbar a[href="/resume"]').as("resume");
     cy.get('.navbar a[href="/projects"]').as("projects");
     cy.get('.navbar a[href="/talks"]').as("talks");
-    cy.get('.navbar a[href="#hire-me"]').as("contact");
+    cy.get('.navbar a[href="#contact"]').as("contact");
   });
 
   it("Should check if top navigation buttons have correct addresses", () => {
@@ -35,8 +35,8 @@ describe("Top navigation test", () => {
 
     it("Should scroll to Contact and back", () => {
       cy.get("@contact").realClick();
-      cy.url().should("include", "#hire-me");
-      cy.get("#hire-me")
+      cy.url().should("include", "#contact");
+      cy.get("#contact")
         .should("be.visible")
         .then(checkIfElementIsEntirelyInViewport);
 

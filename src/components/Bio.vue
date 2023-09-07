@@ -35,9 +35,17 @@
                 to discover how I can add value to your project.
               </p>
             </div>
-            <a
+            <router-link
+              v-if="resume.url"
+              :to="{ name: 'resume' }"
               class="theme-btn-on-bg btn font-weight-bold theme-btn-cta"
-              href="#hire-me"
+            >
+              Hire Me
+            </router-link>
+            <a
+              v-else
+              class="theme-btn-on-bg btn font-weight-bold theme-btn-cta"
+              href="#contact"
               target="_self"
               >Hire Me</a
             >
@@ -49,6 +57,7 @@
 </template>
 
 <script setup lang="ts">
-import { useMe } from "@/composables";
+import { useDB, useMe } from "@/composables";
 const { fullName, github } = useMe();
+const { resume } = useDB();
 </script>

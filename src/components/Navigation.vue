@@ -105,7 +105,7 @@
               <a
                 class="nav-link"
                 target="_self"
-                href="#hire-me"
+                href="#contact"
                 @click="closeMenu()"
                 >Contact</a
               >

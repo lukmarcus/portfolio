@@ -6,6 +6,7 @@
     <div class="container position-relative">
       <h2 class="page-heading mb-3">Resume</h2>
       <a
+        v-if="pdfUrl"
         class="btn theme-btn-on-bg download-resume position-absolute font-weight-bold mx-auto"
         :href="pdfUrl"
         target="_blank"

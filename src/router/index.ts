@@ -1,7 +1,10 @@
+import { useDB } from "@/composables";
 import { Home, Project, Projects, Resume, Talks } from "@/views";
 import type { RouteRecordRaw, RouterScrollBehavior } from "vue-router";
 import { createRouter, createWebHistory } from "vue-router";
 import { projects } from "./projects";
+
+const { resume } = useDB();
 
 const routes: Array<RouteRecordRaw> = [
   {
@@ -19,11 +22,6 @@ const routes: Array<RouteRecordRaw> = [
     name: "project",
     component: Project,
     children: projects,
-  },
-  {
-    path: "/resume/",
-    name: "resume",
-    component: Resume,
   },
   {
     path: "/talks",
@@ -45,6 +43,14 @@ const routes: Array<RouteRecordRaw> = [
   //     import(/* webpackChunkName: "about" */ "../views/About.vue"),
   // },
 ];
+
+if (resume.url) {
+  routes.push({
+    path: "/resume/",
+    name: "resume",
+    component: Resume,
+  });
+}
 
 const scrollBehavior: RouterScrollBehavior = (to, from, savedPosition) => {
   return savedPosition || { top: 0, behavior: "auto" };

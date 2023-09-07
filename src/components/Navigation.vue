@@ -69,7 +69,7 @@
             </li>
           </ul>
           <ul class="navbar-nav ms-lg-auto">
-            <li class="nav-item me-lg-3">
+            <li class="nav-item me-lg-3" v-if="resume.url">
               <router-link
                 class="nav-link"
                 :to="{ name: 'resume' }"
@@ -143,11 +143,12 @@
 </template>
 
 <script setup lang="ts">
-import { useNavigation } from "@/composables";
+import { useDB, useNavigation } from "@/composables";
 import { ref, watch } from "vue";
 import { useRouter } from "vue-router";
 
 const router = useRouter();
+const { resume } = useDB();
 const { updateSlideLine } = useNavigation();
 const menuCollapsed = ref(true);
 

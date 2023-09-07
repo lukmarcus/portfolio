@@ -15,8 +15,8 @@ export interface IDB {
   isUnderConstruction: boolean;
   me: IMe;
   resume: {
-    url: string;
-    pdfUrl: string;
+    url?: string;
+    pdfUrl?: string;
   };
   projects: IProject[];
   projectFilters: IProjectFilter[];

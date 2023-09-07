@@ -46,7 +46,7 @@ const routes: Array<RouteRecordRaw> = [
 
 if (resume.url) {
   routes.push({
-    path: "/resume/",
+    path: "/resume",
     name: "resume",
     component: Resume,
   });

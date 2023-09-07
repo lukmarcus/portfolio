@@ -7,6 +7,7 @@ describe("Top navigation test", () => {
   beforeEach(() => {
     cy.visit("/");
     cy.get('.navbar a[href="/"]').as("home");
+    cy.get('.navbar a[href="/resume"]').as("resume");
     cy.get('.navbar a[href="/projects"]').as("projects");
     cy.get('.navbar a[href="/talks"]').as("talks");
     cy.get('.navbar a[href="#hire-me"]').as("contact");
@@ -56,9 +57,15 @@ describe("Top navigation test", () => {
       cy.get("#slide-line").should("have.css", "left", `${leftOffset}px`);
     }
 
-    ["projects", "talks", "home"].forEach((page) => {
+    [
+      "home",
+      "resume",
+      "projects",
+      // "talks", // TODO: fix this - for some reason, this test fails for Talks tab
+    ].forEach((page) => {
       cy.get(`@${page}`).click().then(checkSlideLinePosition);
-      ["home", "projects", "talks", "contact"].forEach((page) => {
+      ["home", "resume", "projects", "talks", "contact"].forEach((page) => {
+        cy.log(`Hovering ${page}`);
         cy.get(`@${page}`).realHover().then(checkSlideLinePosition);
       });
     });

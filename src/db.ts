@@ -13,6 +13,10 @@ const db: IDB = {
     linkedin: "https://www.linkedin.com/in/marekszumny/",
     location: "",
   },
+  resume: {
+    url: "https://lukmarcus.github.io",
+    pdfUrl: "https://lukmarcus.github.io/CV%20Marek%20Szumny.pdf",
+  },
   projects: [
     {
       name: "Test Case Study - CastoPro",

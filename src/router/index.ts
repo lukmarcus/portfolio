@@ -1,4 +1,4 @@
-import { Home, Project, Projects, Talks } from "@/views";
+import { Home, Project, Projects, Resume, Talks } from "@/views";
 import type { RouteRecordRaw, RouterScrollBehavior } from "vue-router";
 import { createRouter, createWebHistory } from "vue-router";
 import { projects } from "./projects";
@@ -19,6 +19,11 @@ const routes: Array<RouteRecordRaw> = [
     name: "project",
     component: Project,
     children: projects,
+  },
+  {
+    path: "/resume/",
+    name: "resume",
+    component: Resume,
   },
   {
     path: "/talks",

@@ -72,6 +72,15 @@
             <li class="nav-item me-lg-3">
               <router-link
                 class="nav-link"
+                :to="{ name: 'resume' }"
+                @click="closeMenu()"
+              >
+                Resume
+              </router-link>
+            </li>
+            <li class="nav-item me-lg-3">
+              <router-link
+                class="nav-link"
                 :to="{ name: 'projects' }"
                 @click="closeMenu()"
               >

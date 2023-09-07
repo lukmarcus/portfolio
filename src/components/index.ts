@@ -1,8 +1,8 @@
 export { default as Bio } from "./Bio.vue";
 export { default as BlogHeader } from "./BlogHeader.vue";
 export { default as BlogPostHeader } from "./BlogPostHeader.vue";
-export { default as BlogPostsGrid } from "./BlogPostsGrid.vue";
 export { default as BlogPostThumbnail } from "./BlogPostThumbnail.vue";
+export { default as BlogPostsGrid } from "./BlogPostsGrid.vue";
 export { default as Carousel } from "./Carousel.vue";
 export { default as Companies } from "./Companies.vue";
 export { default as CoverImage } from "./CoverImage.vue";
@@ -18,9 +18,10 @@ export { default as OtherProjectCaseStudies } from "./OtherProjectCaseStudies.vu
 export { default as PageHeader } from "./PageHeader.vue";
 export { default as ProjectHeader } from "./ProjectHeader.vue";
 export { default as ProjectInfo } from "./ProjectInfo.vue";
-export { default as ProjectsGrid } from "./ProjectsGrid.vue";
 export { default as ProjectThumbnail } from "./ProjectThumbnail.vue";
+export { default as ProjectsGrid } from "./ProjectsGrid.vue";
 export { default as Quote } from "./Quote.vue";
+export { default as ResumeHeader } from "./ResumeHeader.vue";
 export { default as SkillsBlock } from "./SkillsBlock.vue";
 export { default as SkillsOverview } from "./SkillsOverview.vue";
 export { default as Talk } from "./Talk.vue";

@@ -1,6 +1,9 @@
 name: Cypress Tests
 
-on: [push]
+on:
+  push:
+    branches:
+      - master
 
 jobs:
   cypress-tests:
@@ -40,9 +43,9 @@ jobs:
           # determine the unique run id necessary to re-run the checks
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           # overwrite commit message sent to Cypress Cloud
-          COMMIT_INFO_MESSAGE: ${{github.event.pull_request.title}}
+          COMMIT_INFO_MESSAGE: ${{ github.event.pull_request.title }}
           # re-enable PR comment bot
-          COMMIT_INFO_SHA: ${{github.event.pull_request.head.sha}}
+          COMMIT_INFO_SHA: ${{ github.event.pull_request.head.sha }}
 
       - name: Components tests
         uses: cypress-io/github-action@v5.6.1
@@ -57,6 +60,6 @@ jobs:
           # determine the unique run id necessary to re-run the checks
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           # overwrite commit message sent to Cypress Cloud
-          COMMIT_INFO_MESSAGE: ${{github.event.pull_request.title}}
+          COMMIT_INFO_MESSAGE: ${{ github.event.pull_request.title }}
           # re-enable PR comment bot
-          COMMIT_INFO_SHA: ${{github.event.pull_request.head.sha}}
+          COMMIT_INFO_SHA: ${{ github.event.pull_request.head.sha }}

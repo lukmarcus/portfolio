@@ -59,3 +59,15 @@ npm run test:e2e # or `npm run test:e2e:ci` for headless testing
 ```sh
 npm run lint
 ```
+
+## Q&A
+
+### Version of node/npm is not compatible? Use Node Version Manager
+
+- Linux/Mac: https://github.com/nvm-sh/nvm
+- Windows: https://github.com/coreybutler/nvm-windows
+
+```sh
+nvm install v18.15.0
+nvm run v18.15.0
+```

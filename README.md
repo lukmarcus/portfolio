@@ -4,7 +4,7 @@
 
 # portfolio
 
-This template should help get you started developing with Vue 3 in Vite.
+This is my portfolio based on [noisy/portfolio](https://github.com/noisy/portfolio/). Developed with Vue 3 in Vite.
 
 ## Recommended IDE Setup
 
@@ -17,7 +17,7 @@ TypeScript cannot handle type information for `.vue` imports by default, so we r
 
 [Takeover Mode is no longer needed in version 2.0 and has been deprecated.](https://github.com/vuejs/language-tools/releases/tag/v2.0.0)
 
-### Method for older version
+### Method for the older version
 
 If the standalone TypeScript plugin doesn't feel fast enough to you, Volar has also implemented a [Take Over Mode](https://github.com/johnsoncodehk/volar/discussions/471#discussioncomment-1361669) that is more performant. You can enable it by the following steps:
 

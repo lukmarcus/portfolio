@@ -2,14 +2,15 @@
   <div class="section-row">
     <h3 class="section-title">Project background</h3>
     <p>
-      This project evolved from
+      The
       <a
-        href="https://m.goit.global/pl/?utm_source=site&utm_medium=mainsite&utm_campaign=button"
-        >GoIT 7 days HTML+CSS Marathon</a
-      >, whereas a course attendant, I was creating a webpage based on a graphic
-      template from <a href="https://www.figma.com/">Figma</a>. During the
-      course, I uploaded the whole thing into GitHub and decided to convert the
-      entire code into a bilingual version of my CV.
+        href="https://en.training.qatestlab.com/course/software-testing-fundamentals/"
+        >'Fundamentals of Software Testing'</a
+      >
+      course from <a href="https://qatestlab.com/">QATestLab</a> covered various
+      topics. The first task (homework), like a warm-up, involved familiarizing
+      with the bug reporting process in Mantis Bug Tracker based on bugs found
+      in a short video recording.
     </p>
   </div>
 

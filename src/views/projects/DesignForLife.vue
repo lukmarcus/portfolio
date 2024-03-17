@@ -10,7 +10,9 @@
       course from <a href="https://qatestlab.com/">QATestLab</a> covered various
       topics. The first task (homework), like a warm-up, involved familiarizing
       with the bug reporting process in Mantis Bug Tracker based on bugs found
-      in a short video recording.
+      in a short video recording. In this video, a user navigated a simple
+      website called 'Design for Life' and demonstrated the effects of various
+      page elements.
     </p>
   </div>
 

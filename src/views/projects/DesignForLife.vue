@@ -9,8 +9,8 @@
       >
       course from <a href="https://qatestlab.com/">QATestLab</a> covered various
       topics. The first task (homework), like a warm-up, involved familiarizing
-      with the bug reporting process in Mantis Bug Tracker based on bugs found
-      in a short video recording. In this video, a user navigated a simple
+      myself with the bug reporting process in Mantis Bug Tracker based on bugs
+      found in a short video recording. In this video, a user navigated a simple
       website called 'Design for Life' and demonstrated the effects of various
       page elements.
     </p>
@@ -19,29 +19,17 @@
   <div class="section-row">
     <h3 class="section-title">My Role in This Project</h3>
     <p>
-      Creating an up-to-date CV is the first and most crucial step to
-      participating in the recruitment process. It goes without saying that if
-      you don't have a CV, you don't have a new job either. It is essential to
-      collect your experience and skills and then transfer it into a previously
-      created template. At the same time, from the very beginning, I assumed
-      that due to the continuous development of my skills, the created CV would
-      not be a closed document created once and for all but rather a place to be
-      updated from time to time.
+      As I mentioned above, I was supposed to find bugs and report them to the
+      system. Although the video contained many errors that could be considered
+      bugs, the homework assignment only required three reports from me. The
+      task contained environmental data, so the idea was to focus on the use of
+      'What? Where? When?' principle.
     </p>
   </div>
 
   <div class="section-row">
     <h3 class="section-title">Challenges</h3>
     <h4 class="section-subtitle">Bilingual Version</h4>
-    <p>
-      Although the original version of this web-based CV was created only in the
-      Polish version (it was much easier due to the type of previous work and
-      experience), the default version of the project was to be the English one,
-      which is mandatory in the IT industry. Therefore, the challenge was to
-      create such a CV that would be easy to maintain in both language versions,
-      giving the possibility of simple generation of pdf files, but also
-      available in the same place for viewers.
-    </p>
     <p>
       I created two HTML files operating on the same CSS file and integrated
       them with a simple language switch. It's not a perfect solution because it

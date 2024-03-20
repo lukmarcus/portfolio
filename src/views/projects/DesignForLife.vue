@@ -21,9 +21,13 @@
     <p>
       As I mentioned above, I was supposed to find bugs and report them to the
       system. Although the video contained many errors that could be considered
-      bugs, the homework assignment only required three reports from me. The
-      task contained environmental data, so the idea was to focus on the use of
-      'What? Where? When?' principle.
+      bugs, the homework assignment only required up to three reports from me -
+      you didn't get any extra points for a larger number. Together with the
+      task description, I was provided with environment data, which was required
+      to be entered into the appropriate fields when creating bug reports. The
+      objective was to focus entirely on entering content according to 'What?
+      Where? When?' principle while ensuring the accuracy of the 'Steps to
+      Reproduce' section.
     </p>
   </div>
 

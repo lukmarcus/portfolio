@@ -33,7 +33,11 @@
 
   <div class="section-row">
     <h3 class="section-title">Challenges</h3>
-    <h4 class="section-subtitle">Bilingual Version</h4>
+    <h4 class="section-subtitle">Subtitle</h4>
+    <p>...</p>
+    <h4 class="section-subtitle">Subtitle</h4>
+    <p>...</p>
+    <h4 class="section-subtitle">Subtitle</h4>
     <p>
       I created two HTML files operating on the same CSS file and integrated
       them with a simple language switch. It's not a perfect solution because it

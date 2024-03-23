@@ -74,16 +74,13 @@
       lists, which I had previously manipulated too much. The patch created for
       one bug also fixed the second one, making it a double-win situation.
     </p>
+    <p></p>
   </div>
   <div class="section-row">
     <h3 class="section-title">What I Learned</h3>
     <p>
-      I knew the basics of HTML and CSS before, but I can't remember the last
-      time I used them. It was good to systematize all this knowledge.
-    </p>
-    <p>
-      In addition, I started using Visual Studio Code from this project and
-      learned the basics of Git and its use from the command line.
+      The first QATestLab task actually turned out to be an introduction to the
+      next stages of the 'Fundamentals of Software Testing' course.
     </p>
   </div>
 </template>

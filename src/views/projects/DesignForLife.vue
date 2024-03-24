@@ -80,7 +80,13 @@
     <h3 class="section-title">What I Learned</h3>
     <p>
       The first QATestLab task actually turned out to be an introduction to the
-      next stages of the 'Fundamentals of Software Testing' course.
+      next stages of the 'Fundamentals of Software Testing' course. This was
+      mainly about getting to know the technical side of reporting bugs.
+    </p>
+    <p>
+      Although I had the opportunity to work with Mantis Bug System on other
+      projects before, it was still good to get acquainted with the newer
+      version of this open-source software.
     </p>
   </div>
 </template>

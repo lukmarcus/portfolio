@@ -36,31 +36,6 @@
     <h4 class="section-subtitle">Subtitle</h4>
     <p>...</p>
     <h4 class="section-subtitle">Subtitle</h4>
-    <p>...</p>
-    <h4 class="section-subtitle">Subtitle</h4>
-    <p>
-      I created two HTML files operating on the same CSS file and integrated
-      them with a simple language switch. It's not a perfect solution because it
-      forces you to change the code in both files simultaneously, but it must be
-      enough for now.
-    </p>
-    <h4 class="section-subtitle">Versions to Print</h4>
-    <p>
-      With the idea of printing pages directly to the pdf files, I introduced a
-      new problem to the project. I should decide what will be exported for
-      printing, not be dependent on the page's content. I didn't want to include
-      a language switch or a recommendations section in the pdf file.
-      Additionally, I wanted to control where the page breaks would occur so
-      that the text section wouldn't be split across two pages.
-    </p>
-    <p>
-      Fortunately, such a problem was solved a long before, and I only needed to
-      implement the appropriate CSS classes into the code. In addition, the
-      clause distance from the other sections had to be significantly increased
-      to act as a footer and not leave empty white space at the bottom of the
-      second page.
-    </p>
-    <h4 class="section-subtitle">Strange Spacing in Lists</h4>
     <p>
       Once all of the above issues were resolved, I noticed two annoying bugs
       with lists. Not only was the indentation of the second and subsequent

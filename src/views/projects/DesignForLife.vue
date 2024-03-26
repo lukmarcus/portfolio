@@ -49,7 +49,168 @@
       lists, which I had previously manipulated too much. The patch created for
       one bug also fixed the second one, making it a double-win situation.
     </p>
-    <p></p>
+    <h4 class="section-subtitle">Issues</h4>
+    <ul id="issues">
+      <li>
+        Issue #0933301:
+        <a
+          data-bs-toggle="collapse"
+          href="#issue0933301"
+          aria-expanded="false"
+          aria-controls="issue"
+        >
+          The image is missed on the carousel on the 'Design' page
+        </a>
+        <div class="collapse" id="issue0933301">
+          <p></p>
+          <ul>
+            <li><strong>Priority:</strong> high</li>
+            <li><strong>Severity:</strong> minor</li>
+            <li><strong>Reproducibility:</strong> N/A</li>
+            <li><strong>Platform:</strong> Google Chrome 87.0.4280.88</li>
+            <li><strong>OS:</strong> Windows</li>
+            <li><strong>OS Version:</strong> 10 x64</li>
+          </ul>
+          <p></p>
+          <p>
+            <strong>Description:</strong> One of the images on the top carousel
+            is missed on the 'Design' page.
+          </p>
+          <p><strong>Steps To Reproduce:</strong></p>
+          <ol>
+            <li>Open page http://trainingcentre.wixsite.com/design.</li>
+            <li>Pay attention to the top images carousel.</li>
+          </ol>
+          <p></p>
+          <p>
+            <strong>Actual result:</strong> One of the images on the top
+            carousel is missed on the 'Design' page.
+          </p>
+          <p>
+            <strong>Expected result:</strong> All images on the top carouser are
+            presented on the 'Design' page.
+          </p>
+          <p><strong>Screenshot:</strong></p>
+          <p>
+            <img
+              src="https://github.com/lukmarcus/Manual-Testing/blob/main/Design_for_Life/files/0933301.jpg?raw=true"
+              class="w-100"
+            />
+          </p>
+        </div>
+      </li>
+      <li>
+        Issue #0933305:
+        <a
+          data-bs-toggle="collapse"
+          href="#issue0933305"
+          aria-expanded="false"
+          aria-controls="issue"
+        >
+          The 404 error is shown on the 'Projects' page after clicking on the
+          top menu
+        </a>
+        <div class="collapse" id="issue0933305">
+          <p></p>
+          <ul>
+            <li><strong>Priority:</strong> high</li>
+            <li><strong>Severity:</strong> major</li>
+            <li><strong>Reproducibility:</strong> N/A</li>
+            <li><strong>Platform:</strong> Google Chrome 87.0.4280.88</li>
+            <li><strong>OS:</strong> Windows</li>
+            <li><strong>OS Version:</strong> 10 x64</li>
+          </ul>
+          <p></p>
+          <p>
+            <strong>Description:</strong> The 404 error (page not found) is
+            shown on the 'Projects' page after clicking the 'Projects' link in
+            the top menu on the 'Design' page.
+          </p>
+          <p><strong>Steps To Reproduce:</strong></p>
+          <ol>
+            <li>Open page http://trainingcentre.wixsite.com/design.</li>
+            <li>
+              Click the 'Projects' link in the top menu below the header image.
+            </li>
+            <li>
+              Pay attention to the error message at the center of the page.
+            </li>
+          </ol>
+          <p></p>
+          <p>
+            <strong>Actual result:</strong> The 404 error (page not found) is
+            shown on the 'Projects' page after clicking the 'Projects' link in
+            the top menu on the 'Design' page.
+          </p>
+          <p>
+            <strong>Expected result:</strong> The 'Projects' page is shown on
+            the 'Projects' page after clicking the 'Projects' link on the
+            'Design' page.
+          </p>
+          <p><strong>Screenshot:</strong></p>
+          <p>
+            <img
+              src="https://github.com/lukmarcus/Manual-Testing/blob/main/Design_for_Life/files/0933305.jpg?raw=true"
+              class="w-100"
+            />
+          </p>
+        </div>
+      </li>
+      <li>
+        Issue #0933311:
+        <a
+          data-bs-toggle="collapse"
+          href="#issue0933311"
+          aria-expanded="false"
+          aria-controls="issue"
+        >
+          The design page is not scrolled to the top after clicking the 'Up'
+          button
+        </a>
+        <div class="collapse" id="issue0933311">
+          <p></p>
+          <ul>
+            <li><strong>Priority:</strong> low</li>
+            <li><strong>Severity:</strong> minor</li>
+            <li><strong>Reproducibility:</strong> N/A</li>
+            <li><strong>Platform:</strong> Google Chrome 87.0.4280.88</li>
+            <li><strong>OS:</strong> Windows</li>
+            <li><strong>OS Version:</strong> 10 x64</li>
+          </ul>
+          <p></p>
+          <p>
+            <strong>Description:</strong> : The 'Design' page is not scrolled to
+            the top after clicking the 'Up' button at the bottom of the page
+            right above the footer.
+          </p>
+          <p><strong>Steps To Reproduce:</strong></p>
+          <ol>
+            <li>Open page http://trainingcentre.wixsite.com/design.</li>
+            <li>Scroll to the bottom of the page.</li>
+            <li>
+              Click on the 'Up' button on the right side above the footer.
+            </li>
+            <li>Pay attention to the current position on the page.</li>
+          </ol>
+          <p></p>
+          <p>
+            <strong>Actual result:</strong> The 'Design' page is not scrolled to
+            the top after clicking the 'Up' button on the bottom of the page.
+          </p>
+          <p>
+            <strong>Expected result:</strong> The 'Design' page is scrolled to
+            the top after clicking the 'Up' button on the bottom of the page.
+          </p>
+          <p><strong>Screenshot:</strong></p>
+          <p>
+            <img
+              src="https://github.com/lukmarcus/Manual-Testing/blob/main/Design_for_Life/files/0933311.jpg?raw=true"
+              class="w-100"
+            />
+          </p>
+        </div>
+      </li>
+    </ul>
   </div>
   <div class="section-row">
     <h3 class="section-title">What I Learned</h3>

@@ -92,10 +92,7 @@
           </p>
           <p><strong>Screenshot:</strong></p>
           <p>
-            <img
-              src="https://github.com/lukmarcus/Manual-Testing/blob/main/Design_for_Life/files/0933301.jpg?raw=true"
-              class="w-100"
-            />
+            <img :src="img('issue0933301.jpg')" class="w-100" />
           </p>
         </div>
       </li>
@@ -149,10 +146,7 @@
           </p>
           <p><strong>Screenshot:</strong></p>
           <p>
-            <img
-              src="https://github.com/lukmarcus/Manual-Testing/blob/main/Design_for_Life/files/0933305.jpg?raw=true"
-              class="w-100"
-            />
+            <img :src="img('issue0933305.jpg')" class="w-100" />
           </p>
         </div>
       </li>
@@ -202,12 +196,7 @@
             the top after clicking the 'Up' button on the bottom of the page.
           </p>
           <p><strong>Screenshot:</strong></p>
-          <p>
-            <img
-              src="https://github.com/lukmarcus/Manual-Testing/blob/main/Design_for_Life/files/0933311.jpg?raw=true"
-              class="w-100"
-            />
-          </p>
+          <p><img :src="img('issue0933311.jpg')" class="w-100" /></p>
         </div>
       </li>
     </ul>
@@ -227,8 +216,37 @@
   </div>
 </template>
 
-<script setup lang="ts">
+<script lang="ts">
+import { useAssets, useProject } from "@/composables";
 import type { IProject, ITestimonial } from "@/types";
+import type { PropType } from "vue";
+import { defineProps } from "vue";
 
 defineProps<{ project: IProject; testimonials: ITestimonial[] }>();
+
+export default {
+  name: "Design for Life",
+  props: {
+    project: {
+      type: Object as PropType<IProject>,
+      required: true,
+    },
+    testimonials: {
+      type: Array as PropType<ITestimonial[]>,
+      required: true,
+    },
+  },
+  setup(props) {
+    const { getImagesPaths } = useProject();
+    const { getAsset } = useAssets();
+
+    const img = (filename: string) =>
+      getAsset(`@/images/projects/designforlife/${filename}`);
+
+    return {
+      imagesPaths: getImagesPaths(props.project, 4),
+      img,
+    };
+  },
+};
 </script>

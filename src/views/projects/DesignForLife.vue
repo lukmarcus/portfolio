@@ -200,6 +200,16 @@
         </div>
       </li>
     </ul>
+    <h4 class="section-subtitle">More Issues?</h4>
+    <p>
+      There were, of course, many more bugs in this task and I didn't have to
+      look for a needle in a haystack to notice some errors. The texts on the
+      website contained typos and the elements did not match each other in size
+      or style. Some were obvious at first glance, others required a moment of
+      concentration. Instead of the required three, it was possible to easily
+      create ten bug reports.
+    </p>
+    <p><img :src="img('issues.jpg')" class="w-100" /></p>
   </div>
   <div class="section-row">
     <h3 class="section-title">What I Learned</h3>

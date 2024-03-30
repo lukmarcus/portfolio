@@ -45,15 +45,25 @@
     </p>
     <h4 class="section-subtitle">More than three</h4>
     <p>
-      There were, of course, many more bugs in this task than three and I didn't
-      have to look for a needle in a haystack to notice some issues. The texts
-      on the website contained typos and the elements did not match each other
-      in size or style. Some errors were obvious at first glance, others
-      required a moment of concentration. Instead of the required three, it was
-      possible to easily create ten bug reports.
+      There were, of course, many more bugs in this task than required three and
+      I didn't have to look for a needle in a haystack to notice some issues.
+      Some errors were obvious at first sight, others required a moment of
+      concentration. Instead of the required three, it was possible to easily
+      create ten bug reports. Examples of bugs found on the home page:
     </p>
+    <ul>
+      <li>The name of the tab has a different style than the others.</li>
+      <li>The search button is larger than the search box.</li>
+      <li>A typo is present in the main header.</li>
+      <li>The date in the footer is a future date.</li>
+    </ul>
     <p><img :src="img('issues.jpg')" class="w-100" /></p>
     <h4 class="section-subtitle">Three chosen issues</h4>
+    <p>
+      Ultimately, I decided to report three different bugs based on their
+      Priority and Severity, so that each of them would have these parameters
+      set differently.
+    </p>
     <ul id="issues">
       <li>
         Issue #0933301:

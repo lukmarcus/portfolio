@@ -60,9 +60,10 @@
     <p><img :src="img('issues.jpg')" class="w-100" /></p>
     <h4 class="section-subtitle">Three chosen issues</h4>
     <p>
-      Ultimately, I decided to report three different bugs based on their
-      Priority and Severity, so that each of them would have these parameters
-      set differently.
+      Ultimately, I decided to report three other bugs based on their diversity
+      in terms of priority and severity, so that in addition to the descriptions
+      and steps to repeat, I could also test changes to the report parameters
+      (those that I could fill out myself).
     </p>
     <ul id="issues">
       <li>

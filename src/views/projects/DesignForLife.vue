@@ -37,11 +37,10 @@
     <p>...</p>
     <h4 class="section-subtitle">Subtitle</h4>
     <p>
-      Once all of the above issues were resolved, I noticed two annoying bugs
-      with lists. Not only was the indentation of the second and subsequent
-      lines of list items not identical to the first, but there were also spaces
-      at the beginning of some lines in Firefox. Ultimately, entire lists looked
-      broken due to the lack of vertical alignment.
+      Due to the fact that each bug entered into MantisBT was manually verified
+      by a QATestLab employee, it had to be described very precisely and
+      according to accepted standards. Just a minor mistake was enough for the
+      bug to be reflected with the appropriate annotation for re-reporting.
     </p>
     <h4 class="section-subtitle">More than three</h4>
     <p>
@@ -58,7 +57,7 @@
       <li>The date in the footer is a future date.</li>
     </ul>
     <p><img :src="img('issues.jpg')" class="w-100" /></p>
-    <h4 class="section-subtitle">Three chosen issues</h4>
+    <h4 class="section-subtitle">The chosen issues</h4>
     <p>
       Ultimately, I decided to report three other bugs based on their diversity
       in terms of priority and severity, so that in addition to the descriptions

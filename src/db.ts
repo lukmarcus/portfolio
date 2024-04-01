@@ -109,7 +109,7 @@ const db: IDB = {
       name: "Design for Life (Test Case Study)",
       slug: "design-for-life",
       type: "Website",
-      url: "",
+      urlName: "Not Available",
       companyName: "QATestLab",
       thumbnail: "designforlife/main.jpg",
       summaryTitle: "Design for Life",

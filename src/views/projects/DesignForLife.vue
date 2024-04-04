@@ -34,13 +34,12 @@
   <div class="section-row">
     <h3 class="section-title">Challenges</h3>
     <h4 class="section-subtitle">Subtitle</h4>
-    <p>...</p>
-    <h4 class="section-subtitle">Subtitle</h4>
     <p>
       Due to the fact that each bug entered into MantisBT was manually verified
       by a QATestLab employee, it had to be described very precisely and
       according to accepted standards. Just a minor mistake was enough for the
-      bug to be reflected with the appropriate annotation for re-reporting.
+      bug to be reversed with an appropriate note to be resubmitted with
+      corrections.
     </p>
     <h4 class="section-subtitle">More than three</h4>
     <p>

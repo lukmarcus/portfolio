@@ -41,6 +41,10 @@
       bug to be reversed with an appropriate note to be resubmitted with
       corrections.
     </p>
+  </div>
+
+  <div class="section-row">
+    <h3 class="section-title">The Task</h3>
     <h4 class="section-subtitle">More than three</h4>
     <p>
       There were, of course, many more bugs in this task than required three and

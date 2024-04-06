@@ -1,6 +1,6 @@
 <template>
   <div class="section-row">
-    <h3 class="section-title">Project background</h3>
+    <h3 class="section-title">Project Background</h3>
     <p>
       The
       <a
@@ -8,11 +8,11 @@
         >'Fundamentals of Software Testing'</a
       >
       course from <a href="https://qatestlab.com/">QATestLab</a> covered various
-      topics. The first task (homework), like a warm-up, involved familiarizing
-      myself with the bug reporting process in Mantis Bug Tracker based on bugs
-      found in a short video recording. In this video, a user navigated a simple
-      website called 'Design for Life' and demonstrated the effects of various
-      page elements.
+      topics. The first task (and all tasks were homework to do on your own),
+      which was basically just a warm-up, involved familiarizing myself with the
+      bug reporting process in Mantis Bug Tracker based on bugs found in a short
+      video recording. In this video, a user navigated a simple website called
+      'Design for Life' and demonstrated the effects of various page elements.
     </p>
   </div>
 
@@ -22,9 +22,9 @@
       As I mentioned above, I was supposed to find bugs and report them to the
       system. Although the video contained many errors that could be considered
       bugs, the homework assignment only required up to three reports from me -
-      you didn't get any extra points for a larger number. Together with the
-      task description, I was provided with environment data, which was required
-      to be entered into the appropriate fields when creating bug reports. The
+      I wouldn't get any extra points for more of them. Together with the task
+      description, I was provided with environment data, which was required to
+      be entered into the appropriate fields when creating bug reports. The
       objective was to focus entirely on entering content according to 'What?
       Where? When?' principle while ensuring the accuracy of the 'Steps to
       Reproduce' section.
@@ -33,7 +33,6 @@
 
   <div class="section-row">
     <h3 class="section-title">Challenges</h3>
-    <h4 class="section-subtitle">Subtitle</h4>
     <p>
       Due to the fact that each bug entered into MantisBT was manually verified
       by a QATestLab employee, it had to be described very precisely and
@@ -45,7 +44,7 @@
 
   <div class="section-row">
     <h3 class="section-title">The Task</h3>
-    <h4 class="section-subtitle">More than three</h4>
+    <h4 class="section-subtitle">More Than Three</h4>
     <p>
       There were, of course, many more bugs in this task than required three and
       I didn't have to look for a needle in a haystack to notice some issues.
@@ -60,13 +59,14 @@
       <li>The date in the footer is a future date.</li>
     </ul>
     <p><img :src="img('issues.jpg')" class="w-100" /></p>
-    <h4 class="section-subtitle">The chosen issues</h4>
+    <h4 class="section-subtitle">The Chosen Issues</h4>
     <p>
       Ultimately, I decided to report three other bugs based on their diversity
       in terms of priority and severity, so that in addition to the descriptions
       and steps to repeat, I could also test changes to the report parameters
-      (those that I could fill out myself).
+      (those that I could fill out myself). Here are their final versions:
     </p>
+    <p>[Click on a link to expand its description]</p>
     <ul id="issues">
       <li>
         Issue #0933301:

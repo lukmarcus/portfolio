@@ -34,11 +34,20 @@
   <div class="section-row">
     <h3 class="section-title">Challenges</h3>
     <p>
-      Due to the fact that each bug entered into MantisBT was manually verified
-      by a QATestLab employee, it had to be described very precisely and
-      according to accepted standards. Just a minor mistake was enough for the
-      bug to be reversed with an appropriate note to be resubmitted with
-      corrections.
+      I've had the opportunity to work with Mantis Bug Tracker on other projects
+      before, and let's be honest, it's not a complicated open-source tool. Its
+      use is certainly not a challenge, because the interface is quite clear and
+      intuitive.
+    </p>
+    <p>
+      However, the reporting itself was something else. Because each bug entered
+      into Mantis Bug Tracker was manually verified by a QATestLab employee, it
+      had to be described very precisely and according to accepted standards.
+      And the standards were high. All the theoretical knowledge I had learned
+      so far was thoroughly converted into practical knowledge without any
+      concessions. Just a minor mistake was enough for the bug to be reversed
+      with an appropriate note to be resubmitted with corrections. It was a
+      simple rule - either 100% correct or not at all.
     </p>
   </div>
 
@@ -224,11 +233,6 @@
       The first QATestLab task actually turned out to be an introduction to the
       next stages of the 'Fundamentals of Software Testing' course. This was
       mainly about getting to know the technical side of reporting bugs.
-    </p>
-    <p>
-      Although I had the opportunity to work with Mantis Bug System on other
-      projects before, it was still good to get acquainted with the newer
-      version of this open-source software.
     </p>
   </div>
 </template>

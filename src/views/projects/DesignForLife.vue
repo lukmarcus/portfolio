@@ -234,6 +234,10 @@
       next stages of the 'Fundamentals of Software Testing' course. This was
       mainly about getting to know the technical side of reporting bugs.
     </p>
+    <p>
+      And finally - it was interesting to come back to Mantis Bug Tracker after
+      such a long time.
+    </p>
   </div>
 </template>
 

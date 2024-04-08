@@ -7,11 +7,12 @@
         href="https://en.training.qatestlab.com/course/software-testing-fundamentals/"
         >'Fundamentals of Software Testing'</a
       >
-      course from <a href="https://qatestlab.com/">QATestLab</a> covered various
-      topics. The first task (and all tasks were homework to do on your own),
-      which was just a warm-up, involved familiarizing myself with the bug
-      reporting process in Mantis Bug Tracker based on bugs found in a short
-      video recording.
+      course from
+      <a href="https://en.training.qatestlab.com/">QATestLab Training Center</a>
+      covered various topics. The first task (and all tasks were homework to do
+      on your own), which was just a warm-up, involved familiarizing myself with
+      the bug reporting process in Mantis Bug Tracker based on bugs found in a
+      short video recording.
     </p>
     <p>
       In this video, a user navigated a simple website called 'Design for Life'
@@ -47,13 +48,14 @@
     </p>
     <p>
       However, the reporting itself was something else. Because each bug entered
-      into Mantis Bug Tracker was manually verified by a QATestLab employee, it
-      had to be described very precisely and according to accepted standards.
-      And the standards were high. All the theoretical knowledge I had learned
-      so far was thoroughly converted into practical knowledge without any
-      concessions. Just a minor mistake was enough for the bug to be reversed
-      with an appropriate note to be resubmitted with corrections. It was a
-      simple rule - either 100% made correctly or not at all.
+      into Mantis Bug Tracker was manually verified by a QATestLab Training
+      Center employee, it had to be described very precisely and according to
+      accepted standards. And the standards were high. All the theoretical
+      knowledge I had learned so far was thoroughly converted into practical
+      knowledge without any concessions. Just a minor mistake was enough for the
+      bug to be reversed with an appropriate note to be resubmitted with
+      corrections. It was a simple rule - either 100% made correctly or not at
+      all.
     </p>
   </div>
 
@@ -237,10 +239,10 @@
   <div class="section-row">
     <h3 class="section-title">What I Learned</h3>
     <p>
-      The first QATestLab task turned out to be an introduction to the next
-      stages of the 'Fundamentals of Software Testing' course. The main goal was
-      to get acquainted with the technical side of reporting found issues based
-      on previously established standards.
+      The first QATestLab Training Center task turned out to be an introduction
+      to the next stages of the 'Fundamentals of Software Testing' course. The
+      main goal was to get acquainted with the technical side of reporting found
+      issues based on previously established standards.
     </p>
     <p>
       The most important lesson learned is that finding the bug is only half the

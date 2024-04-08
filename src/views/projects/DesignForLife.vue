@@ -230,9 +230,16 @@
   <div class="section-row">
     <h3 class="section-title">What I Learned</h3>
     <p>
-      The first QATestLab task actually turned out to be an introduction to the
-      next stages of the 'Fundamentals of Software Testing' course. This was
-      mainly about getting to know the technical side of reporting bugs.
+      The first QATestLab task turned out to be an introduction to the next
+      stages of the 'Fundamentals of Software Testing' course. The main goal was
+      to get acquainted with the technical side of reporting found issues based
+      on previously established standards.
+    </p>
+    <p>
+      The most important lesson learned is that finding the bug is only half the
+      job. Equally important is effectively communicating the issue by providing
+      a detailed and precise description. This ensures clarity and eliminates
+      any confusion for anyone reviewing the report.
     </p>
     <p>
       And finally - it was interesting to come back to Mantis Bug Tracker after

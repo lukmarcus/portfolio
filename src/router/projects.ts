@@ -1,7 +1,8 @@
 import {
-  CastoPro,
   CV,
+  CastoPro,
   DeadIsland,
+  DesignForLife,
   HiveProjects,
   OperaMobile,
   Pitchup,
@@ -55,6 +56,11 @@ export const projects: RouteRecordRaw[] = [
     path: "dead-island",
     name: "project-dead-island",
     component: DeadIsland,
+  },
+  {
+    path: "design-for-life",
+    name: "project-design-for-life",
+    component: DesignForLife,
   },
   {
     path: "neuroshima",

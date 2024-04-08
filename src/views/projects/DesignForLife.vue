@@ -9,10 +9,14 @@
       >
       course from <a href="https://qatestlab.com/">QATestLab</a> covered various
       topics. The first task (and all tasks were homework to do on your own),
-      which was basically just a warm-up, involved familiarizing myself with the
-      bug reporting process in Mantis Bug Tracker based on bugs found in a short
-      video recording. In this video, a user navigated a simple website called
-      'Design for Life' and demonstrated the effects of various page elements.
+      which was just a warm-up, involved familiarizing myself with the bug
+      reporting process in Mantis Bug Tracker based on bugs found in a short
+      video recording.
+    </p>
+    <p>
+      In this video, a user navigated a simple website called 'Design for Life'
+      and demonstrated the page layout, its navigation and the effects of
+      various page elements.
     </p>
   </div>
 
@@ -22,12 +26,14 @@
       As I mentioned above, I was supposed to find bugs and report them to the
       system. Although the video contained many errors that could be considered
       bugs, the homework assignment only required up to three reports from me -
-      I wouldn't get any extra points for more of them. Together with the task
-      description, I was provided with environment data, which was required to
-      be entered into the appropriate fields when creating bug reports. The
-      objective was to focus entirely on entering content according to 'What?
-      Where? When?' principle while ensuring the accuracy of the 'Steps to
-      Reproduce' section.
+      I wouldn't get any extra points for more of them.
+    </p>
+    <p>
+      Together with the task description, I was provided with environment data,
+      which was required to be entered into the appropriate fields when creating
+      bug reports. The objective was to focus entirely on entering content
+      according to 'What? Where? When?' principle while ensuring the accuracy of
+      the 'Steps to Reproduce' section.
     </p>
   </div>
 
@@ -47,7 +53,7 @@
       so far was thoroughly converted into practical knowledge without any
       concessions. Just a minor mistake was enough for the bug to be reversed
       with an appropriate note to be resubmitted with corrections. It was a
-      simple rule - either 100% correct or not at all.
+      simple rule - either 100% made correctly or not at all.
     </p>
   </div>
 
@@ -70,10 +76,11 @@
     <p><img :src="img('issues.jpg')" class="w-100" /></p>
     <h4 class="section-subtitle">The Chosen Issues</h4>
     <p>
-      Ultimately, I decided to report three other bugs based on their diversity
-      in terms of priority and severity, so that in addition to the descriptions
-      and steps to repeat, I could also test changes to the report parameters
-      (those that I could fill out myself). Here are their final versions:
+      After careful consideration, I decided to report three other than the
+      above bugs based on their diversity in terms of priority and severity, so
+      that in addition to the descriptions and steps to repeat, I could also
+      test changes to the report parameters (those that I could fill out
+      myself). Here are the final versions of these selected issues:
     </p>
     <p>[Click on a link to expand its description]</p>
     <ul id="issues">

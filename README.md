@@ -32,6 +32,15 @@ See [Vite Configuration Reference](https://vitejs.dev/config/).
 
 ## Project Setup
 
+First, make sure proper version of Node.js is installed. Needed version is specified in `.nvmrc` file. To install and use it, run:
+
+```sh
+nvm install
+nvm use
+```
+
+Then, install dependencies:
+
 ```sh
 npm install
 ```

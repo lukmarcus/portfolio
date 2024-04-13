@@ -113,7 +113,7 @@ const db: IDB = {
       companyName: "QATestLab Training Center",
       thumbnail: "designforlife/main.jpg",
       summaryTitle: "Design for Life",
-      summary: "A design blog created for testing purposes",
+      summary: "A design blog created for testing purposes.",
       filterTags: [],
       badges: ["Website"],
       technologies: ["mantis"],
@@ -176,6 +176,11 @@ const db: IDB = {
       name: "IndieBI",
       url: "https://indiebi.com/",
       logo: "logos/indiebi.svg",
+    },
+    {
+      name: "QATestLab Training Center",
+      url: "https://en.training.qatestlab.com/",
+      logo: "logos/qatestlabtrainingcenter.png",
     },
     {
       name: "Wise-Team",

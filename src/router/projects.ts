@@ -65,7 +65,17 @@ export const projects: RouteRecordRaw[] = [
   {
     path: "neuroshima",
     name: "project-neuroshima",
-    component: HiveProjects,
+    component: DesignForLife,
+  },
+  {
+    path: "neuroshima-hex",
+    name: "project-neuroshima-hex",
+    component: DesignForLife,
+  },
+  {
+    path: "afterbomb",
+    name: "project-afterbomb",
+    component: DesignForLife,
   },
   {
     path: "castopro",

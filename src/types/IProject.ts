@@ -12,6 +12,7 @@ export type IProjectBadge =
   | "TypeScript"
   | "Vue"
   | "Game"
+  | "Role-Playing Game"
   | "Board Game"
   | "Open Source"
   | "Rest API"

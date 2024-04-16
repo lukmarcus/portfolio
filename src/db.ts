@@ -79,7 +79,7 @@ const db: IDB = {
       filterTags: [],
       badges: ["Game", "Role-Playing Game"],
       technologies: [],
-      thumbnailLogo: "cyfrografia.png",
+      thumbnailLogo: "cyfrografia.svg",
       featured: true,
     },
     {
@@ -234,6 +234,11 @@ const db: IDB = {
       name: "DR Trading",
       url: "https://allegro.pl/uzytkownik/DR-Trading/sklep",
       logo: "logos/drtrading.png",
+    },
+    {
+      name: "Cyfrografia",
+      url: "",
+      logo: "logos/cyfrografia.svg",
     },
   ],
   talks: [

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg:svg
+   id="Layer_2"
+   viewBox="0 0 38.978603 61.509499"
+   version="1.1"
+   sodipodi:docname="TestRail_Logo_Main_01_.svg"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
+   width="38.978603"
+   height="61.509499"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview15"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="2.5766074"
+     inkscape:cx="-28.331829"
+     inkscape:cy="30.660472"
+     inkscape:window-width="1366"
+     inkscape:window-height="705"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="Layer_2" />
+  <script />
+  <svg:defs
+     id="defs1">
+    <svg:style
+       id="style1">.cls-1{fill:#65c179;}.cls-2{fill:#f5f1e3;}</svg:style>
+  </svg:defs>
+  <svg:g
+     id="g6"
+     inkscape:export-filename="test2.svg"
+     inkscape:export-xdpi="300"
+     inkscape:export-ydpi="300"
+     transform="translate(-209.02274,8.2460244e-4)">
+    <svg:rect
+       class="cls-1"
+       x="211.10432"
+       y="47.573029"
+       width="11.85403"
+       height="11.85403"
+       rx="0.90357"
+       ry="0.90357"
+       transform="rotate(-135,217.03135,53.500047)"
+       id="rect1" />
+    <svg:rect
+       class="cls-1"
+       x="222.58504"
+       y="36.092339"
+       width="11.85403"
+       height="11.85403"
+       rx="0.90357"
+       ry="0.90357"
+       transform="rotate(-135,228.51204,42.019354)"
+       id="rect2" />
+    <svg:rect
+       class="cls-1"
+       x="234.06572"
+       y="24.611641"
+       width="11.85403"
+       height="11.85403"
+       rx="0.90357"
+       ry="0.90357"
+       transform="rotate(-135,239.99273,30.538658)"
+       id="rect3" />
+    <svg:rect
+       class="cls-1"
+       x="211.3196"
+       y="24.82691"
+       width="11.85403"
+       height="11.85403"
+       rx="0.90357"
+       ry="0.90357"
+       transform="rotate(-135,217.24661,30.753923)"
+       id="rect4" />
+    <svg:rect
+       class="cls-1"
+       x="222.80029"
+       y="13.34621"
+       width="11.85403"
+       height="11.85403"
+       rx="0.90357"
+       ry="0.90357"
+       transform="rotate(-135,228.7273,19.27323)"
+       id="rect5" />
+    <svg:rect
+       class="cls-1"
+       x="211.53487"
+       y="2.08078"
+       width="11.85403"
+       height="11.85403"
+       rx="0.90357"
+       ry="0.90357"
+       transform="rotate(-135,217.46187,8.0077973)"
+       id="rect6" />
+  </svg:g>
+</svg:svg>

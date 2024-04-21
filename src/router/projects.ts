@@ -63,6 +63,11 @@ export const projects: RouteRecordRaw[] = [
     component: DesignForLife,
   },
   {
+    path: "best-friends",
+    name: "project-best-friends",
+    component: DesignForLife,
+  },
+  {
     path: "neuroshima",
     name: "project-neuroshima",
     component: DesignForLife,

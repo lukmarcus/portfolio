@@ -20,6 +20,7 @@ export type IProjectBadge =
 
 export type ITechnology =
   | "android"
+  | "android-debug-bridge"
   | "angular"
   | "apollographql"
   | "babeljs"
@@ -45,6 +46,7 @@ export type ITechnology =
   | "javascript"
   | "jenkins"
   | "jestjs"
+  | "linux"
   | "jira"
   | "jquery"
   | "mantis"
@@ -57,6 +59,7 @@ export type ITechnology =
   | "sqlalchemy"
   | "testlink"
   | "testrail"
+  | "steam"
   | "stripe"
   | "typescript"
   | "vue"

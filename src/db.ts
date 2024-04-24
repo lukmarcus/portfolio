@@ -56,6 +56,24 @@ const db: IDB = {
       featured: true,
     },
     {
+      name: "Test Case Study - All Unit Converter & Tools",
+      slug: "unit-converter",
+      url: "http://opencart.qatestlab.net",
+      type: "Mobile App",
+      companyName: "QATestLab Training Center",
+      thumbnail: "unitconverter/main.jpg",
+      summaryTitle: "All Unit Converter & Tools",
+      summary: "The most comprehensive measurement converter tool you will ever get.",
+      filterTags: [],
+      badges: ["App"],
+      technologies: [
+        "mantis",
+        "android-debug-bridge"
+      ],
+      thumbnailLogo: "qatestlabtrainingcenter.png",
+      featured: true,
+    },
+    {
       name: "Neuroshima 1.5",
       slug: "neuroshima",
       url: "https://en.wikipedia.org/wiki/Neuroshima",

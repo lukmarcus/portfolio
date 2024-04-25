@@ -14,6 +14,7 @@ export type IProjectBadge =
   | "Game"
   | "Role-Playing Game"
   | "Board Game"
+  | "Mobile App"
   | "Open Source"
   | "Rest API"
   | "Website";

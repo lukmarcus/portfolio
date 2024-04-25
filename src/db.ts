@@ -63,14 +63,28 @@ const db: IDB = {
       companyName: "QATestLab Training Center",
       thumbnail: "unitconverter/main.jpg",
       summaryTitle: "All Unit Converter & Tools",
-      summary: "The most comprehensive measurement converter tool you will ever get.",
+      summary:
+        "The most comprehensive measurement converter tool you will ever get.",
       filterTags: [],
-      badges: ["App"],
-      technologies: [
-        "mantis",
-        "android-debug-bridge"
-      ],
+      badges: ["Mobile App"],
+      technologies: ["mantis", "android-debug-bridge"],
       thumbnailLogo: "qatestlabtrainingcenter.png",
+      featured: true,
+    },
+    {
+      name: "Test Case Study - No Questions Asked",
+      slug: "no-questions-asked",
+      url: "https://store.steampowered.com/app/2259180/No_Questions_Asked",
+      type: "Game",
+      companyName: "The Troubadour Collective",
+      thumbnail: "noquestionsasked/main.jpg",
+      summaryTitle: "No Questions Asked",
+      summary:
+        "A neo-noir point&click thriller about a delivery service for illicit goods.",
+      filterTags: [],
+      badges: ["Game"],
+      technologies: ["steam", "windows"],
+      thumbnailLogo: "troubadourcollective.png",
       featured: true,
     },
     {

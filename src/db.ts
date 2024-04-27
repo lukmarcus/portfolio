@@ -57,7 +57,7 @@ const db: IDB = {
     },
     {
       name: "Test Case Study - All Unit Converter & Tools",
-      slug: "unit-converter",
+      slug: "all-unit-converter-tools",
       url: "http://opencart.qatestlab.net",
       type: "Mobile App",
       companyName: "QATestLab Training Center",

@@ -12,19 +12,23 @@ export type IProjectBadge =
   | "TypeScript"
   | "Vue"
   | "Game"
+  | "Role-Playing Game"
   | "Board Game"
+  | "Mobile App"
   | "Open Source"
   | "Rest API"
   | "Website";
 
 export type ITechnology =
   | "android"
+  | "android-debug-bridge"
   | "angular"
   | "apollographql"
   | "babeljs"
   | "bootstrap4"
   | "bootstrap5"
   | "c"
+  | "chrome-devtools"
   | "cookiecutter"
   | "cpp"
   | "css3"
@@ -43,6 +47,7 @@ export type ITechnology =
   | "javascript"
   | "jenkins"
   | "jestjs"
+  | "linux"
   | "jira"
   | "jquery"
   | "mantis"
@@ -53,6 +58,9 @@ export type ITechnology =
   | "python"
   | "solr"
   | "sqlalchemy"
+  | "testlink"
+  | "testrail"
+  | "steam"
   | "stripe"
   | "typescript"
   | "vue"
@@ -84,6 +92,7 @@ export interface IProject {
   archivedUrl?: string;
   type: string;
   companyName?: string;
+  companyUrl?: string;
   thumbnail: string;
   summaryTitle: string;
   summary: string;
@@ -92,11 +101,12 @@ export interface IProject {
   technologies: ITechnology[];
   thumbnailLogo: string;
   featured: boolean;
+  repositoryName?: string;
   repositoryUrl?: string;
 }
 export interface ICompany {
   name: string;
-  url: string;
+  url?: string;
   logo: string;
 }
 export interface ISkillGroup {

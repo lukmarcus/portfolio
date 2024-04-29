@@ -58,14 +58,49 @@ export const projects: RouteRecordRaw[] = [
     component: DeadIsland,
   },
   {
+    path: "all-unit-converter-tools",
+    name: "project-all-unit-converter-tools",
+    component: DeadIsland,
+  },
+  {
+    path: "no-questions-asked",
+    name: "project-no-questions-asked",
+    component: DeadIsland,
+  },
+  {
+    path: "the-palace-on-the-hill",
+    name: "project-the-palace-on-the-hill",
+    component: DeadIsland,
+  },
+  {
+    path: "pixel-wheels",
+    name: "project-pixel-wheels",
+    component: DeadIsland,
+  },
+  {
     path: "design-for-life",
     name: "project-design-for-life",
     component: DesignForLife,
   },
   {
+    path: "best-friends",
+    name: "project-best-friends",
+    component: DesignForLife,
+  },
+  {
     path: "neuroshima",
     name: "project-neuroshima",
-    component: HiveProjects,
+    component: DesignForLife,
+  },
+  {
+    path: "neuroshima-hex",
+    name: "project-neuroshima-hex",
+    component: DesignForLife,
+  },
+  {
+    path: "afterbomb",
+    name: "project-afterbomb",
+    component: DesignForLife,
   },
   {
     path: "castopro",

@@ -11,6 +11,7 @@ import {
   Seerene,
   SpisTresci,
 } from "@/views/projects";
+import NoQuestionsAsked from "@/views/projects/NoQuestionsAsked.vue";
 
 import type { RouteRecordRaw } from "vue-router";
 
@@ -65,7 +66,7 @@ export const projects: RouteRecordRaw[] = [
   {
     path: "no-questions-asked",
     name: "project-no-questions-asked",
-    component: DeadIsland,
+    component: NoQuestionsAsked,
   },
   {
     path: "the-palace-on-the-hill",

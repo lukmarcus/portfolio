@@ -1,7 +1,11 @@
 <template>
   <div class="section-row">
     <h3 class="section-title">Project Background</h3>
-    <p></p>
+    <p>
+      I first heard about the game "No Questions Asked" on the "Niezatapialni"
+      podcast, where it received very good reviews and, additionally, it turned
+      out to be a free game on the Steam platform.
+    </p>
   </div>
 
   <div class="section-row">

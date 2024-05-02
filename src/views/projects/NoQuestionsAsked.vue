@@ -2,9 +2,11 @@
   <div class="section-row">
     <h3 class="section-title">Project Background</h3>
     <p>
-      I first heard about the game "No Questions Asked" on the "Niezatapialni"
-      podcast, where it received very good reviews and, additionally, it turned
-      out to be a free game on the Steam platform.
+      I first heard about the game "No Questions Asked" on the
+      <a href="https://www.niezatapialni.pl/">Niezatapialni podcast</a>, where
+      it received very good reviews and, additionally, it turned out to be a
+      free game on the
+      <a href="https://store.steampowered.com/">Steam</a> platform.
     </p>
   </div>
 

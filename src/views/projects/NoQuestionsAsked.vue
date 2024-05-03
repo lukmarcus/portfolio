@@ -26,13 +26,7 @@
     <p></p>
 
     <h4 class="section-subtitle">The Chosen Issues</h4>
-    <p>
-      After careful consideration, I decided to report three other than the
-      above bugs based on their diversity in terms of priority and severity, so
-      that in addition to the descriptions and steps to repeat, I could also
-      test changes to the report parameters (those that I could fill out
-      myself). Here are the final versions of these selected issues:
-    </p>
+    <p></p>
     <p>[Click on a link to expand its description]</p>
     <ul id="issues">
       <li>

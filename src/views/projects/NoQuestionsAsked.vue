@@ -22,10 +22,10 @@
 
   <div class="section-row">
     <h3 class="section-title">The Task</h3>
-    <h4 class="section-subtitle">More Than Three</h4>
+    <h4 class="section-subtitle"></h4>
     <p></p>
 
-    <h4 class="section-subtitle">The Chosen Issues</h4>
+    <h4 class="section-subtitle">Issues</h4>
     <p></p>
     <p>[Click on a link to expand its description]</p>
     <ul id="issues">

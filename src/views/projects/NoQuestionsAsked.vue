@@ -8,6 +8,17 @@
       free game on the
       <a href="https://store.steampowered.com/">Steam</a> platform.
     </p>
+
+    <p class="video-container">
+      <iframe
+        class="video"
+        src="https://www.youtube.com/embed/IDpyM8uemfw"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+      ></iframe>
+    </p>
   </div>
 
   <div class="section-row">
@@ -219,3 +230,18 @@ export default {
   },
 };
 </script>
+<style scoped>
+.video-container {
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-bottom: 56.25%;
+}
+.video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+</style>

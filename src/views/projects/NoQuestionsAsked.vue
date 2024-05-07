@@ -4,7 +4,7 @@
     <p>
       I first heard about "No Questions Asked" on the pop culture podcast
       <a href="https://www.niezatapialni.pl/">Niezatapialni</a>where it received
-      very good reviews. It is a simple point & click game created by Poles and
+      very good reviews. It is a short point & click game created by Poles and
       available for free on the
       <a href="https://store.steampowered.com/">Steam</a> platform.
     </p>
@@ -23,7 +23,11 @@
 
   <div class="section-row">
     <h3 class="section-title">My Role in This Project</h3>
-    <p></p>
+    <p>
+      I decided to check this game and since it was a time when I was looking
+      for small projects to test, it was a great opportunity to report some
+      bugs.
+    </p>
   </div>
 
   <div class="section-row">

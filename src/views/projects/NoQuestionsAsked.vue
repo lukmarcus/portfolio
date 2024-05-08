@@ -24,9 +24,15 @@
   <div class="section-row">
     <h3 class="section-title">My Role in This Project</h3>
     <p>
-      I decided to check this game and since it was a time when I was looking
-      for small projects to test, it was a great opportunity to report some
-      bugs.
+      Encouraged by the good reviews, I decided to check out this title. And
+      since it was a time when I was looking for small projects to test, it
+      became a great opportunity to report some bugs I found.
+    </p>
+    <p>
+      The Troubadour Collective, the authors of the game, encouraged this
+      themselves by posting a thread titled "Bug Reports" in Steam discussions,
+      where they wrote "If you encounter a bug or a crash, please report it
+      here."
     </p>
   </div>
 

@@ -51,43 +51,35 @@
     <p>[Click on a link to expand its description]</p>
     <ul id="issues">
       <li>
-        Issue #0933301:
+        Issue #01:
         <a
           data-bs-toggle="collapse"
-          href="#issue0933301"
+          href="#issue01"
           aria-expanded="false"
           aria-controls="issue"
         >
-          The image is missed on the carousel on the 'Design' page
+          The incorrect color of the mouse cursor is seen on the starting
+          location after clicking the pinboard
         </a>
-        <div class="collapse" id="issue0933301">
+        <div class="collapse" id="issue01">
           <p></p>
-          <ul>
-            <li><strong>Priority:</strong> high</li>
-            <li><strong>Severity:</strong> minor</li>
-            <li><strong>Reproducibility:</strong> N/A</li>
-            <li><strong>Platform:</strong> Google Chrome 87.0.4280.88</li>
-            <li><strong>OS:</strong> Windows</li>
-            <li><strong>OS Version:</strong> 10 x64</li>
-          </ul>
-          <p></p>
-          <p>
-            <strong>Description:</strong> One of the images on the top carousel
-            is missed on the 'Design' page.
-          </p>
           <p><strong>Steps To Reproduce:</strong></p>
           <ol>
-            <li>Open page http://trainingcentre.wixsite.com/design.</li>
-            <li>Pay attention to the top images carousel.</li>
+            <li>Start a new game from the main menu.</li>
+            <li>Click on the pinboard.</li>
+            <li>Don't move the mouse cursor.</li>
+            <li>Pay attention to the color of the mouse cursor.</li>
           </ol>
           <p></p>
           <p>
-            <strong>Actual result:</strong> One of the images on the top
-            carousel is missed on the 'Design' page.
+            <strong>Actual result:</strong> The incorrect color of the mouse
+            cursor (golden) is seen on the starting location after clicking the
+            pinboard.
           </p>
           <p>
-            <strong>Expected result:</strong> All images on the top carouser are
-            presented on the 'Design' page.
+            <strong>Expected result:</strong> The correct color of the mouse
+            cursor (silver) is seen on the starting location after clicking the
+            pinboard.
           </p>
           <p><strong>Screenshot:</strong></p>
           <p>

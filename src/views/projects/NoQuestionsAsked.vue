@@ -85,6 +85,7 @@
           <p>
             <img :src="img('issue01.jpg')" class="w-100" />
           </p>
+          <p><strong>Video:</strong></p>
           <p>
             <video controls class="w-100">
               <source :src="video('issue01.mp4')" type="video/mp4" />

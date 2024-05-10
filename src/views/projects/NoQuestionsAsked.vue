@@ -85,6 +85,12 @@
           <p>
             <img :src="img('issue01.jpg')" class="w-100" />
           </p>
+          <p>
+            <video controls class="w-100">
+              <source :src="video('issue01.mp4')" type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
+          </p>
         </div>
       </li>
       <li>
@@ -225,9 +231,13 @@ export default {
     const img = (filename: string) =>
       getAsset(`@/images/projects/noquestionsasked/${filename}`);
 
+    const video = (filename: string) =>
+      getAsset(`@/images/projects/noquestionsasked/${filename}`);
+
     return {
       imagesPaths: getImagesPaths(props.project, 4),
       img,
+      video,
     };
   },
 };

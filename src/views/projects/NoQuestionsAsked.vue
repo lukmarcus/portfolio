@@ -3,9 +3,9 @@
     <h3 class="section-title">Project Background</h3>
     <p>
       I first heard about "No Questions Asked" on the pop culture podcast
-      <a href="https://www.niezatapialni.pl/">Niezatapialni</a>where it received
-      very good reviews. It is a short point & click game created by Poles and
-      available for free on the
+      <a href="https://www.niezatapialni.pl/">Niezatapialni</a> where it
+      received very good reviews. It is a short point & click game created by
+      Poles and available for free on the
       <a href="https://store.steampowered.com/">Steam</a> platform.
     </p>
 
@@ -83,7 +83,7 @@
           </p>
           <p><strong>Screenshot:</strong></p>
           <p>
-            <img :src="img('issue0933301.jpg')" class="w-100" />
+            <img :src="img('issue01.jpg')" class="w-100" />
           </p>
         </div>
       </li>

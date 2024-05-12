@@ -95,106 +95,85 @@
         </div>
       </li>
       <li>
-        Issue #0933305:
+        Issue #02:
         <a
           data-bs-toggle="collapse"
-          href="#issue0933305"
+          href="#issue02"
           aria-expanded="false"
           aria-controls="issue"
         >
-          The 404 error is shown on the 'Projects' page after clicking on the
-          top menu
+          Hero slides instead of walking when holding the mouse button and
+          slowly dragging
         </a>
-        <div class="collapse" id="issue0933305">
+        <div class="collapse" id="issue02">
           <p></p>
-          <ul>
-            <li><strong>Priority:</strong> high</li>
-            <li><strong>Severity:</strong> major</li>
-            <li><strong>Reproducibility:</strong> N/A</li>
-            <li><strong>Platform:</strong> Google Chrome 87.0.4280.88</li>
-            <li><strong>OS:</strong> Windows</li>
-            <li><strong>OS Version:</strong> 10 x64</li>
-          </ul>
-          <p></p>
-          <p>
-            <strong>Description:</strong> The 404 error (page not found) is
-            shown on the 'Projects' page after clicking the 'Projects' link in
-            the top menu on the 'Design' page.
-          </p>
           <p><strong>Steps To Reproduce:</strong></p>
           <ol>
-            <li>Open page http://trainingcentre.wixsite.com/design.</li>
-            <li>
-              Click the 'Projects' link in the top menu below the header image.
-            </li>
-            <li>
-              Pay attention to the error message at the center of the page.
-            </li>
+            <li>Start a new game.</li>
+            <li>Click on the hero and hold the mouse button.</li>
+            <li>Slowly move mouse.</li>
           </ol>
           <p></p>
           <p>
-            <strong>Actual result:</strong> The 404 error (page not found) is
-            shown on the 'Projects' page after clicking the 'Projects' link in
-            the top menu on the 'Design' page.
+            <strong>Actual result:</strong> Hero slides with no or almost no
+            animation.
           </p>
-          <p>
-            <strong>Expected result:</strong> The 'Projects' page is shown on
-            the 'Projects' page after clicking the 'Projects' link on the
-            'Design' page.
-          </p>
+          <p><strong>Expected result:</strong> Hero is walking around.</p>
           <p><strong>Screenshot:</strong></p>
           <p>
-            <img :src="img('issue0933305.jpg')" class="w-100" />
+            <img :src="img('issue02.jpg')" class="w-100" />
+          </p>
+          <p><strong>Video:</strong></p>
+          <p>
+            <video controls class="w-100">
+              <source :src="video('issue02.mp4')" type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
           </p>
         </div>
       </li>
       <li>
-        Issue #0933311:
+        Issue #03:
         <a
           data-bs-toggle="collapse"
-          href="#issue0933311"
+          href="#issue03"
           aria-expanded="false"
           aria-controls="issue"
         >
-          The design page is not scrolled to the top after clicking the 'Up'
-          button
+          Cursor doesn't change color after moving out of the interactive object
+          (with keys)
         </a>
-        <div class="collapse" id="issue0933311">
+        <div class="collapse" id="issue03">
           <p></p>
-          <ul>
-            <li><strong>Priority:</strong> low</li>
-            <li><strong>Severity:</strong> minor</li>
-            <li><strong>Reproducibility:</strong> N/A</li>
-            <li><strong>Platform:</strong> Google Chrome 87.0.4280.88</li>
-            <li><strong>OS:</strong> Windows</li>
-            <li><strong>OS Version:</strong> 10 x64</li>
-          </ul>
-          <p></p>
-          <p>
-            <strong>Description:</strong> : The 'Design' page is not scrolled to
-            the top after clicking the 'Up' button at the bottom of the page
-            right above the footer.
-          </p>
           <p><strong>Steps To Reproduce:</strong></p>
           <ol>
-            <li>Open page http://trainingcentre.wixsite.com/design.</li>
-            <li>Scroll to the bottom of the page.</li>
+            <li>Start a new game.</li>
             <li>
-              Click on the 'Up' button on the right side above the footer.
+              Move the cursor over the cabinet to change its color to golden (as
+              an interactive object).
             </li>
-            <li>Pay attention to the current position on the page.</li>
+            <li>Move the hero with keys until the screen moves.</li>
           </ol>
           <p></p>
           <p>
-            <strong>Actual result:</strong> The 'Design' page is not scrolled to
-            the top after clicking the 'Up' button on the bottom of the page.
+            <strong>Actual result:</strong> The mouse color stays golden until
+            moves to another interactive object.
           </p>
           <p>
-            <strong>Expected result:</strong> The 'Design' page is scrolled to
-            the top after clicking the 'Up' button on the bottom of the page.
+            <strong>Expected result:</strong> The mouse cursor changes color
+            after moving out of the interactive object.
           </p>
           <p><strong>Screenshot:</strong></p>
-          <p><img :src="img('issue0933311.jpg')" class="w-100" /></p>
+          <p>
+            <img :src="img('issue03.jpg')" class="w-100" />
+          </p>
+          <p><strong>Video:</strong></p>
+          <p>
+            <video controls class="w-100">
+              <source :src="video('issue03.mp4')" type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
+          </p>
         </div>
       </li>
     </ul>

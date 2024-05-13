@@ -176,6 +176,166 @@
           </p>
         </div>
       </li>
+      <li>
+        Issue #04:
+        <a
+          data-bs-toggle="collapse"
+          href="#issue04"
+          aria-expanded="false"
+          aria-controls="issue"
+        >
+          The cursor can't be moved with the touchpad when moving the hero with
+          keys
+        </a>
+        <div class="collapse" id="issue04">
+          <p></p>
+          <p><strong>Steps To Reproduce:</strong></p>
+          <ol>
+            <li>Start a new game.</li>
+            <li>Move the hero with keys (hold).</li>
+            <li>Move the cursor with the touchpad.</li>
+          </ol>
+          <p></p>
+          <p><strong>Actual result:</strong> The mouse cursor is not moving.</p>
+          <p>
+            <strong>Expected result:</strong> The mouse cursor moves on the
+            screen.
+          </p>
+        </div>
+      </li>
+      <li>
+        Issue #05:
+        <a
+          data-bs-toggle="collapse"
+          href="#issue05"
+          aria-expanded="false"
+          aria-controls="issue"
+        >
+          Game information messages are over the in-game menu window
+        </a>
+        <div class="collapse" id="issue03">
+          <p></p>
+          <p><strong>Steps To Reproduce:</strong></p>
+          <ol>
+            <li>Start a new game.</li>
+            <li>Move right to the screen with elevator.</li>
+            <li>Press ESC when the information message appears.</li>
+          </ol>
+          <p></p>
+          <p>
+            <strong>Actual result:</strong> Information messages are over the
+            in-game menu window.
+          </p>
+          <p>
+            <strong>Expected result:</strong> In-game menu window is over
+            information messages.
+          </p>
+          <p><strong>Screenshots:</strong></p>
+          <p>
+            <img :src="img('issue05a.jpg')" class="w-100" />
+          </p>
+          <p>
+            <img :src="img('issue05b.jpg')" class="w-100" />
+          </p>
+        </div>
+      </li>
+      <li>
+        Issue #06:
+        <a
+          data-bs-toggle="collapse"
+          href="#issue06"
+          aria-expanded="false"
+          aria-controls="issue"
+        >
+          In-game menu window opens under the game map
+        </a>
+        <div class="collapse" id="issue06">
+          <p></p>
+          <p><strong>Steps To Reproduce:</strong></p>
+          <ol>
+            <li>Start a new game.</li>
+            <li>Move to the garage and pick package.</li>
+            <li>Open the map with TAB.</li>
+            <li>Press ESC to open the in-game menu.</li>
+          </ol>
+          <p></p>
+          <p>
+            <strong>Actual result:</strong> In-game menu opens under the game
+            map.
+          </p>
+          <p>
+            <strong>Expected result:</strong> The map is closed or the in-game
+            menu appears over the game map.
+          </p>
+          <p><strong>Screenshot:</strong></p>
+          <p>
+            <img :src="img('issue06.jpg')" class="w-100" />
+          </p>
+        </div>
+      </li>
+      <li>
+        Issue #07:
+        <a
+          data-bs-toggle="collapse"
+          href="#issue07"
+          aria-expanded="false"
+          aria-controls="issue"
+        >
+          Can't move hero (with keys) when the mouse cursor is on game
+          information text
+        </a>
+        <div class="collapse" id="issue07">
+          <p></p>
+          <p><strong>Steps To Reproduce:</strong></p>
+          <ol>
+            <li>Start a new game.</li>
+            <li>Move the cursor over game information about moving.</li>
+            <li>Move the hero with keys.</li>
+          </ol>
+          <p></p>
+          <p><strong>Actual result:</strong> Hero doesn't move.</p>
+          <p><strong>Expected result:</strong> Hero moves.</p>
+        </div>
+      </li>
+      <li>
+        Issue #08:
+        <a
+          data-bs-toggle="collapse"
+          href="#issue08"
+          aria-expanded="false"
+          aria-controls="issue"
+        >
+          In-game text message about the game map during the intro
+        </a>
+        <div class="collapse" id="issue08">
+          <p></p>
+          <p><strong>Steps To Reproduce:</strong></p>
+          <ol>
+            <li>Start a new game.</li>
+            <li>During the intro press TAB.</li>
+          </ol>
+          <p></p>
+          <p>
+            <strong>Actual result:</strong> In-game message about the map
+            appears during the intro.
+          </p>
+          <p>
+            <strong>Expected result:</strong> No in-game messages during the
+            intro.
+          </p>
+          <p><strong>Screenshot:</strong></p>
+          <p>
+            <img :src="img('issue08.jpg')" class="w-100" />
+          </p>
+          <p><strong>Video:</strong></p>
+          <p>
+            <video controls class="w-100">
+              <source :src="video('issue08.mp4')" type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
+          </p>
+        </div>
+      </li>
     </ul>
   </div>
   <div class="section-row">

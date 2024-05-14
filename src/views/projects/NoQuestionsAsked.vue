@@ -336,6 +336,136 @@
           </p>
         </div>
       </li>
+      <li>
+        Issue #09:
+        <a
+          data-bs-toggle="collapse"
+          href="#issue09"
+          aria-expanded="false"
+          aria-controls="issue"
+        >
+          Can't choose dialog options with "space"
+        </a>
+        <div class="collapse" id="issue09">
+          <p></p>
+          <p><strong>Steps To Reproduce:</strong></p>
+          <ol>
+            <li>Start a new game.</li>
+            <li>Take the package and go to the first delivery.</li>
+            <li>Go right until the dialog starts.</li>
+          </ol>
+          <p></p>
+          <p>
+            <strong>Actual result:</strong> Dialog options can't be chosen with
+            "space". I don't know which key can be used.
+          </p>
+          <p>
+            <strong>Expected result:</strong> Dialog options can be chosen with
+            "space". Till now "space" worked in one-line dialogs. I can use
+            arrows and WS keys to move through dialog options.
+          </p>
+        </div>
+      </li>
+      <li>
+        Issue #10:
+        <a
+          data-bs-toggle="collapse"
+          href="#issue10"
+          aria-expanded="false"
+          aria-controls="issue"
+        >
+          Achievement 'Same as always' unlocked on day 2
+        </a>
+        <div class="collapse" id="issue010">
+          <p></p>
+          <p>
+            <strong>Steps To Reproduce:</strong> Unknown, impossible to
+            replicate.
+          </p>
+          <p>
+            <strong>Information:</strong> I loaded the game from the main menu.
+            I was in the bar on day 2. Achievement 'Same as always" popped up.
+            According to the description ('Spend every afternoon at the bar'), I
+            shouldn't get it there. The game was probably loaded a few times so
+            days don't count properly.
+          </p>
+        </div>
+      </li>
+      <li>
+        Issue #11:
+        <a
+          data-bs-toggle="collapse"
+          href="#issue11"
+          aria-expanded="false"
+          aria-controls="issue"
+        >
+          No visual drug effect on Day 2 after quick clicking dialog options
+        </a>
+        <div class="collapse" id="issue10">
+          <p></p>
+          <p><strong>Steps To Reproduce:</strong></p>
+          <ol>
+            <li>Load Day 2.</li>
+            <li>Pick up the package and go to delivery.</li>
+            <li>Talk to the man in a white coat.</li>
+            <li>Quickly click dialog options to get the drug.</li>
+          </ol>
+          <p></p>
+          <p>
+            <strong>Actual result:</strong> No visual drug effect on screen.
+          </p>
+          <p><strong>Expected result:</strong> Visual drug effect on screen.</p>
+          <p><strong>Screenshot:</strong></p>
+          <p>
+            <img :src="img('issue11.jpg')" class="w-100" />
+          </p>
+          <p><strong>Video:</strong></p>
+          <p>
+            <video controls class="w-100">
+              <source :src="video('issue11.mp4')" type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
+          </p>
+        </div>
+      </li>
+      <li>
+        Issue #12:
+        <a
+          data-bs-toggle="collapse"
+          href="#issue12"
+          aria-expanded="false"
+          aria-controls="issue"
+        >
+          Problem with the 'Skip' button in Credits
+        </a>
+        <div class="collapse" id="issue12">
+          <p></p>
+          <p><strong>Steps To Reproduce:</strong></p>
+          <ol>
+            <li>Open Credits from the main menu.</li>
+          </ol>
+          <p></p>
+          <p>
+            <strong>Actual result:</strong> The button 'Skip' is not clickable
+            as a whole. Only the top of the word works?
+          </p>
+          <p>
+            <strong>Expected result:</strong> The button 'Skip' should work with
+            no problem.
+          </p>
+          <p><strong>Screenshot:</strong></p>
+          <p>
+            <img :src="img('issue12.jpg')" class="w-100" />
+          </p>
+          <p><strong>Video:</strong></p>
+          <p>
+            <video controls class="w-100">
+              <source :src="video('issue12.mp4')" type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
+          </p>
+        </div>
+      </li>
     </ul>
   </div>
   <div class="section-row">

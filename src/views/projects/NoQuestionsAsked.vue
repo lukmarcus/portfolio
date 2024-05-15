@@ -374,7 +374,7 @@
           aria-expanded="false"
           aria-controls="issue"
         >
-          Achievement 'Same as always' unlocked on day 2
+          The 'Same as always' achievement is unlocked on Day 2
         </a>
         <div class="collapse" id="issue010">
           <p></p>
@@ -384,10 +384,11 @@
           </p>
           <p>
             <strong>Information:</strong> I loaded the game from the main menu.
-            I was in the bar on day 2. Achievement 'Same as always" popped up.
-            According to the description ('Spend every afternoon at the bar'), I
-            shouldn't get it there. The game was probably loaded a few times so
-            days don't count properly.
+            I was in the bar on day 2 and the 'Same as always' achievement
+            popped up. According to the description ('Spend every afternoon at
+            the bar'), it shouldn't activate at that time. The game was probably
+            loaded a few times in this session so maybe days didn't count
+            properly.
           </p>
         </div>
       </li>
@@ -399,22 +400,27 @@
           aria-expanded="false"
           aria-controls="issue"
         >
-          No visual drug effect on Day 2 after quick clicking dialog options
+          The visual drug effect is not seen on screen on Day 2 after quickly
+          clicking dialogue options
         </a>
-        <div class="collapse" id="issue10">
+        <div class="collapse" id="issue11">
           <p></p>
           <p><strong>Steps To Reproduce:</strong></p>
           <ol>
-            <li>Load Day 2.</li>
+            <li>Load 'Day 2' from the main menu.</li>
             <li>Pick up the package and go to delivery.</li>
             <li>Talk to the man in a white coat.</li>
             <li>Quickly click dialog options to get the drug.</li>
           </ol>
           <p></p>
           <p>
-            <strong>Actual result:</strong> No visual drug effect on screen.
+            <strong>Actual result:</strong> The visual drug effect is not seen
+            on screen on Day 2 after quickly clicking dialogue options.
           </p>
-          <p><strong>Expected result:</strong> Visual drug effect on screen.</p>
+          <p>
+            <strong>Expected result:</strong> The visual drug effect is normally
+            seen on screen on Day 2 after quickly clicking dialogue options.
+          </p>
           <p><strong>Screenshot:</strong></p>
           <p>
             <img :src="img('issue11.jpg')" class="w-100" />
@@ -436,22 +442,23 @@
           aria-expanded="false"
           aria-controls="issue"
         >
-          Problem with the 'Skip' button in Credits
+          The 'Skip' button can't be fully clicked on the 'Credits' screen
         </a>
         <div class="collapse" id="issue12">
           <p></p>
           <p><strong>Steps To Reproduce:</strong></p>
           <ol>
-            <li>Open Credits from the main menu.</li>
+            <li>Open the 'Credits' option from the main menu.</li>
           </ol>
           <p></p>
           <p>
-            <strong>Actual result:</strong> The button 'Skip' is not clickable
-            as a whole. Only the top of the word works?
+            <strong>Actual result:</strong> The 'Skip' button can't be fully
+            clicked on the 'Credits' screen. Only the top of the word is
+            clickable.
           </p>
           <p>
-            <strong>Expected result:</strong> The button 'Skip' should work with
-            no problem.
+            <strong>Expected result:</strong> The 'Skip' button can be fully
+            clicked on the 'Credits' screen.
           </p>
           <p><strong>Screenshot:</strong></p>
           <p>

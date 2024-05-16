@@ -281,20 +281,26 @@
           aria-expanded="false"
           aria-controls="issue"
         >
-          Can't move hero (with keys) when the mouse cursor is on game
-          information text
+          The hero can't be moved (with keys) when the mouse cursor is on the
+          game information text
         </a>
         <div class="collapse" id="issue07">
           <p></p>
           <p><strong>Steps To Reproduce:</strong></p>
           <ol>
-            <li>Start a new game.</li>
-            <li>Move the cursor over game information about moving.</li>
-            <li>Move the hero with keys.</li>
+            <li>Start a new game from the main menu.</li>
+            <li>Move the cursor over the game information about moving.</li>
+            <li>Try to move the hero with keys.</li>
           </ol>
           <p></p>
-          <p><strong>Actual result:</strong> Hero doesn't move.</p>
-          <p><strong>Expected result:</strong> Hero moves.</p>
+          <p>
+            <strong>Actual result:</strong> The hero can't be moved (with keys)
+            when the mouse cursor is on the game information text.
+          </p>
+          <p>
+            <strong>Expected result:</strong> The hero can be moved (with keys)
+            regardless of the position of the mouse cursor.
+          </p>
         </div>
       </li>
       <li>
@@ -305,23 +311,25 @@
           aria-expanded="false"
           aria-controls="issue"
         >
-          In-game text message about the game map during the intro
+          In-game text message about the game map is seen during the intro after
+          pressing the "TAB" key
         </a>
         <div class="collapse" id="issue08">
           <p></p>
           <p><strong>Steps To Reproduce:</strong></p>
           <ol>
-            <li>Start a new game.</li>
-            <li>During the intro press TAB.</li>
+            <li>Start a new game from the main menu.</li>
+            <li>Press the "TAB" key during the intro.</li>
+            <li>Pay attention to the upper right corner of the screen.</li>
           </ol>
           <p></p>
           <p>
-            <strong>Actual result:</strong> In-game message about the map
-            appears during the intro.
+            <strong>Actual result:</strong> In-game text message about the game
+            map is seen during the intro after pressing the "TAB" key.
           </p>
           <p>
-            <strong>Expected result:</strong> No in-game messages during the
-            intro.
+            <strong>Expected result:</strong> No in-game messages are seen
+            during the intro.
           </p>
           <p><strong>Screenshot:</strong></p>
           <p>
@@ -344,25 +352,27 @@
           aria-expanded="false"
           aria-controls="issue"
         >
-          Can't choose dialog options with "space"
+          The dialogue options can't be chosen with the "space" key
         </a>
         <div class="collapse" id="issue09">
           <p></p>
           <p><strong>Steps To Reproduce:</strong></p>
           <ol>
-            <li>Start a new game.</li>
-            <li>Take the package and go to the first delivery.</li>
-            <li>Go right until the dialog starts.</li>
+            <li>Start a new game from the main menu.</li>
+            <li>Pick up the package and go to delivery.</li>
+            <li>Go right until the dialogue starts.</li>
+            <li>Try to press the "space" key.</li>
           </ol>
           <p></p>
           <p>
-            <strong>Actual result:</strong> Dialog options can't be chosen with
-            "space". I don't know which key can be used.
+            <strong>Actual result:</strong> The dialogue options can't be chosen
+            with the "space" key. It is not known which key can be used.
           </p>
           <p>
-            <strong>Expected result:</strong> Dialog options can be chosen with
-            "space". Till now "space" worked in one-line dialogs. I can use
-            arrows and WS keys to move through dialog options.
+            <strong>Expected result:</strong> The dialogue options can be chosen
+            with the "space" key. Till now the "space" key worked in one-line
+            dialogue. I can use the arrow keys and W/S keys to move up/down
+            through dialogue options.
           </p>
         </div>
       </li>
@@ -410,7 +420,8 @@
             <li>Load 'Day 2' from the main menu.</li>
             <li>Pick up the package and go to delivery.</li>
             <li>Talk to the man in a white coat.</li>
-            <li>Quickly click dialog options to get the drug.</li>
+            <li>Quickly click dialogue options to get the drug.</li>
+            <li>Pay attention to the lack of visual effects.</li>
           </ol>
           <p></p>
           <p>
@@ -449,6 +460,8 @@
           <p><strong>Steps To Reproduce:</strong></p>
           <ol>
             <li>Open the 'Credits' option from the main menu.</li>
+            <li>Move the mouse cursor over the 'Skip' button.</li>
+            <li>Pay attention to the clickable area of the button.</li>
           </ol>
           <p></p>
           <p>

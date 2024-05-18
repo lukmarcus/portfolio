@@ -102,23 +102,29 @@
           aria-expanded="false"
           aria-controls="issue"
         >
-          Hero slides instead of walking when holding the mouse button and
-          slowly dragging
+          No animation of the hero's movement is seen after holding the mouse
+          button on him and slowly dragging away
         </a>
         <div class="collapse" id="issue02">
           <p></p>
           <p><strong>Steps To Reproduce:</strong></p>
           <ol>
-            <li>Start a new game.</li>
+            <li>Start a new game from the main menu.</li>
             <li>Click on the hero and hold the mouse button.</li>
-            <li>Slowly move mouse.</li>
+            <li>While holding the mouse button slowly move the mouse.</li>
+            <li>Pay attention to the hero's animation.</li>
           </ol>
           <p></p>
           <p>
-            <strong>Actual result:</strong> Hero slides with no or almost no
-            animation.
+            <strong>Actual result:</strong> No animation of the hero's movement
+            is seen after holding the mouse button on him and slowly dragging
+            away. Hero is sliding with no or almost no animation.
           </p>
-          <p><strong>Expected result:</strong> Hero is walking around.</p>
+          <p>
+            <strong>Expected result:</strong> Normal animation of the hero's
+            movement is seen after holding the mouse button on him and slowly
+            dragging away. Hero is not sliding.
+          </p>
           <p><strong>Screenshot:</strong></p>
           <p>
             <img :src="img('issue02.jpg')" class="w-100" />
@@ -140,28 +146,33 @@
           aria-expanded="false"
           aria-controls="issue"
         >
-          Cursor doesn't change color after moving out of the interactive object
-          (with keys)
+          The wrong color (golden) of the mouse cursor is seen when moving out
+          of the interactive objects with keyboard keys
         </a>
         <div class="collapse" id="issue03">
           <p></p>
           <p><strong>Steps To Reproduce:</strong></p>
           <ol>
-            <li>Start a new game.</li>
+            <li>Start a new game from the main menu.</li>
             <li>
-              Move the cursor over the cabinet to change its color to golden (as
-              an interactive object).
+              Move the mouse cursor over the cabinet to change its color to
+              golden (as an interactive object).
             </li>
-            <li>Move the hero with keys until the screen moves.</li>
+            <li>
+              Move the hero with the keyboard keys until the screen moves.
+            </li>
+            <li>Pay attention to the color of the mouse cursor.</li>
           </ol>
           <p></p>
           <p>
-            <strong>Actual result:</strong> The mouse color stays golden until
-            moves to another interactive object.
+            <strong>Actual result:</strong> The wrong color (golden) of the
+            mouse cursor is seen when moving out of the interactive objects with
+            keyboard keys.
           </p>
           <p>
-            <strong>Expected result:</strong> The mouse cursor changes color
-            after moving out of the interactive object.
+            <strong>Expected result:</strong> The correct color (silver) of the
+            mouse cursor is seen when moving out of the interactive objects with
+            keyboard keys.
           </p>
           <p><strong>Screenshot:</strong></p>
           <p>
@@ -184,22 +195,28 @@
           aria-expanded="false"
           aria-controls="issue"
         >
-          The cursor can't be moved with the touchpad when moving the hero with
-          keys
+          The mouse cursor can't be moved with the touchpad when the hero is
+          moving with the keyboard keys.
         </a>
         <div class="collapse" id="issue04">
           <p></p>
           <p><strong>Steps To Reproduce:</strong></p>
           <ol>
-            <li>Start a new game.</li>
-            <li>Move the hero with keys (hold).</li>
-            <li>Move the cursor with the touchpad.</li>
+            <li>Start a new game from the main menu.</li>
+            <li>Hold the keyboard keys to move the hero.</li>
+            <li>
+              While moving the hero move the mouse cursor with the touchpad.
+            </li>
+            <li>Pay attention to no mouse cursor reaction.</li>
           </ol>
           <p></p>
-          <p><strong>Actual result:</strong> The mouse cursor is not moving.</p>
           <p>
-            <strong>Expected result:</strong> The mouse cursor moves on the
-            screen.
+            <strong>Actual result:</strong> The mouse cursor can't be moved with
+            the touchpad when the hero is moving with the keyboard keys.
+          </p>
+          <p>
+            <strong>Expected result:</strong> The mouse cursor can be moved with
+            the touchpad when the hero is moving with the keyboard keys.
           </p>
         </div>
       </li>

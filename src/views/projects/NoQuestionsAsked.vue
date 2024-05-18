@@ -211,24 +211,30 @@
           aria-expanded="false"
           aria-controls="issue"
         >
-          Game information messages are over the in-game menu window
+          The game information messages are seen above the in-game menu window
+          after pressing the "ESC" key when the game information messages are
+          present.
         </a>
-        <div class="collapse" id="issue03">
+        <div class="collapse" id="issue05">
           <p></p>
           <p><strong>Steps To Reproduce:</strong></p>
           <ol>
-            <li>Start a new game.</li>
-            <li>Move right to the screen with elevator.</li>
-            <li>Press ESC when the information message appears.</li>
+            <li>Start a new game from the main menu.</li>
+            <li>Move right to the screen with the elevator.</li>
+            <li>Press the 'ESC' key when the information message appears.</li>
+            <li>
+              Pay attention to the location of the game information message.
+            </li>
           </ol>
           <p></p>
           <p>
-            <strong>Actual result:</strong> Information messages are over the
-            in-game menu window.
+            <strong>Actual result:</strong> The game information messages are
+            seen above the in-game menu window after pressing the "ESC" key when
+            the game information messages are present.
           </p>
           <p>
-            <strong>Expected result:</strong> In-game menu window is over
-            information messages.
+            <strong>Expected result:</strong> The in-game menu window is seen
+            above all game information messages.
           </p>
           <p><strong>Screenshots:</strong></p>
           <p>
@@ -247,25 +253,29 @@
           aria-expanded="false"
           aria-controls="issue"
         >
-          In-game menu window opens under the game map
+          The in-game menu window is opened below the game map after pressing
+          the "ESC" key with the opened map
         </a>
         <div class="collapse" id="issue06">
           <p></p>
           <p><strong>Steps To Reproduce:</strong></p>
           <ol>
-            <li>Start a new game.</li>
-            <li>Move to the garage and pick package.</li>
-            <li>Open the map with TAB.</li>
-            <li>Press ESC to open the in-game menu.</li>
+            <li>Start a new game from the main menu.</li>
+            <li>Move to the garage, pick up the package and go to delivery.</li>
+            <li>Open the map with the "TAB" key.</li>
+            <li>Press the "ESC" key to open the in-game menu.</li>
+            <li>Pay attention to the location of the menu window.</li>
           </ol>
           <p></p>
           <p>
-            <strong>Actual result:</strong> In-game menu opens under the game
-            map.
+            <strong>Actual result:</strong> The in-game menu window is opened
+            below the game map after pressing the "ESC" key with the opened map.
           </p>
           <p>
-            <strong>Expected result:</strong> The map is closed or the in-game
-            menu appears over the game map.
+            <strong>Expected result:</strong> The in-game menu window is opened
+            above the game map after pressing the "ESC" key with the opened map
+            OR the map is closed after pressing the "ESC" key with the opened
+            map.
           </p>
           <p><strong>Screenshot:</strong></p>
           <p>

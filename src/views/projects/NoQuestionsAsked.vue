@@ -24,9 +24,11 @@
   <div class="section-row">
     <h3 class="section-title">My Role in This Project</h3>
     <p>
-      Encouraged by the good reviews, I decided to check out this title. And
-      since it was a time when I was looking for small projects to test, it
-      became a great opportunity to report some bugs I found.
+      Although the game does not have many user reviews, the overall rating is
+      very positive, so with additional encouragement from the podcast I decided
+      to check out this title. And since it was a time when I was looking for
+      small projects to test, it became a great opportunity to report some bugs
+      I found.
     </p>
     <p>
       The Troubadour Collective, the authors of the game, encouraged this

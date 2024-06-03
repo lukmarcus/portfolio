@@ -50,8 +50,13 @@
 
   <div class="section-row">
     <h3 class="section-title">The Task</h3>
-    <h4 class="section-subtitle"></h4>
-    <p></p>
+    <h4 class="section-subtitle">Steam is better than no place at all</h4>
+    <p>
+      Ultimately, I reported all the issues I found in the mentioned discussion
+      thread on the Steam platform - unfortunately, this is not the place for
+      such activities and therefore I had to provide external links to
+      screenshots and video files.
+    </p>
 
     <h4 class="section-subtitle">Issues</h4>
     <p></p>

@@ -41,10 +41,11 @@
   <div class="section-row">
     <h3 class="section-title">Challenges</h3>
     <p>
-      The tested game was version 1.1.67 and, despite only 3 months since its
-      release, there have already been several patches that have removed most of
-      the bugs. In this case, finding new mistakes was not that easy and was
-      quite a challenge.
+      The tested version of the game was numbered 1.1.67 and, despite only 3
+      months since its release, there have already been several patches that
+      have removed most of the bugs. However, I decided that I would still try
+      to test my ability to find new issues. I assumed that something had
+      definitely been missed. And that was the biggest challenge.
     </p>
   </div>
 

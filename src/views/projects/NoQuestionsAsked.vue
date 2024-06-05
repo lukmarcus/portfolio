@@ -530,7 +530,13 @@
   </div>
   <div class="section-row">
     <h3 class="section-title">What I Learned</h3>
-    <p></p>
+    <p>
+      The theory says that there is no perfect product and there will always be
+      some mistakes. The truth is, however, that in the case of a polished game
+      after several updates, such searching is very difficult and the time spent
+      on it and on possible corrections may turn out to be too much style over
+      substance.
+    </p>
   </div>
 </template>
 

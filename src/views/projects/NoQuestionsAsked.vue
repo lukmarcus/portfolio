@@ -47,6 +47,12 @@
       to test my ability to find new issues. I assumed that something had
       definitely been missed. And that was the biggest challenge.
     </p>
+    <p>
+      "No Questions Asked" is not a long game, however, it is an adventure game
+      with a story, so getting to a later point in the game requires... getting
+      there. There was no cheat mode or development tools available, so I had to
+      rely only on saving games.
+    </p>
   </div>
 
   <div class="section-row">

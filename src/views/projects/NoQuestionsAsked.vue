@@ -58,6 +58,7 @@
   <div class="section-row">
     <h3 class="section-title">The Task</h3>
     <p></p>
+    <p><img :src="img('achievements.jpg')" class="w-100" /></p>
 
     <h4 class="section-subtitle">Issues</h4>
     <p>

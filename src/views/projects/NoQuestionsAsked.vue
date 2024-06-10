@@ -57,7 +57,13 @@
 
   <div class="section-row">
     <h3 class="section-title">The Task</h3>
-    <p></p>
+    <p>
+      Because the game is not linear and has several possible endings, I had to
+      take into account plot branching and the fact that I would ultimately have
+      to play through the entire game several times. One of the achievements
+      (the one obtained by the smallest percentage of players) clearly says
+      "Unlock every ending".
+    </p>
     <p><img :src="img('achievements.jpg')" class="w-100" /></p>
 
     <h4 class="section-subtitle">Issues</h4>

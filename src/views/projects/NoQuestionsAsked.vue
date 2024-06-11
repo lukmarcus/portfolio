@@ -64,6 +64,10 @@
       (the one obtained by the smallest percentage of players) clearly says
       "Unlock every ending".
     </p>
+    <p>
+      And speaking of achievements - the game has 20 of them, and each has its
+      own requirements and activation moment.
+    </p>
     <p><img :src="img('achievements.jpg')" class="w-100" /></p>
 
     <h4 class="section-subtitle">Issues</h4>

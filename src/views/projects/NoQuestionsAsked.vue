@@ -64,9 +64,18 @@
       (the one obtained by the smallest percentage of players) clearly says
       "Unlock every ending".
     </p>
+    <h4 class="section-title">The Achievements</h4>
+    <p>And speaking of achievements...</p>
+    <Quote>
+      Steam achievements are rewards given by the digital distribution platform
+      Steam for completing certain game objectives or performing pre-determined
+      actions in a game.
+    </Quote>
     <p>
-      And speaking of achievements - the game has 20 of them, and each has its
-      own requirements and activation moment.
+      ...the game has 20 of them, and each has its requirements and a different
+      moment of activation during the game. This was one of the points of my
+      testing, to verify that the achievement descriptions were consistent with
+      the game's progress.
     </p>
     <p><img :src="img('achievements.jpg')" class="w-100" /></p>
 

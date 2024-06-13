@@ -62,14 +62,18 @@
       take into account plot branching and the fact that I would ultimately have
       to play through the entire game several times. One of the achievements
       (the one obtained by the smallest percentage of players) clearly says
-      "Unlock every ending".
+      "Unlock every ending."
     </p>
     <h4 class="section-title">The Achievements</h4>
     <p>And speaking of achievements...</p>
     <Quote>
-      Steam achievements are rewards given by the digital distribution platform
-      Steam for completing certain game objectives or performing pre-determined
-      actions in a game.
+      Achievements can be used as a way to encourage and reward player
+      interactions and milestones within your game. They are often used for
+      marking number of kills, miles driven, chests opened or other common
+      actions within your game. And they can also be used to help your players
+      discover different ways of playing your game. When unlocked, these
+      achievements will pop up in the corner of the players' window and will be
+      marked within an achievement page for that player.
     </Quote>
     <p>
       ...the game has 20 of them, and each has its requirements and a different
@@ -566,6 +570,7 @@
 </template>
 
 <script lang="ts">
+import { Quote } from "@/components";
 import { useAssets, useProject } from "@/composables";
 import type { IProject, ITestimonial } from "@/types";
 import type { PropType } from "vue";
@@ -575,6 +580,9 @@ defineProps<{ project: IProject; testimonials: ITestimonial[] }>();
 
 export default {
   name: "No Questions Asked",
+  components: {
+    Quote,
+  },
   props: {
     project: {
       type: Object as PropType<IProject>,

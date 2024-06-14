@@ -83,6 +83,13 @@
     </p>
     <p><img :src="img('achievements.jpg')" class="w-100" /></p>
 
+    <h4 class="section-title">The Guide</h4>
+    <p>
+      Fortunately, it turned out that one of the game's fans created a guide
+      that included not only a walkthrough with possible plot branches, but also
+      an explanation of the somewhat cryptic descriptions of the achievements.
+    </p>
+
     <h4 class="section-subtitle">Issues</h4>
     <p>
       Ultimately, I reported all the issues I found in the mentioned discussion

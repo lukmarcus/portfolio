@@ -59,12 +59,12 @@
     <h3 class="section-title">The Task</h3>
     <p>
       Because the game is not linear and has several possible endings, I had to
-      take into account plot branching and the fact that I would ultimately have
-      to play through the entire game several times. One of the achievements
-      (the one obtained by the smallest percentage of players) clearly says
-      "Unlock every ending."
+      take into account story paths and the fact that I would ultimately have to
+      play through the entire game several times. One of the achievements (the
+      one obtained by the smallest percentage of players) clearly says "Unlock
+      every ending."
     </p>
-    <h4 class="section-title">The Achievements</h4>
+    <h4 class="section-subtitle">The Achievements</h4>
     <p>And speaking of achievements...</p>
     <Quote>
       Achievements can be used as a way to encourage and reward player
@@ -79,15 +79,17 @@
       ...the game has 20 of them, and each has its requirements and a different
       moment of activation during the game. This was one of the points of my
       testing, to verify that the achievement descriptions were consistent with
-      the game's progress.
+      the game's progress. Some of the achievements were very easy to obtain and
+      basically, it was enough to play for them to appear on the player's
+      profile. Unfortunately, the descriptions of others did not say anything at
+      all and I had to look for additional guides.
     </p>
     <p><img :src="img('achievements.jpg')" class="w-100" /></p>
-
-    <h4 class="section-title">The Guide</h4>
     <p>
-      Fortunately, it turned out that one of the game's fans created a guide
-      that included not only a walkthrough with possible plot branches, but also
-      an explanation of the somewhat cryptic descriptions of the achievements.
+      Fortunately, it turned out that one of the game's fans had created such a
+      guide, one could even say that it was more of a walkthrough with possible
+      story paths, but what interested me the most - descriptions of how to
+      obtain achievements along with other people's comments and their problems.
     </p>
 
     <h4 class="section-subtitle">Issues</h4>

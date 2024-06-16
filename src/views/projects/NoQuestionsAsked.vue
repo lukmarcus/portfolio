@@ -64,7 +64,7 @@
       one obtained by the smallest percentage of players) clearly says "Unlock
       every ending."
     </p>
-    <h4 class="section-subtitle">The Achievements</h4>
+    <h4 class="section-subtitle">Achievements</h4>
     <p>And speaking of achievements...</p>
     <Quote>
       Achievements can be used as a way to encourage and reward player
@@ -91,6 +91,19 @@
       story paths, but what interested me the most - descriptions of how to
       obtain achievements along with other people's comments and their problems.
     </p>
+
+    <h4 class="section-subtitle">Dialogues & Story Paths</h4>
+    <p>
+      Another point of my testing was to check as many dialogue options as
+      possible and the different story paths resulting from them. Although all
+      achievements can be obtained in only two playthroughs, there are many more
+      combinations and not all of them are as obvious as they may seem. Apart
+      from the choices of dialogue lines, the order of the locations visited and
+      the activities performed there was also important.
+    </p>
+
+    <h4 class="section-subtitle">Interface & Game Mechanics</h4>
+    <p></p>
 
     <h4 class="section-subtitle">Issues</h4>
     <p>

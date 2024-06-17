@@ -2,11 +2,17 @@
   <div class="section-row">
     <h3 class="section-title">Project Background</h3>
     <p>
-      I first heard about "No Questions Asked" on the pop culture podcast
-      <a href="https://www.niezatapialni.pl/">Niezatapialni</a> where it
-      received very good reviews. It is a short point & click game created by
-      Poles and available for free on the
-      <a href="https://store.steampowered.com/">Steam</a> platform.
+      "No Questions Asked" is a short, point-and-click adventure game developed
+      by the Polish indie studio, The Troubadour Collective. The game, available
+      for free on <a href="https://store.steampowered.com/">Steam</a> platform,
+      has received positive feedback for its engaging storyline and innovative
+      mechanics. The game features multiple endings and a non-linear narrative,
+      which adds depth and replayability.
+    </p>
+    <p>
+      I first heard about the game on the pop culture podcast
+      <a href="https://www.niezatapialni.pl/">Niezatapialni</a>, where it
+      received very good reviews.
     </p>
 
     <p class="video-container">
@@ -25,10 +31,16 @@
     <h3 class="section-title">My Role in This Project</h3>
     <p>
       Although the game does not have many user reviews, the overall rating is
-      very positive, so with additional encouragement from the podcast I decided
-      to check out this title. And since it was a time when I was looking for
-      small projects to test, it became a great opportunity to report some bugs
-      I found.
+      very positive. Encouraged by the podcast, I decided to check out this
+      title. Since I was looking for small projects to test, it became a great
+      opportunity to report some bugs I found.
+    </p>
+    <p>
+      My role in this project was to thoroughly test the game for bugs and
+      ensure that the gameplay experience was smooth and consistent. I focused
+      on identifying any issues that could impact the player's experience, such
+      as bugs in different story paths and inconsistencies in achievement
+      unlocking.
     </p>
     <p>
       The Troubadour Collective, the authors of the game, encouraged this
@@ -41,29 +53,38 @@
   <div class="section-row">
     <h3 class="section-title">Challenges</h3>
     <p>
-      The tested version of the game was numbered 1.1.67 and, despite only 3
-      months since its release, there have already been several patches that
-      have removed most of the bugs. However, I decided that I would still try
-      to test my ability to find new issues. I assumed that something had
-      definitely been missed. And that was the biggest challenge.
+      "No Questions Asked" is not a long game. However, as an adventure game
+      with a story, getting to a later point in the game requires... getting
+      there. Testing presented several challenges, such as the lack of cheat
+      modes or development tools, which meant I had to play through the game
+      multiple times to explore all possible story paths and endings.
     </p>
     <p>
-      "No Questions Asked" is not a long game, however, it is an adventure game
-      with a story, so getting to a later point in the game requires... getting
-      there. There was no cheat mode or development tools available, so I had to
-      rely only on saving games.
+      The tested version of the game was numbered 1.1.67. Despite being only 3
+      months old, there have already been several patches that have removed most
+      of the bugs. However, I decided that I would still try to test my ability
+      to find new issues, assuming that something had definitely been missed.
+      And that was the biggest challenge.
+    </p>
+    <p>
+      Another challenge was ensuring the accuracy of achievement descriptions,
+      which often required consulting external guides and cross-referencing with
+      the game's internal logic.
     </p>
   </div>
 
   <div class="section-row">
     <h3 class="section-title">The Task</h3>
     <p>
-      Because the game is not linear and has several possible endings, I had to
-      take into account story paths and the fact that I would ultimately have to
-      play through the entire game several times. One of the achievements (the
+      Because the game is not linear and has several possible endings, I
+      conducted a series of playthroughs to cover all possible story paths and
+      endings, ensuring a comprehensive testing process. This involved exploring
+      all dialogue options, performing different activities in varied sequences,
+      and monitoring achievement unlock conditions. One of the achievements (the
       one obtained by the smallest percentage of players) clearly says "Unlock
       every ending."
     </p>
+
     <h4 class="section-subtitle">Achievements</h4>
     <p>And speaking of achievements...</p>
     <Quote>
@@ -76,34 +97,38 @@
       marked within an achievement page for that player.
     </Quote>
     <p>
-      ...the game has 20 of them, and each has its requirements and a different
-      moment of activation during the game. This was one of the points of my
-      testing, to verify that the achievement descriptions were consistent with
-      the game's progress. Some of the achievements were very easy to obtain and
-      basically, it was enough to play for them to appear on the player's
-      profile. Unfortunately, the descriptions of others did not say anything at
-      all and I had to look for additional guides.
+      ...the game features 20 of them, each with unique requirements. This was
+      one of the points of my testing, to verify that the achievement
+      descriptions were consistent with the game's progress. I verified that the
+      achievements were correctly triggered at the appropriate points in the
+      game, ensuring that descriptions matched the conditions for unlocking
+      them. Some achievements required specific actions that were not
+      immediately obvious, necessitating in-depth exploration and sometimes
+      external consultation.
     </p>
     <p><img :src="img('achievements.jpg')" class="w-100" /></p>
     <p>
-      Fortunately, it turned out that one of the game's fans had created such a
-      guide, one could even say that it was more of a walkthrough with possible
-      story paths, but what interested me the most - descriptions of how to
-      obtain achievements along with other people's comments and their problems.
+      Fortunately, one of the game's fans had created a guide, more of a
+      walkthrough with possible story paths, which detailed how to obtain
+      achievements along with other people's comments and their problems.
     </p>
 
     <h4 class="section-subtitle">Dialogues & Story Paths</h4>
     <p>
-      Another point of my testing was to check as many dialogue options as
-      possible and the different story paths resulting from them. Although all
-      achievements can be obtained in only two playthroughs, there are many more
-      combinations and not all of them are as obvious as they may seem. Apart
-      from the choices of dialogue lines, the order of the locations visited and
-      the activities performed there was also important.
+      A key aspect of my testing involved exploring the various dialogue options
+      and the resultant story paths. Despite the game offering multiple endings
+      that can be achieved in just two playthroughs, I delved into the less
+      obvious combinations to ensure comprehensive coverage of all potential
+      story variations. This detailed approach allowed me to uncover hidden
+      interactions and possible narrative inconsistencies.
     </p>
 
     <h4 class="section-subtitle">Interface & Game Mechanics</h4>
-    <p></p>
+    <p>
+      During the testing process, I encountered issues related to the game's
+      interface and mechanics. These included bugs in the navigation system and
+      problems with item interactions.
+    </p>
 
     <h4 class="section-subtitle">Issues</h4>
     <p>

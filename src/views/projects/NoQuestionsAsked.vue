@@ -125,9 +125,14 @@
 
     <h4 class="section-subtitle">Interface & Game Mechanics</h4>
     <p>
-      During the testing process, I encountered issues related to the game's
-      interface and mechanics. These included bugs in the navigation system and
-      problems with item interactions.
+      In addition to testing the storyline and achievements, I focused on
+      evaluating key game elements frequently used by players, such as the main
+      menu and the overall user interface, including character movement and
+      object interaction. While these fundamental components are typically
+      subject to extensive review during development, an external perspective
+      can often reveal overlooked irregularities or usability issues. This fresh
+      look helped identify potential improvements and ensure a seamless player
+      experience.
     </p>
 
     <h4 class="section-subtitle">Issues</h4>

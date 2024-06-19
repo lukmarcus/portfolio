@@ -612,11 +612,24 @@
   <div class="section-row">
     <h3 class="section-title">What I Learned</h3>
     <p>
-      The theory says that there is no perfect product and there will always be
-      some mistakes. The truth is, however, that in the case of a polished game
-      after several updates, such searching is very difficult and the time spent
-      on it and on possible corrections may turn out to be too much style over
-      substance.
+      Testing "No Questions Asked" was a highly rewarding experience that
+      enabled me to refine my skills in comprehensive gameplay testing and issue
+      reporting. Through multiple playthroughs and meticulous analysis, I was
+      able to identify bugs and inconsistencies, contributing to the game's
+      enhancement and providing a smoother player experience. This project
+      offered valuable insights into the complexities of game development and
+      underscored the critical role of thorough and rigorous testing in
+      producing a high-quality game.
+    </p>
+    <p>
+      The common wisdom suggests that no product is ever perfect and there will
+      always be some issues. However, in the case of a well-polished game that
+      has undergone several updates, finding new bugs can be particularly
+      challenging. It highlighted for me that sometimes, the effort spent on
+      further bug hunting and corrections might exceed practical benefits,
+      turning into an exercise in diminishing returns. This realization taught
+      me the importance of balancing thorough testing with practical limitations
+      to maximize the value added to the project.
     </p>
   </div>
 </template>

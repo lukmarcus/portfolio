@@ -92,7 +92,7 @@ const db: IDB = {
       filterTags: [],
       badges: ["Game"],
       technologies: ["steam", "windows"],
-      thumbnailLogo: "troubadourcollective.svg",
+      thumbnailLogo: "noquestionsasked.svg",
       featured: true,
     },
     {

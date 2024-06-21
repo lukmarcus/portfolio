@@ -274,12 +274,12 @@ const db: IDB = {
     {
       name: "Techland",
       url: "https://techland.net/",
-      logo: "logos/techland.svg",
+      logo: "techland.svg",
     },
     {
       name: "IndieBI",
       url: "https://indiebi.com/",
-      logo: "logos/indiebi.svg",
+      logo: "indiebi.svg",
     },
     {
       name: "QATestLab Training Center",
@@ -289,7 +289,7 @@ const db: IDB = {
     {
       name: "Wise-Team",
       url: "http://web.archive.org/web/20200811211508/https://wise-team.io/",
-      logo: "logos/wise-team.svg",
+      logo: "wise-team.svg",
     },
     {
       name: "Portal Games",
@@ -308,8 +308,7 @@ const db: IDB = {
     },
     {
       name: "Cyfrografia",
-      url: "",
-      logo: "logos/cyfrografia.svg",
+      logo: "cyfrografia.svg",
     },
   ],
   talks: [

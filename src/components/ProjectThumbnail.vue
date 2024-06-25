@@ -12,7 +12,7 @@
             <div class="project-logo">
               <img
                 class="img-fluid w-50 white"
-                :src="getAsset(`@/images/logos/${project.thumbnailLogo}`)"
+                :src="getAsset(`@/images/projects/${project.thumbnailLogo}`)"
               />
             </div></div
         ></router-link>

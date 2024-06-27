@@ -74,7 +74,7 @@ const db: IDB = {
       filterTags: [],
       badges: ["Mobile App"],
       technologies: ["mantis", "android-debug-bridge"],
-      thumbnailLogo: "qatestlabtrainingcenter.png",
+      thumbnailLogo: "unitconverter/unitconverter.svg",
       featured: true,
     },
     {
@@ -110,7 +110,7 @@ const db: IDB = {
       filterTags: [],
       badges: ["Game", "Role-Playing Game"],
       technologies: [],
-      thumbnailLogo: "portalgames.png",
+      thumbnailLogo: "neuroshima/neuroshima.svg",
       featured: true,
     },
     {
@@ -128,7 +128,7 @@ const db: IDB = {
       filterTags: [],
       badges: ["Game", "Board Game"],
       technologies: [],
-      thumbnailLogo: "portalgames.png",
+      thumbnailLogo: "neuroshimahex/neuroshimahex.svg",
       featured: true,
     },
     {
@@ -188,7 +188,7 @@ const db: IDB = {
       filterTags: [],
       badges: ["Game"],
       technologies: ["windows", "ps3", "xbox360", "mantis"],
-      thumbnailLogo: "techland.svg",
+      thumbnailLogo: "deadisland/deadisland.svg",
       featured: true,
     },
     {
@@ -206,7 +206,7 @@ const db: IDB = {
       filterTags: [],
       badges: ["Game"],
       technologies: ["windows", "ps3", "xbox360", "mantis"],
-      thumbnailLogo: "techland.svg",
+      thumbnailLogo: "calljuarez/calljuarez.svg",
       featured: true,
     },
     {
@@ -221,7 +221,7 @@ const db: IDB = {
       filterTags: [],
       badges: ["Website"],
       technologies: ["mantis"],
-      thumbnailLogo: "qatestlabtrainingcenter.png",
+      thumbnailLogo: "designforlife/designforlife.svg",
       featured: true,
     },
     {

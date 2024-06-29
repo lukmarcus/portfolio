@@ -59,8 +59,8 @@ export const projects: RouteRecordRaw[] = [
     component: DeadIsland,
   },
   {
-    path: "all-unit-converter-tools",
-    name: "project-all-unit-converter-tools",
+    path: "ultimate-unit-converter",
+    name: "project-ultimate-unit-converter",
     component: DeadIsland,
   },
   {

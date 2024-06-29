@@ -13,11 +13,15 @@
           >
             <img
               class="client-logo white"
-              :src="getAsset(`@/images/projects/${project.thumbnailLogo}`)"
+              :src="
+                getAsset(
+                  `@/images/projects/${project.slug}/${project.thumbnailLogo}`
+                )
+              "
             />
             <!-- <img
           class="client-logo color"
-          :src="`@/images/projects/${project.thumbnailLogo}`"
+          :src="`@/images/projects/${project.slug}/${project.thumbnailLogo}`"
         /> -->
           </div>
         </div>

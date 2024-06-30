@@ -18,14 +18,14 @@
           >
             <img
               class="grayscale img-fluid svg-ie-fix"
-              :src="getAsset(`@/images/${company.logo}`)"
+              :src="getAsset(`@/images/companies/${company.logo}`)"
               :title="company.name"
             />
           </a>
           <img
             v-else
             class="grayscale img-fluid svg-ie-fix"
-            :src="getAsset(`@/images/${company.logo}`)"
+            :src="getAsset(`@/images/companies/${company.logo}`)"
             :title="company.name"
           />
         </div>

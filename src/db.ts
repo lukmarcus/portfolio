@@ -284,7 +284,7 @@ const db: IDB = {
     {
       name: "QATestLab Training Center",
       url: "https://en.training.qatestlab.com/",
-      logo: "qatestlabtrainingcenter.svg",
+      logo: "qatestlab-training-center.svg",
     },
     {
       name: "Wise-Team",
@@ -294,22 +294,22 @@ const db: IDB = {
     {
       name: "Portal Games",
       url: "https://portalgames.pl/",
-      logo: "portalgames.svg",
+      logo: "portal-games.svg",
     },
     {
       name: "The Troubadour Collective",
       url: "https://linktr.ee/the.troubadour.collective",
-      logo: "troubadourcollective.svg",
+      logo: "troubadour-collective.svg",
     },
     {
-      name: "New Deal",
+      name: "Fit-Net",
       url: "https://fit-net.com.pl/",
       logo: "fit-net.svg",
     },
     {
       name: "DR Trading",
       url: "https://allegro.pl/uzytkownik/DR-Trading/sklep",
-      logo: "drtrading.svg",
+      logo: "dr-trading.svg",
     },
     {
       name: "Cyfrografia",

@@ -26,7 +26,7 @@ const db: IDB = {
       type: "Website",
       companyName: "Castorama",
       companyUrl: "https://www.castorama.pl/",
-      thumbnail: "castopro/main.jpg",
+      thumbnail: "main.jpg",
       summaryTitle: "CastoPro",
       summary:
         "Loyalty program for professionals offered by Castorama, a leading home improvement retailer in Poland.",
@@ -44,7 +44,7 @@ const db: IDB = {
       type: "Website",
       companyName: "QATestLab Training Center",
       companyUrl: "https://en.training.qatestlab.com/",
-      thumbnail: "best-friends/main.jpg",
+      thumbnail: "main.jpg",
       summaryTitle: "Best Friends",
       summary: "Online Pet Store created for testing purposes.",
       filterTags: [],
@@ -67,7 +67,7 @@ const db: IDB = {
       type: "Mobile App",
       companyName: "QATestLab Training Center",
       companyUrl: "https://en.training.qatestlab.com/",
-      thumbnail: "ultimate-unit-converter/main.jpg",
+      thumbnail: "main.jpg",
       summaryTitle: "All Unit Converter & Tools",
       summary:
         "The most comprehensive measurement converter tool you will ever get.",
@@ -85,7 +85,7 @@ const db: IDB = {
       type: "Game",
       companyName: "The Troubadour Collective",
       companyUrl: "https://linktr.ee/the.troubadour.collective",
-      thumbnail: "no-questions-asked/main.jpg",
+      thumbnail: "main.jpg",
       summaryTitle: "No Questions Asked",
       summary:
         "A neo-noir point&click thriller about a delivery service for illicit goods.",
@@ -103,7 +103,7 @@ const db: IDB = {
       type: "Role-Playing Game",
       companyName: "Portal Games",
       companyUrl: "https://portalgames.pl/en/",
-      thumbnail: "neuroshima/main.jpg",
+      thumbnail: "main.jpg",
       summaryTitle: "Neuroshima 1.5",
       summary:
         "Post-apocalyptic role-playing system set in the United States, devastated by the nuclear war in the mid-21st century.",
@@ -121,7 +121,7 @@ const db: IDB = {
       type: "Board Game",
       companyName: "Portal Games",
       companyUrl: "https://portalgames.pl/en/",
-      thumbnail: "neuroshima-hex/main.jpg",
+      thumbnail: "main.jpg",
       summaryTitle: "Neuroshima Hex!",
       summary:
         "Strategy board game set in the post-apocalyptic world of Neuroshima.",
@@ -139,7 +139,7 @@ const db: IDB = {
       urlName: "Afterbomb Madness Page",
       type: "Role-Playing Game",
       companyName: "Cyfrografia",
-      thumbnail: "afterbomb-madness/main.jpg",
+      thumbnail: "main.jpg",
       summaryTitle: "Afterbomb Madness",
       summary:
         "Post-apocalyptic grotesque role-playing system in which players take the role of Americans, living during World War III.",
@@ -155,7 +155,7 @@ const db: IDB = {
       type: "Webpage",
       url: "https://lukmarcus.github.io/",
       companyName: "Personal project",
-      thumbnail: "cv/main.jpg",
+      thumbnail: "main.jpg",
       summaryTitle: "HTML & CSS based CV",
       summary:
         "My constantly updated bilingual Curriculum Vitae. Designed to be easily printed to PDF.",
@@ -181,7 +181,7 @@ const db: IDB = {
       urlName: "Wikipedia Page",
       companyName: "Techland",
       companyUrl: "https://techland.net/",
-      thumbnail: "dead-island/main.jpg",
+      thumbnail: "main.jpg",
       summaryTitle: "Dead Island",
       summary:
         "First-person survival horror game set on a tropical island overrun by zombies (PC Windows, PlayStation 3 & Xbox 360).",
@@ -199,7 +199,7 @@ const db: IDB = {
       urlName: "Wikipedia Page",
       companyName: "Techland",
       companyUrl: "https://techland.net/",
-      thumbnail: "call-of-juarez-the-cartel/main.jpg",
+      thumbnail: "main.jpg",
       summaryTitle: "Call of Juarez: The Cartel",
       summary:
         "First-person modern-day shooter that follows a team of law enforcement officers as they take on a drug cartel in Los Angeles and Mexico (PC Windows, PlayStation 3 & Xbox 360).",
@@ -215,7 +215,7 @@ const db: IDB = {
       type: "Website",
       companyName: "QATestLab Training Center",
       companyUrl: "https://en.training.qatestlab.com/",
-      thumbnail: "design-for-life/main.jpg",
+      thumbnail: "main.jpg",
       summaryTitle: "Design for Life",
       summary: "A design blog created for testing purposes.",
       filterTags: [],
@@ -225,12 +225,12 @@ const db: IDB = {
       featured: true,
     },
     {
-      name: "HiveProjects",
+      name: "Hive Projects",
       slug: "hive-projects",
       type: "Web Application",
       url: "https://hiveprojects.io/",
-      thumbnail: "hive-projects/main.png",
-      summaryTitle: "HiveProjects",
+      thumbnail: "main.png",
+      summaryTitle: "Hive Projects",
       summary:
         "Hive Projects is a directory of over a hundred apps, sites and tools built by Hive community. Your project is not listed here? You can add it on your own!",
       filterTags: [],
@@ -252,7 +252,7 @@ const db: IDB = {
       slug: "portfolio",
       type: "Web Application",
       url: "https://krzysztofszumny.com/",
-      thumbnail: "portfolio/main.png",
+      thumbnail: "main.png",
       summaryTitle: "Vue Based Web Portfolio",
       summary:
         "Every profesional Software Developer and QA Engineer should have own portfolio. This project allows you to build one, adjust it to your needs, extend and share it with the world.",

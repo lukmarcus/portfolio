@@ -4,7 +4,9 @@
       <div class="card-img-container position-relative">
         <img
           class="card-img-top rounded-0"
-          :src="getAsset(`@/images/projects/${project.thumbnail}`)"
+          :src="
+            getAsset(`@/images/projects/${project.slug}/${project.thumbnail}`)
+          "
           alt=""
         />
         <router-link :to="{ name: `project-${project.slug}` }">

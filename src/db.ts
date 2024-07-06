@@ -60,7 +60,7 @@ const db: IDB = {
       featured: true,
     },
     {
-      name: "Test Case Study - All Unit Converter & Tools",
+      name: "Test Case Study - Ultimate Unit Converter",
       slug: "ultimate-unit-converter",
       url: "https://play.google.com/store/apps/details?id=com.digitalindeed.converter",
       urlName: "Google Play Page",
@@ -68,7 +68,7 @@ const db: IDB = {
       companyName: "QATestLab Training Center",
       companyUrl: "https://en.training.qatestlab.com/",
       thumbnail: "ultimate-unit-converter-main.jpg",
-      summaryTitle: "All Unit Converter & Tools",
+      summaryTitle: "Ultimate Unit Converter",
       summary:
         "The most comprehensive measurement converter tool you will ever get.",
       filterTags: [],

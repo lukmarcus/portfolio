@@ -252,7 +252,7 @@ const db: IDB = {
       slug: "portfolio",
       type: "Web Application",
       url: "https://krzysztofszumny.com/",
-      thumbnail: "portolio-main.png",
+      thumbnail: "portfolio-main.png",
       summaryTitle: "Vue Based Web Portfolio",
       summary:
         "Every profesional Software Developer and QA Engineer should have own portfolio. This project allows you to build one, adjust it to your needs, extend and share it with the world.",

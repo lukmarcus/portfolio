@@ -34,8 +34,8 @@ export const projects: RouteRecordRaw[] = [
   { path: "pithchup.com", name: "project-pitchup.com", component: Pitchup },
   { path: "pithchup-pwa", name: "project-pitchup-pwa", component: PitchupPWA },
   {
-    path: "hiveprojects.io",
-    name: "project-hiveprojects.io",
+    path: "hive-projects",
+    name: "project-hive-projects",
     component: HiveProjects,
   },
   {
@@ -59,8 +59,8 @@ export const projects: RouteRecordRaw[] = [
     component: DeadIsland,
   },
   {
-    path: "all-unit-converter-tools",
-    name: "project-all-unit-converter-tools",
+    path: "ultimate-unit-converter",
+    name: "project-ultimate-unit-converter",
     component: DeadIsland,
   },
   {
@@ -99,8 +99,8 @@ export const projects: RouteRecordRaw[] = [
     component: DesignForLife,
   },
   {
-    path: "afterbomb",
-    name: "project-afterbomb",
+    path: "afterbomb-madness",
+    name: "project-afterbomb-madness",
     component: DesignForLife,
   },
   {

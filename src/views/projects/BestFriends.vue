@@ -290,7 +290,7 @@ import { defineProps } from "vue";
 defineProps<{ project: IProject; testimonials: ITestimonial[] }>();
 
 export default {
-  name: "Design for Life",
+  name: "Best Friends",
   props: {
     project: {
       type: Object as PropType<IProject>,
@@ -306,7 +306,7 @@ export default {
     const { getAsset } = useAssets();
 
     const img = (filename: string) =>
-      getAsset(`@/images/projects/design-for-life/${filename}`);
+      getAsset(`@/images/projects/${project.slug}/${filename}`);
 
     return {
       imagesPaths: getImagesPaths(props.project, 4),

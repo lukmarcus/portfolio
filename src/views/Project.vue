@@ -4,12 +4,14 @@
 
     <div class="project-wrapper container py-5">
       <div class="row">
-        <CoverImage class="col-12 col-lg-8" :url="`@/images/projects/${project.thumbnail}`" />
+        <CoverImage
+          class="col-12 col-lg-8"
+          :url="`@/images/projects/${project.slug}/${project.thumbnail}`"
+        />
         <ProjectInfo class="col-12 col-lg-4 ps-lg-5" :project="project" />
         <section class="col-12 col-lg-8">
           <router-view :project="project" :testimonials="testimonials" />
         </section>
-
       </div>
 
       <OtherProjectCaseStudies :projects="otherProjects" />
@@ -19,10 +21,10 @@
 
 <script setup lang="ts">
 import {
+  CoverImage,
   OtherProjectCaseStudies,
   ProjectHeader,
   ProjectInfo,
-  CoverImage,
 } from "@/components";
 import { useDB } from "@/composables";
 import { computed } from "vue";

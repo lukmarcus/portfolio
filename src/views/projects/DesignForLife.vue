@@ -306,7 +306,7 @@ export default {
     const { getAsset } = useAssets();
 
     const img = (filename: string) =>
-      getAsset(`@/images/projects/design-for-life/${filename}`);
+      getAsset(`@/images/projects/${props.project.slug}/${filename}`);
 
     return {
       imagesPaths: getImagesPaths(props.project, 4),

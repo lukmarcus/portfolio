@@ -18,14 +18,6 @@
       user navigated a simple website called 'Design for Life,' showcasing the
       page layout, navigation, and interactions with various page elements.
     </p>
-    <p>
-      This course is particularly notable for its emphasis on high standards in
-      bug reporting and meticulous attention to detail. Participants are
-      expected to not only find and report bugs but also to ensure their reports
-      meet rigorous quality criteria. This approach aims to develop critical
-      skills in precision and clarity in communication, which are essential for
-      effective software testing.
-    </p>
   </div>
 
   <div class="section-row">
@@ -36,20 +28,6 @@
       bug identification, with many obvious and some subtle errors. The
       assignment required up to three bug reports, focusing on the quality
       rather than quantity of the submissions.
-    </p>
-    <p>
-      I received specific environment data and guidelines to ensure the bug
-      reports were comprehensive and aligned with the 'What? Where? When?'
-      principle. This included precise descriptions of each bug, the steps to
-      reproduce the issues, and relevant context to facilitate the verification
-      process by QATestLab Training Center employees.
-    </p>
-    <p>
-      My approach was to meticulously analyze the video, identify the most
-      critical and diverse bugs, and document them in a way that would meet the
-      high standards set by the training center. This included using clear,
-      concise language and ensuring that all necessary details were provided to
-      enable easy replication and verification of the issues.
     </p>
   </div>
 
@@ -62,21 +40,6 @@
       employee, requiring high accuracy and adherence to specific standards.
       Theoretical knowledge had to be effectively translated into practical
       application, with no room for errors or omissions.
-    </p>
-    <p>
-      The primary challenge was ensuring that each bug report was precise,
-      comprehensive, and aligned with established standards. This meant that
-      even minor mistakes could lead to the rejection of the bug report,
-      necessitating resubmission with corrections. This rigorous approach taught
-      me the importance of attention to detail and the need for meticulous
-      documentation in software testing.
-    </p>
-    <p>
-      Another challenge was selecting the most relevant bugs to report. Given
-      the video contained more errors than required for the assignment, I had to
-      prioritize bugs based on their impact, severity, and diversity. This
-      involved critical thinking and decision-making to ensure that the most
-      significant issues were addressed in my reports.
     </p>
   </div>
 
@@ -263,20 +226,6 @@
       standards. The exercise reinforced the need for precision and clarity in
       documenting bugs, ensuring that reports are easy to understand and
       replicate.
-    </p>
-    <p>
-      One of the key lessons learned was that finding a bug is only part of the
-      process; effectively communicating the issue is equally important.
-      Detailed and accurate descriptions are crucial for ensuring that bugs can
-      be verified and resolved efficiently. This task also highlighted the
-      importance of prioritizing issues based on their impact and severity, a
-      critical skill in software testing.
-    </p>
-    <p>
-      Returning to Mantis Bug Tracker after a significant period allowed me to
-      see how my skills in bug reporting had evolved and improved. The
-      experience reinforced the importance of continuous learning and adapting
-      to new challenges in the field of software testing.
     </p>
   </div>
 </template>

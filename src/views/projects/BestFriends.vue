@@ -2,13 +2,6 @@
   <div class="section-row">
     <h3 class="section-title">Project Background</h3>
     <p>
-      The
-      <a
-        href="https://en.training.qatestlab.com/course/software-testing-fundamentals/"
-        >'Fundamentals of Software Testing'</a
-      >
-      course offered by
-      <a href="https://en.training.qatestlab.com/">QATestLab Training Center</a>
       was designed to provide a comprehensive understanding of software testing
       principles and methodologies. The course emphasizes practical application
       and real-world scenarios, preparing participants for industry-standard
@@ -17,6 +10,18 @@
       identifying and reporting bugs based on a video recording. In the video, a
       user navigated a simple website called 'Design for Life,' showcasing the
       page layout, navigation, and interactions with various page elements.
+    </p>
+    <p>
+      The second (after Design for Life) and the biggest task of the
+      <a
+        href="https://en.training.qatestlab.com/course/software-testing-fundamentals/"
+        >'Fundamentals of Software Testing'</a
+      >
+      course offered by
+      <a href="https://en.training.qatestlab.com/">QATestLab Training Center</a>
+      was testing Best Friends website in various ways. This includes: Website
+      Layout, Cross-Browser Compatibility, Functional Testing and Mobile
+      Testing. Also creating test plan and test cases in TestLink and TestRail.
     </p>
   </div>
 

@@ -12,7 +12,8 @@
       page layout, navigation, and interactions with various page elements.
     </p>
     <p>
-      The second (after Design for Life) and the biggest task of the
+      The second (after <a href="design-for-life">Design for Life</a>) and the
+      biggest task of the
       <a
         href="https://en.training.qatestlab.com/course/software-testing-fundamentals/"
         >'Fundamentals of Software Testing'</a

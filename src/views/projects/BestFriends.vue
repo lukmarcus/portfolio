@@ -22,7 +22,8 @@
       <a href="https://en.training.qatestlab.com/">QATestLab Training Center</a>
       was testing Best Friends website in various ways. This includes: Website
       Layout, Cross-Browser Compatibility, Functional Testing and Mobile
-      Testing. Also creating test plan and test cases in TestLink and TestRail.
+      Testing. It also include creating checklists, test plan and test cases in
+      TestLink and TestRail.
     </p>
   </div>
 

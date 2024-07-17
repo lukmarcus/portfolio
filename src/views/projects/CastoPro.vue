@@ -103,7 +103,7 @@
         <ul>
           <li>
             <a
-              href="#issue1"
+              href="#issue01"
               data-bs-toggle="collapse"
               aria-expanded="false"
               aria-controls="issue"
@@ -111,7 +111,7 @@
               The element <code>&lt;div class="container"&gt;</code> was not
               closed
             </a>
-            <div class="collapse" id="issue1">
+            <div class="collapse" id="issue01">
               <p>
                 <strong>Description:</strong> In the code of the page
                 <code>/pl/home</code>, the element
@@ -128,13 +128,13 @@
           <li>
             <a
               data-bs-toggle="collapse"
-              href="#issue2"
+              href="#issue02"
               aria-expanded="false"
               aria-controls="issue"
             >
               No information about required fields during registration
             </a>
-            <div class="collapse" id="issue2">
+            <div class="collapse" id="issue02">
               <p>
                 <strong>Description:</strong> There are no marked required
                 fields on page <code>/pl/register</code>.
@@ -152,31 +152,20 @@
                 (e.g., asterisks with a legend).
               </p>
               <p><strong>Screenshot:</strong></p>
-              <p>
-                <a
-                  target="_blank"
-                  rel="noopener noreferrer nofollow"
-                  href="https://raw.githubusercontent.com/lukmarcus/Today-I-Learned/main/Test_Case_Studies/CastoPro/02.png"
-                  class="keychainify-checked"
-                  ><img
-                    src="https://raw.githubusercontent.com/lukmarcus/Today-I-Learned/main/Test_Case_Studies/CastoPro/02.png"
-                    alt="CastoPro02"
-                    style="max-width: 100%"
-                /></a>
-              </p>
+              <p><img :src="img('issue02.png')" class="w-100" /></p>
             </div>
           </li>
           <li>
             <a
               data-bs-toggle="collapse"
-              href="#issue3"
+              href="#issue03"
               aria-expanded="false"
               aria-controls="issue"
             >
               The registration page does not check all required fields
               simultaneously
             </a>
-            <div class="collapse" id="issue3">
+            <div class="collapse" id="issue03">
               <p>
                 <strong>Description:</strong> Page
                 <code>/pl/register</code> does not check all required fields
@@ -216,38 +205,9 @@
                 incorrectly completed fields appear simultaneously.
               </p>
               <p><strong>Screenshots:</strong></p>
-              <p>
-                <a
-                  target="_blank"
-                  rel="noopener noreferrer nofollow"
-                  href="https://raw.githubusercontent.com/lukmarcus/Today-I-Learned/main/Test_Case_Studies/CastoPro/03a.png"
-                  class="keychainify-checked"
-                  ><img
-                    src="https://raw.githubusercontent.com/lukmarcus/Today-I-Learned/main/Test_Case_Studies/CastoPro/03a.png"
-                    alt="CastoPro03a"
-                    style="max-width: 100%"
-                /></a>
-                <a
-                  target="_blank"
-                  rel="noopener noreferrer nofollow"
-                  href="https://raw.githubusercontent.com/lukmarcus/Today-I-Learned/main/Test_Case_Studies/CastoPro/03b.png"
-                  class="keychainify-checked"
-                  ><img
-                    src="https://raw.githubusercontent.com/lukmarcus/Today-I-Learned/main/Test_Case_Studies/CastoPro/03b.png"
-                    alt="CastoPro03b"
-                    style="max-width: 100%"
-                /></a>
-                <a
-                  target="_blank"
-                  rel="noopener noreferrer nofollow"
-                  href="https://raw.githubusercontent.com/lukmarcus/Today-I-Learned/main/Test_Case_Studies/CastoPro/03c.png"
-                  class="keychainify-checked"
-                  ><img
-                    src="https://raw.githubusercontent.com/lukmarcus/Today-I-Learned/main/Test_Case_Studies/CastoPro/03c.png"
-                    alt="CastoPro03c"
-                    style="max-width: 100%"
-                /></a>
-              </p>
+              <p><img :src="img('issue03a.png')" class="w-100" /></p>
+              <p><img :src="img('issue03b.png')" class="w-100" /></p>
+              <p><img :src="img('issue03c.png')" class="w-100" /></p>
             </div>
           </li>
           <li>
@@ -794,22 +754,37 @@
   </div>
 </template>
 
-<script setup lang="ts">
+<script lang="ts">
+import { useAssets, useProject } from "@/composables";
 import type { IProject, ITestimonial } from "@/types";
-import { Collapse } from "bootstrap";
-defineProps<{
-  project: IProject;
-  testimonials: ITestimonial[];
-}>();
+import type { PropType } from "vue";
+import { defineProps } from "vue";
 
-var collapseElementList = [].slice.call(document.querySelectorAll(".collapse"));
-collapseElementList.map(function (collapseEl) {
-  return new Collapse(collapseEl);
-});
+defineProps<{ project: IProject; testimonials: ITestimonial[] }>();
+
+export default {
+  name: "CastoPro",
+  props: {
+    project: {
+      type: Object as PropType<IProject>,
+      required: true,
+    },
+    testimonials: {
+      type: Array as PropType<ITestimonial[]>,
+      required: true,
+    },
+  },
+  setup(props) {
+    const { getImagesPaths } = useProject();
+    const { getAsset } = useAssets();
+
+    const img = (filename: string) =>
+      getAsset(`@/images/projects/${props.project.slug}/${filename}`);
+
+    return {
+      imagesPaths: getImagesPaths(props.project, 4),
+      img,
+    };
+  },
+};
 </script>
-<style scoped>
-#issues img {
-  margin-right: 20px;
-  margin-bottom: 20px;
-}
-</style>

@@ -213,14 +213,14 @@
           <li>
             <a
               data-bs-toggle="collapse"
-              href="#issue4"
+              href="#issue04"
               aria-expanded="false"
               aria-controls="issue"
             >
               The correctness of the e-mail on the registration page is
               validated only after entering the phone number
             </a>
-            <div class="collapse" id="issue4">
+            <div class="collapse" id="issue04">
               <p>
                 <strong>Description:</strong> On page <code>/pl/register</code>,
                 the correctness of the written e-mail is validated only after
@@ -264,18 +264,7 @@
                 e-mail appears even without entering a phone number.
               </p>
               <p><strong>Screenshot:</strong></p>
-              <p>
-                <a
-                  target="_blank"
-                  rel="noopener noreferrer nofollow"
-                  href="https://raw.githubusercontent.com/lukmarcus/Today-I-Learned/main/Test_Case_Studies/CastoPro/04.png"
-                  class="keychainify-checked"
-                  ><img
-                    src="https://raw.githubusercontent.com/lukmarcus/Today-I-Learned/main/Test_Case_Studies/CastoPro/04.png"
-                    alt="CastoPro04"
-                    style="max-width: 100%"
-                /></a>
-              </p>
+              <p><img :src="img('issue04.png')" class="w-100" /></p>
             </div>
           </li>
         </ul>
@@ -286,13 +275,13 @@
           <li>
             <a
               data-bs-toggle="collapse"
-              href="#issue5"
+              href="#issue05"
               aria-expanded="false"
               aria-controls="issue"
             >
               The login page does not check both login fields simultaneously
             </a>
-            <div class="collapse" id="issue5">
+            <div class="collapse" id="issue05">
               <p>
                 <strong>Description:</strong> Page
                 <code>/pl/auth/login</code> does not check both fields
@@ -312,28 +301,8 @@
                 for both email and password fields.
               </p>
               <p><strong>Screenshots:</strong></p>
-              <p>
-                <a
-                  target="_blank"
-                  rel="noopener noreferrer nofollow"
-                  href="https://raw.githubusercontent.com/lukmarcus/Today-I-Learned/main/Test_Case_Studies/CastoPro/05a.png"
-                  class="keychainify-checked"
-                  ><img
-                    src="https://raw.githubusercontent.com/lukmarcus/Today-I-Learned/main/Test_Case_Studies/CastoPro/05a.png"
-                    alt="CastoPro05a"
-                    style="max-width: 100%"
-                /></a>
-                <a
-                  target="_blank"
-                  rel="noopener noreferrer nofollow"
-                  href="https://raw.githubusercontent.com/lukmarcus/Today-I-Learned/main/Test_Case_Studies/CastoPro/05b.png"
-                  class="keychainify-checked"
-                  ><img
-                    src="https://raw.githubusercontent.com/lukmarcus/Today-I-Learned/main/Test_Case_Studies/CastoPro/05b.png"
-                    alt="CastoPro05b"
-                    style="max-width: 100%"
-                /></a>
-              </p>
+              <p><img :src="img('issue05a.png')" class="w-100" /></p>
+              <p><img :src="img('issue05b.png')" class="w-100" /></p>
             </div>
           </li>
           <li>

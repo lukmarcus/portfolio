@@ -308,13 +308,13 @@
           <li>
             <a
               data-bs-toggle="collapse"
-              href="#issue6"
+              href="#issue06"
               aria-expanded="false"
               aria-controls="issue"
             >
               Two formats of login errors
             </a>
-            <div class="collapse" id="issue6">
+            <div class="collapse" id="issue06">
               <p>
                 <strong>Description:</strong> Login error messages on page
                 <code>/pl/auth/login</code> have different graphical formats.
@@ -341,31 +341,20 @@
                 messages.
               </p>
               <p><strong>Screenshot:</strong></p>
-              <p>
-                <a
-                  target="_blank"
-                  rel="noopener noreferrer nofollow"
-                  href="https://raw.githubusercontent.com/lukmarcus/Today-I-Learned/main/Test_Case_Studies/CastoPro/06.png"
-                  class="keychainify-checked"
-                  ><img
-                    src="https://raw.githubusercontent.com/lukmarcus/Today-I-Learned/main/Test_Case_Studies/CastoPro/06.png"
-                    alt="CastoPro06"
-                    style="max-width: 100%"
-                /></a>
-              </p>
+              <p><img :src="img('issue06.png')" class="w-100" /></p>
             </div>
           </li>
           <li>
             <a
               data-bs-toggle="collapse"
-              href="#issue7"
+              href="#issue07"
               aria-expanded="false"
               aria-controls="issue"
             >
               Misleading error message during the password recovery when an
               e-mail is not in the database
             </a>
-            <div class="collapse" id="issue7">
+            <div class="collapse" id="issue07">
               <p>
                 <strong>Description:</strong> On the page
                 <code>/pl/auth/login</code>, when using the password recovery
@@ -392,18 +381,7 @@
                 sent if such an e-mail is in the database.
               </p>
               <p><strong>Screenshot:</strong></p>
-              <p>
-                <a
-                  target="_blank"
-                  rel="noopener noreferrer nofollow"
-                  href="https://raw.githubusercontent.com/lukmarcus/Today-I-Learned/main/Test_Case_Studies/CastoPro/07.png"
-                  class="keychainify-checked"
-                  ><img
-                    src="https://raw.githubusercontent.com/lukmarcus/Today-I-Learned/main/Test_Case_Studies/CastoPro/07.png"
-                    alt="CastoPro07"
-                    style="max-width: 100%"
-                /></a>
-              </p>
+              <p><img :src="img('issue07.png')" class="w-100" /></p>
             </div>
           </li>
         </ul>
@@ -414,7 +392,7 @@
           <li>
             <a
               data-bs-toggle="collapse"
-              href="#issue8"
+              href="#issue08"
               aria-expanded="false"
               aria-controls="issue"
             >
@@ -422,7 +400,7 @@
               <code>Od 25 lat wspieramy Profesjonalistów</code> disappears below
               the 992px width
             </a>
-            <div class="collapse" id="issue8">
+            <div class="collapse" id="issue08">
               <p>
                 <strong>Description:</strong> Page <code>/pl/home</code> below
                 992px does not show the entire paragraph
@@ -441,31 +419,9 @@
                 new width.
               </p>
               <p><strong>Screenshot above 992px width:</strong></p>
-              <p>
-                <a
-                  target="_blank"
-                  rel="noopener noreferrer nofollow"
-                  href="https://raw.githubusercontent.com/lukmarcus/Today-I-Learned/main/Test_Case_Studies/CastoPro/08a.png"
-                  class="keychainify-checked"
-                  ><img
-                    src="https://raw.githubusercontent.com/lukmarcus/Today-I-Learned/main/Test_Case_Studies/CastoPro/08a.png"
-                    alt="CastoPro08a"
-                    style="max-width: 100%"
-                /></a>
-              </p>
+              <p><img :src="img('issue08a.png')" class="w-100" /></p>
               <p><strong>Screenshot below 992px width:</strong></p>
-              <p>
-                <a
-                  target="_blank"
-                  rel="noopener noreferrer nofollow"
-                  href="https://raw.githubusercontent.com/lukmarcus/Today-I-Learned/main/Test_Case_Studies/CastoPro/08b.png"
-                  class="keychainify-checked"
-                  ><img
-                    src="https://raw.githubusercontent.com/lukmarcus/Today-I-Learned/main/Test_Case_Studies/CastoPro/08b.png"
-                    alt="CastoPro08b"
-                    style="max-width: 100%"
-                /></a>
-              </p>
+              <p><img :src="img('issue08b.png')" class="w-100" /></p>
             </div>
           </li>
           <li>

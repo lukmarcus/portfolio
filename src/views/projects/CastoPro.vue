@@ -427,13 +427,13 @@
           <li>
             <a
               data-bs-toggle="collapse"
-              href="#issue9"
+              href="#issue09"
               aria-expanded="false"
               aria-controls="issue"
             >
               The menu background is too short between 992px and 1098px width
             </a>
-            <div class="collapse" id="issue9">
+            <div class="collapse" id="issue09">
               <p>
                 <strong>Description:</strong> On pages with a width between
                 992px and 1098px, the background of the menu is too small for
@@ -453,18 +453,7 @@
                 all items.
               </p>
               <p><strong>Screenshot:</strong></p>
-              <p>
-                <a
-                  target="_blank"
-                  rel="noopener noreferrer nofollow"
-                  href="https://raw.githubusercontent.com/lukmarcus/Today-I-Learned/main/Test_Case_Studies/CastoPro/09.png"
-                  class="keychainify-checked"
-                  ><img
-                    src="https://raw.githubusercontent.com/lukmarcus/Today-I-Learned/main/Test_Case_Studies/CastoPro/09.png"
-                    alt="CastoPro09"
-                    style="max-width: 100%"
-                /></a>
-              </p>
+              <p><img :src="img('issue09.png')" class="w-100" /></p>
             </div>
           </li>
           <li>
@@ -495,18 +484,7 @@
                 the menu button is below the website logo.
               </p>
               <p><strong>Screenshot:</strong></p>
-              <p>
-                <a
-                  target="_blank"
-                  rel="noopener noreferrer nofollow"
-                  href="https://raw.githubusercontent.com/lukmarcus/Today-I-Learned/main/Test_Case_Studies/CastoPro/10.png"
-                  class="keychainify-checked"
-                  ><img
-                    src="https://raw.githubusercontent.com/lukmarcus/Today-I-Learned/main/Test_Case_Studies/CastoPro/10.png"
-                    alt="CastoPro10"
-                    style="max-width: 100%"
-                /></a>
-              </p>
+              <p><img :src="img('issue10.png')" class="w-100" /></p>
             </div>
           </li>
           <li>
@@ -541,28 +519,8 @@
                 buttons or larger areas that are easier to click.
               </p>
               <p><strong>Screenshots:</strong></p>
-              <p>
-                <a
-                  target="_blank"
-                  rel="noopener noreferrer nofollow"
-                  href="https://raw.githubusercontent.com/lukmarcus/Today-I-Learned/main/Test_Case_Studies/CastoPro/11a.png"
-                  class="keychainify-checked"
-                  ><img
-                    src="https://raw.githubusercontent.com/lukmarcus/Today-I-Learned/main/Test_Case_Studies/CastoPro/11a.png"
-                    alt="CastoPro11a"
-                    style="max-width: 100%"
-                /></a>
-                <a
-                  target="_blank"
-                  rel="noopener noreferrer nofollow"
-                  href="https://raw.githubusercontent.com/lukmarcus/Today-I-Learned/main/Test_Case_Studies/CastoPro/11b.png"
-                  class="keychainify-checked"
-                  ><img
-                    src="https://raw.githubusercontent.com/lukmarcus/Today-I-Learned/main/Test_Case_Studies/CastoPro/11b.png"
-                    alt="CastoPro11b"
-                    style="max-width: 100%"
-                /></a>
-              </p>
+              <p><img :src="img('issue11a.png')" class="w-100" /></p>
+              <p><img :src="img('issue11b.png')" class="w-100" /></p>
             </div>
           </li>
         </ul>
@@ -599,18 +557,7 @@
                 of the screen.
               </p>
               <p><strong>Screenshot:</strong></p>
-              <p>
-                <a
-                  target="_blank"
-                  rel="noopener noreferrer nofollow"
-                  href="https://raw.githubusercontent.com/lukmarcus/Today-I-Learned/main/Test_Case_Studies/CastoPro/12.png"
-                  class="keychainify-checked"
-                  ><img
-                    src="https://raw.githubusercontent.com/lukmarcus/Today-I-Learned/main/Test_Case_Studies/CastoPro/12.png"
-                    alt="CastoPro12"
-                    style="max-width: 100%"
-                /></a>
-              </p>
+              <p><img :src="img('issue12.png')" class="w-100" /></p>
             </div>
           </li>
           <li>
@@ -642,18 +589,7 @@
                 of the screen.
               </p>
               <p><strong>Screenshot:</strong></p>
-              <p>
-                <a
-                  target="_blank"
-                  rel="noopener noreferrer nofollow"
-                  href="https://raw.githubusercontent.com/lukmarcus/Today-I-Learned/main/Test_Case_Studies/CastoPro/13.png"
-                  class="keychainify-checked"
-                  ><img
-                    src="https://raw.githubusercontent.com/lukmarcus/Today-I-Learned/main/Test_Case_Studies/CastoPro/13.png"
-                    alt="CastoPro13"
-                    style="max-width: 100%"
-                /></a>
-              </p>
+              <p><img :src="img('issue13.png')" class="w-100" /></p>
             </div>
           </li>
         </ul>

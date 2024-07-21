@@ -112,6 +112,7 @@
               closed
             </a>
             <div class="collapse" id="issue01">
+              <p></p>
               <p>
                 <strong>Description:</strong> In the code of the page
                 <code>/pl/home</code>, the element
@@ -135,6 +136,7 @@
               No information about required fields during registration
             </a>
             <div class="collapse" id="issue02">
+              <p></p>
               <p>
                 <strong>Description:</strong> There are no marked required
                 fields on page <code>/pl/register</code>.
@@ -143,6 +145,7 @@
               <ol>
                 <li>Open page <code>/pl/register</code>.</li>
               </ol>
+              <p></p>
               <p>
                 <strong>Actual result:</strong> No information about required
                 fields.
@@ -166,6 +169,7 @@
               simultaneously
             </a>
             <div class="collapse" id="issue03">
+              <p></p>
               <p>
                 <strong>Description:</strong> Page
                 <code>/pl/register</code> does not check all required fields
@@ -196,6 +200,7 @@
                 </li>
                 <li>Click the button <code>DALEJ</code>.</li>
               </ol>
+              <p></p>
               <p>
                 <strong>Actual result:</strong> Each subsequent error message
                 applies to only one field.
@@ -221,6 +226,7 @@
               validated only after entering the phone number
             </a>
             <div class="collapse" id="issue04">
+              <p></p>
               <p>
                 <strong>Description:</strong> On page <code>/pl/register</code>,
                 the correctness of the written e-mail is validated only after
@@ -255,6 +261,7 @@
                 </li>
                 <li>Click the button <code>DALEJ</code>.</li>
               </ol>
+              <p></p>
               <p>
                 <strong>Actual result:</strong> Information about an incorrect
                 e-mail appears only after entering the phone number.
@@ -282,6 +289,7 @@
               The login page does not check both login fields simultaneously
             </a>
             <div class="collapse" id="issue05">
+              <p></p>
               <p>
                 <strong>Description:</strong> Page
                 <code>/pl/auth/login</code> does not check both fields
@@ -295,10 +303,14 @@
                 <li>Enter any password in the <code>Hasło</code> field.</li>
                 <li>Click login button <code>ZALOGUJ MNIE</code>.</li>
               </ol>
+              <p></p>
               <p>
                 <strong>Actual result:</strong> Error message about wrong email
-                or password. <strong>Expected result:</strong> Error messages
-                for both email and password fields.
+                or password.
+              </p>
+              <p>
+                <strong>Expected result:</strong> Error messages for both email
+                and password fields.
               </p>
               <p><strong>Screenshots:</strong></p>
               <p><img :src="img('issue05a.png')" class="w-100" /></p>
@@ -315,6 +327,7 @@
               Two formats of login errors
             </a>
             <div class="collapse" id="issue06">
+              <p></p>
               <p>
                 <strong>Description:</strong> Login error messages on page
                 <code>/pl/auth/login</code> have different graphical formats.
@@ -332,6 +345,7 @@
                   entering any password in the <code>Hasło</code> field).
                 </li>
               </ol>
+              <p></p>
               <p>
                 <strong>Actual result:</strong> Two error messages in different
                 formats.
@@ -355,6 +369,7 @@
               e-mail is not in the database
             </a>
             <div class="collapse" id="issue07">
+              <p></p>
               <p>
                 <strong>Description:</strong> On the page
                 <code>/pl/auth/login</code>, when using the password recovery
@@ -375,6 +390,7 @@
                 </li>
                 <li>Click the send button <code>WYŚLIJ</code>.</li>
               </ol>
+              <p></p>
               <p><strong>Actual result:</strong> Not a valid e-mail message.</p>
               <p>
                 <strong>Expected result:</strong> A message that a link has been
@@ -401,6 +417,7 @@
               the 992px width
             </a>
             <div class="collapse" id="issue08">
+              <p></p>
               <p>
                 <strong>Description:</strong> Page <code>/pl/home</code> below
                 992px does not show the entire paragraph
@@ -411,6 +428,7 @@
                 <li>Open page <code>/pl/home</code>.</li>
                 <li>Change the page width below 992px.</li>
               </ol>
+              <p></p>
               <p>
                 <strong>Actual result:</strong> The entire paragraph disappears.
               </p>
@@ -434,6 +452,7 @@
               The menu background is too short between 992px and 1098px width
             </a>
             <div class="collapse" id="issue09">
+              <p></p>
               <p>
                 <strong>Description:</strong> On pages with a width between
                 992px and 1098px, the background of the menu is too small for
@@ -444,6 +463,7 @@
                 <li>Open page <code>/pl/home</code>.</li>
                 <li>Change the page width to between 992px and 1098px.</li>
               </ol>
+              <p></p>
               <p>
                 <strong>Actual result:</strong> The menu is too small for the
                 word <code>REJESTRACJA</code>.
@@ -466,6 +486,7 @@
               The menu button overlaps the website logo below 284px width
             </a>
             <div class="collapse" id="issue10">
+              <p></p>
               <p>
                 <strong>Description:</strong> On pages with a width below 284px,
                 the top menu button overlaps the website logo.
@@ -475,6 +496,7 @@
                 <li>Open page <code>/pl/home</code>.</li>
                 <li>Change the page width below 284px.</li>
               </ol>
+              <p></p>
               <p>
                 <strong>Actual result:</strong> The menu button overlaps the
                 website logo.
@@ -497,6 +519,7 @@
               Opening and closing the menu is not a button, but narrow elements
             </a>
             <div class="collapse" id="issue11">
+              <p></p>
               <p>
                 <strong>Description:</strong> On pages with a width below 992px,
                 there is a menu button in the upper right corner of the page
@@ -510,6 +533,7 @@
                 <li>Open page <code>/pl/home</code>.</li>
                 <li>Change the page width below 992px.</li>
               </ol>
+              <p></p>
               <p>
                 <strong>Actual result:</strong> Open and close menu items are
                 not easy to click.
@@ -538,6 +562,7 @@
               The regulations page does not scale below 456px width
             </a>
             <div class="collapse" id="issue12">
+              <p></p>
               <p>
                 <strong>Description:</strong> The page
                 <code>/pl/castopro-regulations</code> stops scaling below 456px
@@ -548,6 +573,7 @@
                 <li>Open page <code>/pl/castopro-regulations</code>.</li>
                 <li>Change the page width below 456px.</li>
               </ol>
+              <p></p>
               <p>
                 <strong>Actual result:</strong> The content of the page extends
                 beyond the visible area.
@@ -570,6 +596,7 @@
               The privacy policy page does not scale below 382px width
             </a>
             <div class="collapse" id="issue13">
+              <p></p>
               <p>
                 <strong>Description:</strong> The page
                 <code>/pl/privacy-policy</code> stops scaling below 382px width,
@@ -580,6 +607,7 @@
                 <li>Open page <code>/pl/privacy-policy</code>.</li>
                 <li>Change the page width below 382px.</li>
               </ol>
+              <p></p>
               <p>
                 <strong>Actual result:</strong> The content of the page extends
                 beyond the visible area.

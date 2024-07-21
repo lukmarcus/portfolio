@@ -103,7 +103,7 @@
         <ul>
           <li>
             <a
-              href="#issue1"
+              href="#issue01"
               data-bs-toggle="collapse"
               aria-expanded="false"
               aria-controls="issue"
@@ -111,7 +111,8 @@
               The element <code>&lt;div class="container"&gt;</code> was not
               closed
             </a>
-            <div class="collapse" id="issue1">
+            <div class="collapse" id="issue01">
+              <p></p>
               <p>
                 <strong>Description:</strong> In the code of the page
                 <code>/pl/home</code>, the element
@@ -128,13 +129,14 @@
           <li>
             <a
               data-bs-toggle="collapse"
-              href="#issue2"
+              href="#issue02"
               aria-expanded="false"
               aria-controls="issue"
             >
               No information about required fields during registration
             </a>
-            <div class="collapse" id="issue2">
+            <div class="collapse" id="issue02">
+              <p></p>
               <p>
                 <strong>Description:</strong> There are no marked required
                 fields on page <code>/pl/register</code>.
@@ -143,6 +145,7 @@
               <ol>
                 <li>Open page <code>/pl/register</code>.</li>
               </ol>
+              <p></p>
               <p>
                 <strong>Actual result:</strong> No information about required
                 fields.
@@ -152,31 +155,21 @@
                 (e.g., asterisks with a legend).
               </p>
               <p><strong>Screenshot:</strong></p>
-              <p>
-                <a
-                  target="_blank"
-                  rel="noopener noreferrer nofollow"
-                  href="https://raw.githubusercontent.com/lukmarcus/Today-I-Learned/main/Test_Case_Studies/CastoPro/02.png"
-                  class="keychainify-checked"
-                  ><img
-                    src="https://raw.githubusercontent.com/lukmarcus/Today-I-Learned/main/Test_Case_Studies/CastoPro/02.png"
-                    alt="CastoPro02"
-                    style="max-width: 100%"
-                /></a>
-              </p>
+              <p><img :src="img('issue02.png')" class="w-100" /></p>
             </div>
           </li>
           <li>
             <a
               data-bs-toggle="collapse"
-              href="#issue3"
+              href="#issue03"
               aria-expanded="false"
               aria-controls="issue"
             >
               The registration page does not check all required fields
               simultaneously
             </a>
-            <div class="collapse" id="issue3">
+            <div class="collapse" id="issue03">
+              <p></p>
               <p>
                 <strong>Description:</strong> Page
                 <code>/pl/register</code> does not check all required fields
@@ -207,6 +200,7 @@
                 </li>
                 <li>Click the button <code>DALEJ</code>.</li>
               </ol>
+              <p></p>
               <p>
                 <strong>Actual result:</strong> Each subsequent error message
                 applies to only one field.
@@ -216,51 +210,23 @@
                 incorrectly completed fields appear simultaneously.
               </p>
               <p><strong>Screenshots:</strong></p>
-              <p>
-                <a
-                  target="_blank"
-                  rel="noopener noreferrer nofollow"
-                  href="https://raw.githubusercontent.com/lukmarcus/Today-I-Learned/main/Test_Case_Studies/CastoPro/03a.png"
-                  class="keychainify-checked"
-                  ><img
-                    src="https://raw.githubusercontent.com/lukmarcus/Today-I-Learned/main/Test_Case_Studies/CastoPro/03a.png"
-                    alt="CastoPro03a"
-                    style="max-width: 100%"
-                /></a>
-                <a
-                  target="_blank"
-                  rel="noopener noreferrer nofollow"
-                  href="https://raw.githubusercontent.com/lukmarcus/Today-I-Learned/main/Test_Case_Studies/CastoPro/03b.png"
-                  class="keychainify-checked"
-                  ><img
-                    src="https://raw.githubusercontent.com/lukmarcus/Today-I-Learned/main/Test_Case_Studies/CastoPro/03b.png"
-                    alt="CastoPro03b"
-                    style="max-width: 100%"
-                /></a>
-                <a
-                  target="_blank"
-                  rel="noopener noreferrer nofollow"
-                  href="https://raw.githubusercontent.com/lukmarcus/Today-I-Learned/main/Test_Case_Studies/CastoPro/03c.png"
-                  class="keychainify-checked"
-                  ><img
-                    src="https://raw.githubusercontent.com/lukmarcus/Today-I-Learned/main/Test_Case_Studies/CastoPro/03c.png"
-                    alt="CastoPro03c"
-                    style="max-width: 100%"
-                /></a>
-              </p>
+              <p><img :src="img('issue03a.png')" class="w-100" /></p>
+              <p><img :src="img('issue03b.png')" class="w-100" /></p>
+              <p><img :src="img('issue03c.png')" class="w-100" /></p>
             </div>
           </li>
           <li>
             <a
               data-bs-toggle="collapse"
-              href="#issue4"
+              href="#issue04"
               aria-expanded="false"
               aria-controls="issue"
             >
               The correctness of the e-mail on the registration page is
               validated only after entering the phone number
             </a>
-            <div class="collapse" id="issue4">
+            <div class="collapse" id="issue04">
+              <p></p>
               <p>
                 <strong>Description:</strong> On page <code>/pl/register</code>,
                 the correctness of the written e-mail is validated only after
@@ -295,6 +261,7 @@
                 </li>
                 <li>Click the button <code>DALEJ</code>.</li>
               </ol>
+              <p></p>
               <p>
                 <strong>Actual result:</strong> Information about an incorrect
                 e-mail appears only after entering the phone number.
@@ -304,18 +271,7 @@
                 e-mail appears even without entering a phone number.
               </p>
               <p><strong>Screenshot:</strong></p>
-              <p>
-                <a
-                  target="_blank"
-                  rel="noopener noreferrer nofollow"
-                  href="https://raw.githubusercontent.com/lukmarcus/Today-I-Learned/main/Test_Case_Studies/CastoPro/04.png"
-                  class="keychainify-checked"
-                  ><img
-                    src="https://raw.githubusercontent.com/lukmarcus/Today-I-Learned/main/Test_Case_Studies/CastoPro/04.png"
-                    alt="CastoPro04"
-                    style="max-width: 100%"
-                /></a>
-              </p>
+              <p><img :src="img('issue04.png')" class="w-100" /></p>
             </div>
           </li>
         </ul>
@@ -326,13 +282,14 @@
           <li>
             <a
               data-bs-toggle="collapse"
-              href="#issue5"
+              href="#issue05"
               aria-expanded="false"
               aria-controls="issue"
             >
               The login page does not check both login fields simultaneously
             </a>
-            <div class="collapse" id="issue5">
+            <div class="collapse" id="issue05">
+              <p></p>
               <p>
                 <strong>Description:</strong> Page
                 <code>/pl/auth/login</code> does not check both fields
@@ -346,46 +303,31 @@
                 <li>Enter any password in the <code>Hasło</code> field.</li>
                 <li>Click login button <code>ZALOGUJ MNIE</code>.</li>
               </ol>
+              <p></p>
               <p>
                 <strong>Actual result:</strong> Error message about wrong email
-                or password. <strong>Expected result:</strong> Error messages
-                for both email and password fields.
+                or password.
+              </p>
+              <p>
+                <strong>Expected result:</strong> Error messages for both email
+                and password fields.
               </p>
               <p><strong>Screenshots:</strong></p>
-              <p>
-                <a
-                  target="_blank"
-                  rel="noopener noreferrer nofollow"
-                  href="https://raw.githubusercontent.com/lukmarcus/Today-I-Learned/main/Test_Case_Studies/CastoPro/05a.png"
-                  class="keychainify-checked"
-                  ><img
-                    src="https://raw.githubusercontent.com/lukmarcus/Today-I-Learned/main/Test_Case_Studies/CastoPro/05a.png"
-                    alt="CastoPro05a"
-                    style="max-width: 100%"
-                /></a>
-                <a
-                  target="_blank"
-                  rel="noopener noreferrer nofollow"
-                  href="https://raw.githubusercontent.com/lukmarcus/Today-I-Learned/main/Test_Case_Studies/CastoPro/05b.png"
-                  class="keychainify-checked"
-                  ><img
-                    src="https://raw.githubusercontent.com/lukmarcus/Today-I-Learned/main/Test_Case_Studies/CastoPro/05b.png"
-                    alt="CastoPro05b"
-                    style="max-width: 100%"
-                /></a>
-              </p>
+              <p><img :src="img('issue05a.png')" class="w-100" /></p>
+              <p><img :src="img('issue05b.png')" class="w-100" /></p>
             </div>
           </li>
           <li>
             <a
               data-bs-toggle="collapse"
-              href="#issue6"
+              href="#issue06"
               aria-expanded="false"
               aria-controls="issue"
             >
               Two formats of login errors
             </a>
-            <div class="collapse" id="issue6">
+            <div class="collapse" id="issue06">
+              <p></p>
               <p>
                 <strong>Description:</strong> Login error messages on page
                 <code>/pl/auth/login</code> have different graphical formats.
@@ -403,6 +345,7 @@
                   entering any password in the <code>Hasło</code> field).
                 </li>
               </ol>
+              <p></p>
               <p>
                 <strong>Actual result:</strong> Two error messages in different
                 formats.
@@ -412,31 +355,21 @@
                 messages.
               </p>
               <p><strong>Screenshot:</strong></p>
-              <p>
-                <a
-                  target="_blank"
-                  rel="noopener noreferrer nofollow"
-                  href="https://raw.githubusercontent.com/lukmarcus/Today-I-Learned/main/Test_Case_Studies/CastoPro/06.png"
-                  class="keychainify-checked"
-                  ><img
-                    src="https://raw.githubusercontent.com/lukmarcus/Today-I-Learned/main/Test_Case_Studies/CastoPro/06.png"
-                    alt="CastoPro06"
-                    style="max-width: 100%"
-                /></a>
-              </p>
+              <p><img :src="img('issue06.png')" class="w-100" /></p>
             </div>
           </li>
           <li>
             <a
               data-bs-toggle="collapse"
-              href="#issue7"
+              href="#issue07"
               aria-expanded="false"
               aria-controls="issue"
             >
               Misleading error message during the password recovery when an
               e-mail is not in the database
             </a>
-            <div class="collapse" id="issue7">
+            <div class="collapse" id="issue07">
+              <p></p>
               <p>
                 <strong>Description:</strong> On the page
                 <code>/pl/auth/login</code>, when using the password recovery
@@ -457,24 +390,14 @@
                 </li>
                 <li>Click the send button <code>WYŚLIJ</code>.</li>
               </ol>
+              <p></p>
               <p><strong>Actual result:</strong> Not a valid e-mail message.</p>
               <p>
                 <strong>Expected result:</strong> A message that a link has been
                 sent if such an e-mail is in the database.
               </p>
               <p><strong>Screenshot:</strong></p>
-              <p>
-                <a
-                  target="_blank"
-                  rel="noopener noreferrer nofollow"
-                  href="https://raw.githubusercontent.com/lukmarcus/Today-I-Learned/main/Test_Case_Studies/CastoPro/07.png"
-                  class="keychainify-checked"
-                  ><img
-                    src="https://raw.githubusercontent.com/lukmarcus/Today-I-Learned/main/Test_Case_Studies/CastoPro/07.png"
-                    alt="CastoPro07"
-                    style="max-width: 100%"
-                /></a>
-              </p>
+              <p><img :src="img('issue07.png')" class="w-100" /></p>
             </div>
           </li>
         </ul>
@@ -485,7 +408,7 @@
           <li>
             <a
               data-bs-toggle="collapse"
-              href="#issue8"
+              href="#issue08"
               aria-expanded="false"
               aria-controls="issue"
             >
@@ -493,7 +416,8 @@
               <code>Od 25 lat wspieramy Profesjonalistów</code> disappears below
               the 992px width
             </a>
-            <div class="collapse" id="issue8">
+            <div class="collapse" id="issue08">
+              <p></p>
               <p>
                 <strong>Description:</strong> Page <code>/pl/home</code> below
                 992px does not show the entire paragraph
@@ -504,6 +428,7 @@
                 <li>Open page <code>/pl/home</code>.</li>
                 <li>Change the page width below 992px.</li>
               </ol>
+              <p></p>
               <p>
                 <strong>Actual result:</strong> The entire paragraph disappears.
               </p>
@@ -512,43 +437,22 @@
                 new width.
               </p>
               <p><strong>Screenshot above 992px width:</strong></p>
-              <p>
-                <a
-                  target="_blank"
-                  rel="noopener noreferrer nofollow"
-                  href="https://raw.githubusercontent.com/lukmarcus/Today-I-Learned/main/Test_Case_Studies/CastoPro/08a.png"
-                  class="keychainify-checked"
-                  ><img
-                    src="https://raw.githubusercontent.com/lukmarcus/Today-I-Learned/main/Test_Case_Studies/CastoPro/08a.png"
-                    alt="CastoPro08a"
-                    style="max-width: 100%"
-                /></a>
-              </p>
+              <p><img :src="img('issue08a.png')" class="w-100" /></p>
               <p><strong>Screenshot below 992px width:</strong></p>
-              <p>
-                <a
-                  target="_blank"
-                  rel="noopener noreferrer nofollow"
-                  href="https://raw.githubusercontent.com/lukmarcus/Today-I-Learned/main/Test_Case_Studies/CastoPro/08b.png"
-                  class="keychainify-checked"
-                  ><img
-                    src="https://raw.githubusercontent.com/lukmarcus/Today-I-Learned/main/Test_Case_Studies/CastoPro/08b.png"
-                    alt="CastoPro08b"
-                    style="max-width: 100%"
-                /></a>
-              </p>
+              <p><img :src="img('issue08b.png')" class="w-100" /></p>
             </div>
           </li>
           <li>
             <a
               data-bs-toggle="collapse"
-              href="#issue9"
+              href="#issue09"
               aria-expanded="false"
               aria-controls="issue"
             >
               The menu background is too short between 992px and 1098px width
             </a>
-            <div class="collapse" id="issue9">
+            <div class="collapse" id="issue09">
+              <p></p>
               <p>
                 <strong>Description:</strong> On pages with a width between
                 992px and 1098px, the background of the menu is too small for
@@ -559,6 +463,7 @@
                 <li>Open page <code>/pl/home</code>.</li>
                 <li>Change the page width to between 992px and 1098px.</li>
               </ol>
+              <p></p>
               <p>
                 <strong>Actual result:</strong> The menu is too small for the
                 word <code>REJESTRACJA</code>.
@@ -568,18 +473,7 @@
                 all items.
               </p>
               <p><strong>Screenshot:</strong></p>
-              <p>
-                <a
-                  target="_blank"
-                  rel="noopener noreferrer nofollow"
-                  href="https://raw.githubusercontent.com/lukmarcus/Today-I-Learned/main/Test_Case_Studies/CastoPro/09.png"
-                  class="keychainify-checked"
-                  ><img
-                    src="https://raw.githubusercontent.com/lukmarcus/Today-I-Learned/main/Test_Case_Studies/CastoPro/09.png"
-                    alt="CastoPro09"
-                    style="max-width: 100%"
-                /></a>
-              </p>
+              <p><img :src="img('issue09.png')" class="w-100" /></p>
             </div>
           </li>
           <li>
@@ -592,6 +486,7 @@
               The menu button overlaps the website logo below 284px width
             </a>
             <div class="collapse" id="issue10">
+              <p></p>
               <p>
                 <strong>Description:</strong> On pages with a width below 284px,
                 the top menu button overlaps the website logo.
@@ -601,6 +496,7 @@
                 <li>Open page <code>/pl/home</code>.</li>
                 <li>Change the page width below 284px.</li>
               </ol>
+              <p></p>
               <p>
                 <strong>Actual result:</strong> The menu button overlaps the
                 website logo.
@@ -610,18 +506,7 @@
                 the menu button is below the website logo.
               </p>
               <p><strong>Screenshot:</strong></p>
-              <p>
-                <a
-                  target="_blank"
-                  rel="noopener noreferrer nofollow"
-                  href="https://raw.githubusercontent.com/lukmarcus/Today-I-Learned/main/Test_Case_Studies/CastoPro/10.png"
-                  class="keychainify-checked"
-                  ><img
-                    src="https://raw.githubusercontent.com/lukmarcus/Today-I-Learned/main/Test_Case_Studies/CastoPro/10.png"
-                    alt="CastoPro10"
-                    style="max-width: 100%"
-                /></a>
-              </p>
+              <p><img :src="img('issue10.png')" class="w-100" /></p>
             </div>
           </li>
           <li>
@@ -634,6 +519,7 @@
               Opening and closing the menu is not a button, but narrow elements
             </a>
             <div class="collapse" id="issue11">
+              <p></p>
               <p>
                 <strong>Description:</strong> On pages with a width below 992px,
                 there is a menu button in the upper right corner of the page
@@ -647,6 +533,7 @@
                 <li>Open page <code>/pl/home</code>.</li>
                 <li>Change the page width below 992px.</li>
               </ol>
+              <p></p>
               <p>
                 <strong>Actual result:</strong> Open and close menu items are
                 not easy to click.
@@ -656,28 +543,8 @@
                 buttons or larger areas that are easier to click.
               </p>
               <p><strong>Screenshots:</strong></p>
-              <p>
-                <a
-                  target="_blank"
-                  rel="noopener noreferrer nofollow"
-                  href="https://raw.githubusercontent.com/lukmarcus/Today-I-Learned/main/Test_Case_Studies/CastoPro/11a.png"
-                  class="keychainify-checked"
-                  ><img
-                    src="https://raw.githubusercontent.com/lukmarcus/Today-I-Learned/main/Test_Case_Studies/CastoPro/11a.png"
-                    alt="CastoPro11a"
-                    style="max-width: 100%"
-                /></a>
-                <a
-                  target="_blank"
-                  rel="noopener noreferrer nofollow"
-                  href="https://raw.githubusercontent.com/lukmarcus/Today-I-Learned/main/Test_Case_Studies/CastoPro/11b.png"
-                  class="keychainify-checked"
-                  ><img
-                    src="https://raw.githubusercontent.com/lukmarcus/Today-I-Learned/main/Test_Case_Studies/CastoPro/11b.png"
-                    alt="CastoPro11b"
-                    style="max-width: 100%"
-                /></a>
-              </p>
+              <p><img :src="img('issue11a.png')" class="w-100" /></p>
+              <p><img :src="img('issue11b.png')" class="w-100" /></p>
             </div>
           </li>
         </ul>
@@ -695,6 +562,7 @@
               The regulations page does not scale below 456px width
             </a>
             <div class="collapse" id="issue12">
+              <p></p>
               <p>
                 <strong>Description:</strong> The page
                 <code>/pl/castopro-regulations</code> stops scaling below 456px
@@ -705,6 +573,7 @@
                 <li>Open page <code>/pl/castopro-regulations</code>.</li>
                 <li>Change the page width below 456px.</li>
               </ol>
+              <p></p>
               <p>
                 <strong>Actual result:</strong> The content of the page extends
                 beyond the visible area.
@@ -714,18 +583,7 @@
                 of the screen.
               </p>
               <p><strong>Screenshot:</strong></p>
-              <p>
-                <a
-                  target="_blank"
-                  rel="noopener noreferrer nofollow"
-                  href="https://raw.githubusercontent.com/lukmarcus/Today-I-Learned/main/Test_Case_Studies/CastoPro/12.png"
-                  class="keychainify-checked"
-                  ><img
-                    src="https://raw.githubusercontent.com/lukmarcus/Today-I-Learned/main/Test_Case_Studies/CastoPro/12.png"
-                    alt="CastoPro12"
-                    style="max-width: 100%"
-                /></a>
-              </p>
+              <p><img :src="img('issue12.png')" class="w-100" /></p>
             </div>
           </li>
           <li>
@@ -738,6 +596,7 @@
               The privacy policy page does not scale below 382px width
             </a>
             <div class="collapse" id="issue13">
+              <p></p>
               <p>
                 <strong>Description:</strong> The page
                 <code>/pl/privacy-policy</code> stops scaling below 382px width,
@@ -748,6 +607,7 @@
                 <li>Open page <code>/pl/privacy-policy</code>.</li>
                 <li>Change the page width below 382px.</li>
               </ol>
+              <p></p>
               <p>
                 <strong>Actual result:</strong> The content of the page extends
                 beyond the visible area.
@@ -757,18 +617,7 @@
                 of the screen.
               </p>
               <p><strong>Screenshot:</strong></p>
-              <p>
-                <a
-                  target="_blank"
-                  rel="noopener noreferrer nofollow"
-                  href="https://raw.githubusercontent.com/lukmarcus/Today-I-Learned/main/Test_Case_Studies/CastoPro/13.png"
-                  class="keychainify-checked"
-                  ><img
-                    src="https://raw.githubusercontent.com/lukmarcus/Today-I-Learned/main/Test_Case_Studies/CastoPro/13.png"
-                    alt="CastoPro13"
-                    style="max-width: 100%"
-                /></a>
-              </p>
+              <p><img :src="img('issue13.png')" class="w-100" /></p>
             </div>
           </li>
         </ul>
@@ -794,22 +643,37 @@
   </div>
 </template>
 
-<script setup lang="ts">
+<script lang="ts">
+import { useAssets, useProject } from "@/composables";
 import type { IProject, ITestimonial } from "@/types";
-import { Collapse } from "bootstrap";
-defineProps<{
-  project: IProject;
-  testimonials: ITestimonial[];
-}>();
+import type { PropType } from "vue";
+import { defineProps } from "vue";
 
-var collapseElementList = [].slice.call(document.querySelectorAll(".collapse"));
-collapseElementList.map(function (collapseEl) {
-  return new Collapse(collapseEl);
-});
+defineProps<{ project: IProject; testimonials: ITestimonial[] }>();
+
+export default {
+  name: "CastoPro",
+  props: {
+    project: {
+      type: Object as PropType<IProject>,
+      required: true,
+    },
+    testimonials: {
+      type: Array as PropType<ITestimonial[]>,
+      required: true,
+    },
+  },
+  setup(props) {
+    const { getImagesPaths } = useProject();
+    const { getAsset } = useAssets();
+
+    const img = (filename: string) =>
+      getAsset(`@/images/projects/${props.project.slug}/${filename}`);
+
+    return {
+      imagesPaths: getImagesPaths(props.project, 4),
+      img,
+    };
+  },
+};
 </script>
-<style scoped>
-#issues img {
-  margin-right: 20px;
-  margin-bottom: 20px;
-}
-</style>

@@ -646,8 +646,16 @@
 <script lang="ts">
 import { useAssets, useProject } from "@/composables";
 import type { IProject, ITestimonial } from "@/types";
+import { Collapse } from "bootstrap";
 import type { PropType } from "vue";
 import { defineProps } from "vue";
+
+const collapseElementList = [].slice.call(
+  document.querySelectorAll(".collapse")
+);
+collapseElementList.map(function (collapseEl) {
+  return new Collapse(collapseEl);
+});
 
 defineProps<{ project: IProject; testimonials: ITestimonial[] }>();
 

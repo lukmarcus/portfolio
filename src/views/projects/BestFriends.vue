@@ -20,10 +20,17 @@
       >
       course offered by
       <a href="https://en.training.qatestlab.com/">QATestLab Training Center</a>
-      was testing Best Friends website in various ways. This includes: Website
-      Layout, Cross-Browser Compatibility, Functional Testing and Mobile
-      Testing. It also include creating checklists, test plan and test cases in
-      TestLink and TestRail.
+      was testing Best Friends website in various ways. This includes:
+    </p>
+    <ul>
+      <li>Website Layout Testing</li>
+      <li>Cross-Browser Compatibility Testing</li>
+      <li>Functional Testing</li>
+      <li>Mobile Testing</li>
+    </ul>
+    <p>
+      It also include creating checklists, test plan, bug report in Jira, test
+      sets and test cases in TestLink, test runs and test cases in TestRail.
     </p>
   </div>
 

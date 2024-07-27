@@ -2,14 +2,11 @@
   <div class="section-row">
     <h3 class="section-title">Project Background</h3>
     <p>
-      was designed to provide a comprehensive understanding of software testing
-      principles and methodologies. The course emphasizes practical application
-      and real-world scenarios, preparing participants for industry-standard
-      testing practices. The initial task, which served as an introduction to
-      the course, required familiarizing with the Mantis Bug Tracker by
-      identifying and reporting bugs based on a video recording. In the video, a
-      user navigated a simple website called 'Design for Life,' showcasing the
-      page layout, navigation, and interactions with various page elements.
+      The initial task, which served as an introduction to the course, required
+      familiarizing with the Mantis Bug Tracker by identifying and reporting
+      bugs based on a video recording. In the video, a user navigated a simple
+      website called 'Design for Life,' showcasing the page layout, navigation,
+      and interactions with various page elements.
     </p>
     <p>
       The second (after <a href="design-for-life">Design for Life</a>) and the
@@ -20,7 +17,8 @@
       >
       course offered by
       <a href="https://en.training.qatestlab.com/">QATestLab Training Center</a>
-      was testing Best Friends website in various ways. This includes:
+      was using the gained knowledge and use it to test Best Friends website in
+      various ways. This includes:
     </p>
     <ul>
       <li>Website Layout Testing</li>

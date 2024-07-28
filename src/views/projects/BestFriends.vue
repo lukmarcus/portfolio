@@ -2,13 +2,6 @@
   <div class="section-row">
     <h3 class="section-title">Project Background</h3>
     <p>
-      The initial task, which served as an introduction to the course, required
-      familiarizing with the Mantis Bug Tracker by identifying and reporting
-      bugs based on a video recording. In the video, a user navigated a simple
-      website called 'Design for Life,' showcasing the page layout, navigation,
-      and interactions with various page elements.
-    </p>
-    <p>
       The second (after <a href="design-for-life">Design for Life</a>) and the
       biggest task of the
       <a
@@ -29,6 +22,10 @@
     <p>
       It also include creating checklists, test plan, bug report in Jira, test
       sets and test cases in TestLink, test runs and test cases in TestRail.
+    </p>
+    <p>
+      The Best Friends Opencart website is a special website created for testing
+      purposes.
     </p>
   </div>
 

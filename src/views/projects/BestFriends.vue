@@ -2,16 +2,20 @@
   <div class="section-row">
     <h3 class="section-title">Project Background</h3>
     <p>
-      The second (after <a href="design-for-life">Design for Life</a>) and the
-      biggest task of the
+      The
       <a
         href="https://en.training.qatestlab.com/course/software-testing-fundamentals/"
         >'Fundamentals of Software Testing'</a
       >
       course offered by
       <a href="https://en.training.qatestlab.com/">QATestLab Training Center</a>
-      was using the gained knowledge and use it to test Best Friends website in
-      various ways. This includes:
+      was designed to provide a comprehensive understanding of software testing
+      principles and methodologies. The course emphasizes practical application
+      and real-world scenarios, preparing participants for industry-standard
+      testing practices. The second, after
+      <a href="design-for-life">Design for Life</a>), and biggest task was to
+      test the Best Friends Opencart, which was a specially prepared website for
+      testing purposes. The houseworks included:
     </p>
     <ul>
       <li>Website Layout Testing</li>
@@ -23,10 +27,7 @@
       It also include creating checklists, test plan, bug report in Jira, test
       sets and test cases in TestLink, test runs and test cases in TestRail.
     </p>
-    <p>
-      The Best Friends Opencart website is a special website created for testing
-      purposes.
-    </p>
+    <p></p>
   </div>
 
   <div class="section-row">

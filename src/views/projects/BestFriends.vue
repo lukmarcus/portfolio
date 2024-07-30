@@ -15,7 +15,8 @@
       testing practices. The second, after
       <a href="design-for-life">Design for Life</a>), and biggest task was to
       test the Best Friends Opencart, which was a specially prepared website for
-      testing purposes. The houseworks included:
+      testing purposes. The whole process consisted of several homework
+      assignments that included:
     </p>
     <ul>
       <li>Website Layout Testing</li>
@@ -24,8 +25,9 @@
       <li>Mobile Testing</li>
     </ul>
     <p>
-      It also include creating checklists, test plan, bug report in Jira, test
-      sets and test cases in TestLink, test runs and test cases in TestRail.
+      Additionally, the homework assignments included things like: creating
+      checklists, test plan, bug report in Jira, test sets and test cases in
+      TestLink, test runs and test cases in TestRail.
     </p>
     <p></p>
   </div>

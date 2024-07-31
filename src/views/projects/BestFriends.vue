@@ -35,11 +35,12 @@
   <div class="section-row">
     <h3 class="section-title">My Role in This Project</h3>
     <p>
-      In this task, my role was to identify and document bugs using the Mantis
-      Bug Tracker system. The video provided numerous opportunities to practice
-      bug identification, with many obvious and some subtle errors. The
-      assignment required up to three bug reports, focusing on the quality
-      rather than quantity of the submissions.
+      In this project, my ultimate goal was to identify and document bugs using
+      the Mantis Bug Tracker system. With a few exceptions, most of the homework
+      tasks include working with the Best Friends website. Each task had a
+      completion scope - so you could complete it in a minimal way, but I always
+      chose the highest scoring options, which usually involved doing the same
+      thing but in greater quantity.
     </p>
   </div>
 

@@ -65,14 +65,8 @@
       varied in terms of priority and severity. This approach allowed me to test
       different report parameters and ensure a comprehensive understanding of
       the bug reporting process. Here are examples of the bugs found on the
-      homepage:
+      homepage.
     </p>
-    <ul>
-      <li>The name of the tab has a different style than the others.</li>
-      <li>The search button is larger than the search box.</li>
-      <li>A typo is present in the main header.</li>
-      <li>The footer date is set to a future date.</li>
-    </ul>
     <p><img :src="img('issues.jpg')" class="w-100" /></p>
     <p>
       I ultimately decided to report the following three bugs, selected for

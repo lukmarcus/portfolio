@@ -67,6 +67,8 @@
       the bug reporting process. Here are examples of the bugs found on the
       homepage.
     </p>
+
+    <h4 class="section-subtitle">Homework #2</h4>
     <p><img :src="img('issues.jpg')" class="w-100" /></p>
     <p>
       I ultimately decided to report the following three bugs, selected for
@@ -223,7 +225,14 @@
         </div>
       </li>
     </ul>
+
+    <h4 class="section-subtitle">Homework #3</h4>
+
+    <h4 class="section-subtitle">Homework #4</h4>
+
+    <h4 class="section-subtitle">Homework #5</h4>
   </div>
+
   <div class="section-row">
     <h3 class="section-title">What I Learned</h3>
     <p>

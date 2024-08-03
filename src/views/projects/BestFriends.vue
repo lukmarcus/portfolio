@@ -68,7 +68,7 @@
       homepage.
     </p>
 
-    <h4 class="section-subtitle">Homework #2</h4>
+    <h4 class="section-subtitle">Web projects testing</h4>
     <p><img :src="img('issues.jpg')" class="w-100" /></p>
     <p>
       I ultimately decided to report the following three bugs, selected for
@@ -226,11 +226,11 @@
       </li>
     </ul>
 
-    <h4 class="section-subtitle">Homework #3</h4>
+    <h4 class="section-subtitle">Approaches to the Functional Testing</h4>
 
-    <h4 class="section-subtitle">Homework #4</h4>
+    <h4 class="section-subtitle">Test Design, Test Cases</h4>
 
-    <h4 class="section-subtitle">Homework #5</h4>
+    <h4 class="section-subtitle">Mobile Application Testing</h4>
   </div>
 
   <div class="section-row">

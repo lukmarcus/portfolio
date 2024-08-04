@@ -71,8 +71,10 @@
     <h4 class="section-subtitle">Web projects testing</h4>
     <p><img :src="img('issues.jpg')" class="w-100" /></p>
     <p>
-      I ultimately decided to report the following three bugs, selected for
-      their diversity and relevance:
+      First task was about Website Layout & Cross-Browser Compatibility. I had
+      to create a checklist and pass it in 3 different browsers and then mark
+      the results for all checked items with Passed/Failed. I should end this
+      with adding 5-8 layout bugs in MantisBT.
     </p>
     <p>[Click on a link to expand its description]</p>
     <ul id="issues">

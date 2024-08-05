@@ -229,6 +229,12 @@
     </ul>
 
     <h4 class="section-subtitle">Approaches to the Functional Testing</h4>
+    <p>
+      The second task was about Functional Testing. Like before I had to create
+      a checklist and pass it in 3 different browsers and then mark the results
+      for all checked items with Passed/Failed. I should end this with adding
+      5-8 layout bugs in MantisBT.
+    </p>
 
     <h4 class="section-subtitle">Test Design, Test Cases</h4>
 

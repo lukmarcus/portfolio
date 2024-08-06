@@ -237,6 +237,11 @@
     </p>
 
     <h4 class="section-subtitle">Test Design, Test Cases</h4>
+    <p>
+      The third task was about Software Testing Lifeсycle. This time I had to
+      create a short test plan and add up to 5 bug-reports in MantisBT. Then I
+      should create Jira account and create a bug report on new scrum board.
+    </p>
 
     <h4 class="section-subtitle">Mobile Application Testing</h4>
   </div>

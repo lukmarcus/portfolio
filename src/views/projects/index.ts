@@ -1,8 +1,10 @@
+export { default as BestFriends } from "./BestFriends.vue";
 export { default as CV } from "./CV.vue";
 export { default as CastoPro } from "./CastoPro.vue";
 export { default as DeadIsland } from "./DeadIsland.vue";
 export { default as DesignForLife } from "./DesignForLife.vue";
 export { default as HiveProjects } from "./HiveProjects.vue";
+export { default as NoQuestionsAsked } from "./NoQuestionsAsked.vue";
 export { default as OperaMobile } from "./OperaMobile.vue";
 export { default as Pitchup } from "./Pitchup.vue";
 export { default as PitchupPWA } from "./PitchupPWA.vue";

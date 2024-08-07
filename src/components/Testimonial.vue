@@ -85,7 +85,7 @@ defineProps<{
   author: string;
   title: string;
   body: string;
-  pictureUrl: string;
+  pictureUrl?: string;
   signature?: string;
   url: string;
   type: string;

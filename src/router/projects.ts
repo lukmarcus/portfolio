@@ -1,9 +1,11 @@
 import {
+  BestFriends,
   CV,
   CastoPro,
   DeadIsland,
   DesignForLife,
   HiveProjects,
+  NoQuestionsAsked,
   OperaMobile,
   Pitchup,
   PitchupPWA,
@@ -11,7 +13,6 @@ import {
   Seerene,
   SpisTresci,
 } from "@/views/projects";
-import NoQuestionsAsked from "@/views/projects/NoQuestionsAsked.vue";
 
 import type { RouteRecordRaw } from "vue-router";
 
@@ -86,7 +87,7 @@ export const projects: RouteRecordRaw[] = [
   {
     path: "best-friends",
     name: "project-best-friends",
-    component: DesignForLife,
+    component: BestFriends,
   },
   {
     path: "neuroshima",

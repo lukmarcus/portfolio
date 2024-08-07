@@ -236,11 +236,19 @@
       5-8 layout bugs in MantisBT.
     </p>
 
-    <h4 class="section-subtitle">Test Design, Test Cases</h4>
+    <h4 class="section-subtitle">Software Testing Lifecycle</h4>
     <p>
-      The third task was about Software Testing Lifeсycle. This time I had to
+      The third task was about Software Testing Lifecycle. This time I had to
       create a short test plan and add up to 5 bug-reports in MantisBT. Then I
       should create Jira account and create a bug report on new scrum board.
+    </p>
+
+    <h4 class="section-subtitle">Test Design, Test Cases</h4>
+    <p>
+      The fourth task was about using TestLink and TestRail software. I had to
+      create 10 test cases in both systems, test plan and test run, finally add
+      and pass all created test cases. I should end this with adding up to 6
+      functional bugs in MantisBT.
     </p>
 
     <h4 class="section-subtitle">Mobile Application Testing</h4>

@@ -252,6 +252,13 @@
     </p>
 
     <h4 class="section-subtitle">Mobile Application Testing</h4>
+    <p>
+      The fifth and the final task of this project was about Mobile Application
+      Testing. Once again I had to create a checklist, pass it on specified
+      name/model of the mobile device and then mark the results for all checked
+      items with Passed/Failed. I should end this with adding 5-8 layout bugs in
+      MantisBT.
+    </p>
   </div>
 
   <div class="section-row">

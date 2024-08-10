@@ -69,13 +69,13 @@
     </p>
 
     <h4 class="section-subtitle">Web projects testing</h4>
-    <p><img :src="img('issues.jpg')" class="w-100" /></p>
     <p>
-      First task was about Website Layout & Cross-Browser Compatibility. I had
-      to create a checklist and pass it in 3 different browsers and then mark
-      the results for all checked items with Passed/Failed. I should end this
-      with adding 5-8 layout bugs in MantisBT.
+      The first task was about Website Layout & Cross-Browser Compatibility. I
+      had to create a checklist and pass it in 3 different browsers and then
+      mark the results for all checked items with Passed/Failed. I should end
+      this with adding 5-8 layout bugs in MantisBT.
     </p>
+    <p><img :src="img('checklist-website-layout.png')" class="w-100" /></p>
     <p>[Click on a link to expand its description]</p>
     <ul id="issues">
       <li>

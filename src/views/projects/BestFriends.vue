@@ -235,6 +235,7 @@
       for all checked items with Passed/Failed. I should end this with adding
       5-8 layout bugs in MantisBT.
     </p>
+    <p><img :src="img('checklist-website-functional.png')" class="w-100" /></p>
 
     <h4 class="section-subtitle">Software Testing Lifecycle</h4>
     <p>

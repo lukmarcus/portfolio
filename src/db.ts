@@ -15,7 +15,6 @@ const db: IDB = {
   },
   resume: {
     url: "https://lukmarcus.github.io",
-    pdfUrl: "https://lukmarcus.github.io/CV%20Marek%20Szumny.pdf",
   },
   projects: [
     {

@@ -16,7 +16,6 @@ export interface IDB {
   me: IMe;
   resume: {
     url?: string;
-    pdfUrl?: string;
   };
   projects: IProject[];
   projectFilters: IProjectFilter[];

@@ -1,20 +1,10 @@
 <template>
   <div
     class="row flex-lg-row bg-white shadow-sm"
-    :class="[...certificate.filterTags, certificate.language]"
+    :class="[...certificate.filterTags]"
   >
     <div class="col-12 col-auto talk-media-holder ratio ratio-16x9 me-md-3">
-      <iframe
-        v-if="certificate.source == 'youtube'"
-        width="560"
-        height="315"
-        :src="'https://www.youtube.com/embed/' + certificate.id"
-        title="YouTube video player"
-        frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen
-      >
-      </iframe>
+      <img :src="certificate.image" />
     </div>
 
     <div class="col p-4">
@@ -25,24 +15,12 @@
             certificate.date
           }}
         </li>
-        <li class="list-inline-item me-3 talk-type">
-          <font-awesome-icon
-            v-if="certificate.type == 'podcast'"
-            class="me-2"
-            icon="headphones"
-          />
-          <font-awesome-icon
-            v-else-if="certificate.type == 'video'"
-            class="me-2"
-            icon="video"
-          />
-          {{ certificate.type }}
-        </li>
-        <li class="list-inline-item me-3">
-          <span class="flag me-2" style="margin-top: -2px">
-            {{ flags[certificate.language] }}
+        <li class="list-inline-item me-3 certificate-type">
+          <font-awesome-icon class="me-2" icon="fa-regular fa-lightbulb" />
+          <span v-if="certificate.link">
+            <a :href="certificate.link">{{ certificate.source }}</a>
           </span>
-          <span class="lang">{{ certificate.language }}</span>
+          <span v-if="!certificate.link">{{ certificate.source }}</span>
         </li>
       </ul>
       <div class="talk-content">
@@ -64,8 +42,11 @@ defineProps<{ certificate: ICertificate }>();
 </script>
 
 <style scoped>
-.talk-type,
+.certificate-type,
 .lang {
   text-transform: capitalize;
+}
+a {
+  color: #41a4f5;
 }
 </style>

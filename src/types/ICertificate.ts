@@ -1,5 +1,4 @@
 import type { AllFilterTag, IFilter } from "./IFilters";
-import type { ILanguage } from "./ILanguage";
 
 export type ICertificateFilterTag = "manual" | "playwright" | "jmeter";
 
@@ -10,11 +9,8 @@ export interface ICertificateFilter extends IFilter {
 
 export interface ICertificate {
   source: string;
-  conference?: string;
-  where?: string;
-  id: string;
-  type: string;
-  language: ILanguage;
+  link?: string;
+  image: string;
   title: string;
   description: string;
   date: string;

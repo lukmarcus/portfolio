@@ -2,22 +2,20 @@
   <PageHeader title="Certificates">
     <template #tagline>
       Want me to talk at your event?
-      <router-link class="link-on-bg text-link" :to="{ name: 'contact' }"
-        >Get in touch</router-link
-      >
+      <router-link class="link-on-bg text-link" :to="{ name: 'contact' }">
+        Get in touch
+      </router-link>
     </template>
   </PageHeader>
   <section class="section pt-5 px-3 px-lg-0">
     <FilterableList>
       <template #filters>
         <Filters name="certificate-filters" v-model="certificateFilters" />
-        <Filters name="language-filters" v-model="languageFilters" />
       </template>
       <template #items>
         <div class="container position-relative">
           <Certificate
             v-for="certificate in filteredCertificatesSortedByDate"
-            :key="certificate.id"
             class="item"
             :class="{ hidden: certificate.hidden }"
             :certificate="certificate"
@@ -34,7 +32,7 @@ import { useCertificates } from "@/composables";
 import { allFilterTag } from "@/types";
 import { computed } from "vue";
 
-const { certificates, certificateFilters, languageFilters } = useCertificates();
+const { certificates, certificateFilters } = useCertificates();
 
 const filteredCertificates = computed(() => {
   const result = certificates.map((certificate) => {
@@ -44,14 +42,9 @@ const filteredCertificates = computed(() => {
     const certificateFilter = certificateFilters.value.find(
       (filter) => filter.isActive && filter.tag !== allFilterTag
     );
-    const languageFilter = languageFilters.value.find(
-      (filter) => filter.isActive && filter.tag !== allFilterTag
-    );
-    const show =
-      (certificateFilter
-        ? certificateTags.includes(certificateFilter.tag)
-        : true) &&
-      (languageFilter ? certificate.language == languageFilter.tag : true);
+    const show = certificateFilter
+      ? certificateTags.includes(certificateFilter.tag)
+      : true;
     return { ...certificate, hidden: !show };
   });
   return result;

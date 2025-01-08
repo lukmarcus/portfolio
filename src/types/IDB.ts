@@ -1,5 +1,6 @@
 import type { ILanguageFilter } from ".";
 import type { IBlogPost } from "./IBlogPost";
+import type { ICertificate, ICertificateFilter } from "./ICertificate";
 import type { ILanguage } from "./ILanguage";
 import type { IMe } from "./IMe";
 import type {
@@ -21,6 +22,8 @@ export interface IDB {
   projectFilters: IProjectFilter[];
   companies: ICompany[];
   testimonials: ITestimonial[];
+  certificates: ICertificate[];
+  certificateFilters: ICertificateFilter[];
   talks: ITalk[];
   talkFilters: ITalkFilter[];
   languageFilters: ILanguageFilter[];

@@ -315,6 +315,26 @@ const db: IDB = {
       logo: "cyfrografia.svg",
     },
   ],
+  certificates: [
+    {
+      source: "youtube",
+      id: "SzGjZW2VJ0Q",
+      type: "video",
+      language: "polish",
+      title:
+        "Cypress & Github - Efficient Setup for Pull Requests with Cypress Cloud and Alternatives",
+      description:
+        "Ta prezentacja skupia się na opisie procesu konfiguracji Cypressa z Githubem, w sposób by w konsekwencji maksymalnie ułatwić proces rozpoznawania przyczyny failujących testów. W prezentacji omawiany jest serwis Cypress Cloud a także dwie jego alternatywy: Sorry-Cypress i Currents.dev. Prezentacja zawiera przykładowe pliki konfiguracyjne, które można wykorzystać do samodzielnej konfiguracji własnego projektu.",
+      date: "May 25, 2023",
+      filterTags: ["playwright", "jmeter"],
+    },
+  ],
+  certificateFilters: [
+    { name: "All", tag: allFilterTag, isActive: true },
+    { name: "Playwright", tag: "playwright", isActive: false },
+    { name: "JMeter", tag: "jmeter", isActive: false },
+    { name: "Manual", tag: "manual", isActive: false },
+  ],
   talks: [
     {
       source: "youtube",

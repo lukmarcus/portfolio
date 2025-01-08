@@ -1,4 +1,5 @@
 export * from "./useAssets";
+export * from "./useCertificates";
 export * from "./useDB";
 export * from "./useFavicon";
 export * from "./useFeaturedProjects";

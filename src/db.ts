@@ -317,30 +317,32 @@ const db: IDB = {
   ],
   certificates: [
     {
-      title:
-        "Cypress & Github - Efficient Setup for Pull Requests with Cypress Cloud and Alternatives",
-      image: "",
-      source: "youtube",
+      title: "Test Automation with Playwright",
+      image: "aaa.jpg",
+      source: "jaktestowac.pl",
+      link: "https://jaktestowac.pl/playwright/",
       description:
         "Ta prezentacja skupia się na opisie procesu konfiguracji Cypressa z Githubem, w sposób by w konsekwencji maksymalnie ułatwić proces rozpoznawania przyczyny failujących testów. W prezentacji omawiany jest serwis Cypress Cloud a także dwie jego alternatywy: Sorry-Cypress i Currents.dev. Prezentacja zawiera przykładowe pliki konfiguracyjne, które można wykorzystać do samodzielnej konfiguracji własnego projektu.",
-      date: "May 25, 2023",
-      filterTags: ["playwright", "jmeter"],
+      date: "May 25, 2024",
+      filterTags: ["playwright", "typescript", "javascript"],
     },
     {
       title:
         "Cypress & Github - Efficient Setup for Pull Requests with Cypress Cloud and Alternatives",
-      image: "",
+      image: "aaa.jpg",
       source: "QATestLab Training Center",
       link: "aaaaaaaaaa",
       description:
         "Ta prezentacja skupia się na opisie procesu konfiguracji Cypressa z Githubem, w sposób by w konsekwencji maksymalnie ułatwić proces rozpoznawania przyczyny failujących testów. W prezentacji omawiany jest serwis Cypress Cloud a także dwie jego alternatywy: Sorry-Cypress i Currents.dev. Prezentacja zawiera przykładowe pliki konfiguracyjne, które można wykorzystać do samodzielnej konfiguracji własnego projektu.",
-      date: "May 25, 2023",
+      date: "October 10, 2023",
       filterTags: ["manual"],
     },
   ],
   certificateFilters: [
     { name: "All", tag: allFilterTag, isActive: true },
     { name: "Playwright", tag: "playwright", isActive: false },
+    { name: "TypeScript", tag: "typescript", isActive: false },
+    { name: "JavaScript", tag: "javascript", isActive: false },
     { name: "JMeter", tag: "jmeter", isActive: false },
     { name: "Manual", tag: "manual", isActive: false },
   ],

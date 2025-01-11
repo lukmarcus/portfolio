@@ -68,5 +68,5 @@ npm run lint
 
 ```sh
 nvm install v18.15.0
-nvm run v18.15.0
+nvm use v18.15.0
 ```

@@ -315,6 +315,39 @@ const db: IDB = {
       logo: "cyfrografia.svg",
     },
   ],
+  certificates: [
+    {
+      title: "Test Automation with Playwright",
+      image: "test.jpg",
+      source: "jaktestowac.pl",
+      link: "https://jaktestowac.pl/",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eu est dignissim, commodo tortor id, tincidunt nunc. Morbi mollis nisl vel velit placerat, sit amet bibendum urna elementum. Etiam placerat odio ante, tincidunt iaculis dolor pretium vel. Duis et ligula nec nisi convallis aliquet non vel enim. Vestibulum suscipit ex a felis ultricies, vitae sollicitudin tellus elementum. Donec consequat rhoncus feugiat. Quisque porttitor, tortor vitae aliquet ultrices, nisl mauris rutrum arcu, at viverra mi libero vitae metus. Vivamus ac felis molestie, faucibus nunc sed, consequat nisl. Integer vestibulum, sem ac hendrerit dignissim, enim libero efficitur arcu, in molestie ligula arcu et odio. Cras et lectus eget lorem tincidunt convallis. Donec fermentum neque ut velit facilisis hendrerit.",
+      date: "May 25, 2024",
+      filterTags: ["playwright", "ts/js"],
+    },
+    {
+      title: "Fundamentals of Software Testing",
+      image: "test.jpg",
+      source: "QATestLab Training Center",
+      link: "https://en.training.qatestlab.com/",
+      description:
+        "Pellentesque felis libero, cursus vitae vulputate sit amet, fringilla sed lorem. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sed diam sed lorem ultricies elementum. Duis a faucibus urna. Vestibulum tempor tristique mattis. In vehicula gravida fermentum. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
+      date: "October 10, 2023",
+      filterTags: ["manual"],
+    },
+  ],
+  certificateFilters: [
+    { name: "All", tag: allFilterTag, isActive: true },
+    { name: "Playwright", tag: "playwright", isActive: false },
+    {
+      name: "TS/JS",
+      tag: "ts/js",
+      isActive: false,
+    },
+    { name: "JMeter", tag: "jmeter", isActive: false },
+    { name: "Manual", tag: "manual", isActive: false },
+  ],
   talks: [
     {
       source: "youtube",

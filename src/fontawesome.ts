@@ -10,7 +10,7 @@ import {
   faStackOverflow,
   faTwitter,
 } from "@fortawesome/free-brands-svg-icons";
-import { faClock } from "@fortawesome/free-regular-svg-icons";
+import { faClock, faLightbulb } from "@fortawesome/free-regular-svg-icons";
 import {
   faBuilding,
   faCheck,
@@ -56,7 +56,7 @@ const fab = [
   faStackOverflow,
   faTwitter,
 ];
-const far = [faClock];
+const far = [faClock, faLightbulb];
 
 library.add(...fas, ...far, ...fab);
 

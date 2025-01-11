@@ -1,38 +1,10 @@
 // Extra small devices (portrait phones, less than 576px)
 // No media query since this is the default in Bootstrap
 
-.certificate-media-holder {
-  max-width: 200px;
-  width: 100%;
-  text-align: center;
-  margin: 0 auto;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.certificate-img {
-  width: 100%;
-  height: auto;
-  object-fit: contain;
-  display: block;
-  max-height: 100%;
-}
-
-.col.p-4 {
-  min-height: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
 // Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) {
   .talk-media-holder {
     width: 50%;
-  }
-  .certificate-media-holder {
-    max-width: 250px;
   }
 }
 
@@ -41,9 +13,6 @@
   .theme-btn-cta {
     width: auto;
     display: inline-block;
-  }
-  .certificate-media-holder {
-    max-width: 300px;
   }
 }
 
@@ -56,18 +25,12 @@
   .talk-media-holder {
     width: 55%;
   }
-  .certificate-media-holder {
-    max-width: 350px;
-  }
 }
 
 // Extra large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) {
   .talk-media-holder {
     width: 60%;
-  }
-  .certificate-media-holder {
-    max-width: 400px;
   }
 }
 

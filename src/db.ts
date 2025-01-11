@@ -324,7 +324,7 @@ const db: IDB = {
       description:
         "Ta prezentacja skupia się na opisie procesu konfiguracji Cypressa z Githubem, w sposób by w konsekwencji maksymalnie ułatwić proces rozpoznawania przyczyny failujących testów. W prezentacji omawiany jest serwis Cypress Cloud a także dwie jego alternatywy: Sorry-Cypress i Currents.dev. Prezentacja zawiera przykładowe pliki konfiguracyjne, które można wykorzystać do samodzielnej konfiguracji własnego projektu.",
       date: "May 25, 2024",
-      filterTags: ["playwright", "typescript", "javascript"],
+      filterTags: ["playwright", "ts/js"],
     },
     {
       title:
@@ -341,8 +341,11 @@ const db: IDB = {
   certificateFilters: [
     { name: "All", tag: allFilterTag, isActive: true },
     { name: "Playwright", tag: "playwright", isActive: false },
-    { name: "TypeScript", tag: "typescript", isActive: false },
-    { name: "JavaScript", tag: "javascript", isActive: false },
+    {
+      name: "TS/JS",
+      tag: "ts/js",
+      isActive: false,
+    },
     { name: "JMeter", tag: "jmeter", isActive: false },
     { name: "Manual", tag: "manual", isActive: false },
   ],

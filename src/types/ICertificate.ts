@@ -3,8 +3,7 @@ import type { AllFilterTag, IFilter } from "./IFilters";
 export type ICertificateFilterTag =
   | "manual"
   | "playwright"
-  | "typescript"
-  | "javascript"
+  | "ts/js"
   | "jmeter";
 
 export interface ICertificateFilter extends IFilter {

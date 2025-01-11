@@ -26,9 +26,7 @@
               <template v-else>{{ certificate.source }}</template>
             </li>
           </ul>
-          <div>
-            {{ certificate.description }}
-          </div>
+          <div v-html="certificate.description"></div>
         </div>
       </div>
     </div>

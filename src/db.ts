@@ -318,22 +318,21 @@ const db: IDB = {
   certificates: [
     {
       title: "Test Automation with Playwright",
-      image: "aaa.jpg",
+      image: "test.jpg",
       source: "jaktestowac.pl",
-      link: "https://jaktestowac.pl/playwright/",
+      link: "https://jaktestowac.pl/",
       description:
-        "Ta prezentacja skupia się na opisie procesu konfiguracji Cypressa z Githubem, w sposób by w konsekwencji maksymalnie ułatwić proces rozpoznawania przyczyny failujących testów. W prezentacji omawiany jest serwis Cypress Cloud a także dwie jego alternatywy: Sorry-Cypress i Currents.dev. Prezentacja zawiera przykładowe pliki konfiguracyjne, które można wykorzystać do samodzielnej konfiguracji własnego projektu.",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eu est dignissim, commodo tortor id, tincidunt nunc. Morbi mollis nisl vel velit placerat, sit amet bibendum urna elementum. Etiam placerat odio ante, tincidunt iaculis dolor pretium vel. Duis et ligula nec nisi convallis aliquet non vel enim. Vestibulum suscipit ex a felis ultricies, vitae sollicitudin tellus elementum. Donec consequat rhoncus feugiat. Quisque porttitor, tortor vitae aliquet ultrices, nisl mauris rutrum arcu, at viverra mi libero vitae metus. Vivamus ac felis molestie, faucibus nunc sed, consequat nisl. Integer vestibulum, sem ac hendrerit dignissim, enim libero efficitur arcu, in molestie ligula arcu et odio. Cras et lectus eget lorem tincidunt convallis. Donec fermentum neque ut velit facilisis hendrerit.",
       date: "May 25, 2024",
       filterTags: ["playwright", "ts/js"],
     },
     {
-      title:
-        "Cypress & Github - Efficient Setup for Pull Requests with Cypress Cloud and Alternatives",
-      image: "aaa.jpg",
+      title: "Fundamentals of Software Testing",
+      image: "test.jpg",
       source: "QATestLab Training Center",
-      link: "aaaaaaaaaa",
+      link: "https://en.training.qatestlab.com/",
       description:
-        "Ta prezentacja skupia się na opisie procesu konfiguracji Cypressa z Githubem, w sposób by w konsekwencji maksymalnie ułatwić proces rozpoznawania przyczyny failujących testów. W prezentacji omawiany jest serwis Cypress Cloud a także dwie jego alternatywy: Sorry-Cypress i Currents.dev. Prezentacja zawiera przykładowe pliki konfiguracyjne, które można wykorzystać do samodzielnej konfiguracji własnego projektu.",
+        "Pellentesque felis libero, cursus vitae vulputate sit amet, fringilla sed lorem. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sed diam sed lorem ultricies elementum. Duis a faucibus urna. Vestibulum tempor tristique mattis. In vehicula gravida fermentum. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
       date: "October 10, 2023",
       filterTags: ["manual"],
     },

@@ -318,22 +318,64 @@ const db: IDB = {
   certificates: [
     {
       title: "Test Automation with Playwright",
-      image: "test.jpg",
+      image: "MarekSzumny_TestAutomationWithPlaywright_JakTestowac.jpg",
       source: "jaktestowac.pl",
-      link: "https://jaktestowac.pl/",
-      description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eu est dignissim, commodo tortor id, tincidunt nunc. Morbi mollis nisl vel velit placerat, sit amet bibendum urna elementum. Etiam placerat odio ante, tincidunt iaculis dolor pretium vel. Duis et ligula nec nisi convallis aliquet non vel enim. Vestibulum suscipit ex a felis ultricies, vitae sollicitudin tellus elementum. Donec consequat rhoncus feugiat. Quisque porttitor, tortor vitae aliquet ultrices, nisl mauris rutrum arcu, at viverra mi libero vitae metus. Vivamus ac felis molestie, faucibus nunc sed, consequat nisl. Integer vestibulum, sem ac hendrerit dignissim, enim libero efficitur arcu, in molestie ligula arcu et odio. Cras et lectus eget lorem tincidunt convallis. Donec fermentum neque ut velit facilisis hendrerit.",
+      link: "https://jaktestowac.pl/playwright/",
+      description: `The entire material currently consists of over 80 hours of recordings and over 520 lessons with theory and practice in the field of:
+<br>- Playwright and its most common use cases,
+<br>- Playwright structures, methods and functions,
+<br>- tools related to working with automated tests (code formatting, static analysis),
+<br>- good practices and patterns related to writing automated tests,
+<br>- basics of general test architecture,
+<br>- Continuous Integration and automated tests in the CI/CD process,
+<br>- TypeScript and programming.`,
       date: "May 25, 2024",
       filterTags: ["playwright", "ts/js"],
     },
     {
+      title: "Playwright JS/TS Automation Testing from Scratch & Framework",
+      image: "MarekSzumny_PlaywrightAutomationTesting_Udemy.jpg",
+      source: "Udemy",
+      link: "https://www.udemy.com/course/playwright-tutorials-automation-testing/",
+      description: `Comprehensive Playwright course that covers everything from the basics to frameworks:
+<br>- Playwright fundamentals and advanced use cases,
+<br>- automation of modern web applications, including React and Angular,
+<br>- API testing and integrating UI and API tests in single scripts,
+<br>- advanced techniques like session cookie manipulation for bypassing logins,
+<br>- designing test cases using Playwright Cucumber BDD and Mocha frameworks,
+<br>- leveraging page object models, external data, and custom utilities for test automation,
+<br>- Continuous Integration with Jenkins and Docker for running tests,
+<br>- Playwright's logging capabilities including screenshots, videos, and Inspector demos.`,
+      date: "January 13, 2025",
+      filterTags: ["playwright", "ts/js"],
+    },
+    {
+      title: "Introduction to Software Testing",
+      image: "MarekSzumny_IntroductionToSoftwareTesting_Navoica.jpg",
+      source: "Navoica",
+      link: "https://navoica.pl/courses/course-v1:ZPSB+WTO1_EN+2022_WTO1_EN/",
+      description: `The course is designed for novice programmers and prospective testers, focusing on:
+<br>- understanding the role of testing in the software development process,
+<br>- acquiring skills in test planning, preparation, and documentation,
+<br>- exploring the impact of testing on software quality assurance.`,
+      date: "July 26, 2024",
+      filterTags: ["manual"],
+    },
+    {
       title: "Fundamentals of Software Testing",
-      image: "test.jpg",
+      image:
+        "MarekSzumny_FundamentalsOfSoftwareTesting_QATestLabTrainingCenter.jpg",
       source: "QATestLab Training Center",
-      link: "https://en.training.qatestlab.com/",
-      description:
-        "Pellentesque felis libero, cursus vitae vulputate sit amet, fringilla sed lorem. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sed diam sed lorem ultricies elementum. Duis a faucibus urna. Vestibulum tempor tristique mattis. In vehicula gravida fermentum. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
-      date: "October 10, 2023",
+      link: "https://en.training.qatestlab.com/course/software-testing-fundamentals/",
+      description: `The course covers essential knowledge and practical skills for beginners in software testing, focusing on:
+<br>- understanding bugs, reporting them in Mantis Bug Tracker, and differentiating them from features,
+<br>- practicing testing across various platforms, including software, games, and mobile applications,
+<br>- gaining proficiency in manual testing, creating test documentation, and using bug-tracking systems,
+<br>- preparing for a QA Intern position with hands-on experience in key testing areas,
+<br>- expanding theoretical knowledge and practical skills for those already in the QA field,
+<br>- providing career changers with foundational testing skills for entering the IT industry.
+<br>The course includes lectures, practical exercises, and a comprehensive program that covers web, mobile, and game testing, functional testing techniques, test case creation, and more.`,
+      date: "April 30, 2023",
       filterTags: ["manual"],
     },
   ],

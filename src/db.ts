@@ -361,6 +361,19 @@ const db: IDB = {
       filterTags: ["jmeter"],
     },
     {
+      title: "Playwright 101",
+      image: "MarekSzumny_Playwright101_LambdaTest.jpg",
+      source: "LambdaTest",
+      link: "https://www.lambdatest.com/certifications/playwright-101",
+      description: `The course covers essential skills for mastering modern test automation:
+<br>- gain in-depth knowledge of the Playwright framework,
+<br>- learn to run and manage automation tests using Playwright,
+<br>- perform cross-browser testing on cloud grids with Playwright,
+<br>- leverage Playwright's features, including screenshots, videos, headless testing, and environment variables, to enhance test efficiency.`,
+      date: "August 27, 2024",
+      filterTags: ["playwright"],
+    },
+    {
       title: "Test Automation with Playwright",
       image: "MarekSzumny_TestAutomationWithPlaywright_JakTestowac.jpg",
       source: "jaktestowac.pl",

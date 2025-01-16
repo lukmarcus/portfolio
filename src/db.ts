@@ -418,6 +418,19 @@ const db: IDB = {
       date: "April 30, 2023",
       filterTags: ["manual"],
     },
+    {
+      title: "BaseLinker for Beginners",
+      image: "MarekSzumny_BaseLinkerForBeginners_BaseAcademy.jpg",
+      source: "base.academy",
+      link: "https://base.com/en-EN/academy/courses/baselinker-for-beginners/",
+      description: `This course provides a solid foundation for mastering BaseLinker, with further modules for those interested in deeper system configuration.
+<br>- learn how to create an account and navigate the panel management,
+<br>- explore key modules, including Order Manager, Product Manager, and Marketplace Manager,
+<br>- develop skills for efficient order processing and management,
+<br>- gain tools to streamline tasks like placing auctions, downloading orders, issuing invoices, printing labels, and sending packages.`,
+      date: "February 23, 2023",
+      filterTags: ["baselinker"],
+    },
   ],
   certificateFilters: [
     { name: "All", tag: allFilterTag, isActive: true },
@@ -428,6 +441,7 @@ const db: IDB = {
       isActive: false,
     },
     { name: "JMeter", tag: "jmeter", isActive: false },
+    { name: "BaseLinker", tag: "baselinker", isActive: false },
     { name: "Manual", tag: "manual", isActive: false },
   ],
   talks: [

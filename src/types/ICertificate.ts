@@ -4,7 +4,8 @@ export type ICertificateFilterTag =
   | "manual"
   | "playwright"
   | "ts/js"
-  | "jmeter";
+  | "jmeter"
+  | "baselinker";
 
 export interface ICertificateFilter extends IFilter {
   name: string;

@@ -1,9 +1,9 @@
 import type { AllFilterTag, IFilter } from "./IFilters";
 
 export type ICertificateFilterTag =
-  | "manual"
+  | "manual-testing"
   | "playwright"
-  | "ts/js"
+  | "typescript-javascript"
   | "jmeter"
   | "baselinker"
   | "sql"

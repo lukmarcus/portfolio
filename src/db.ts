@@ -331,7 +331,7 @@ const db: IDB = {
 <br>- Continuous Integration with Jenkins and Docker for running tests,
 <br>- Playwright's logging capabilities including screenshots, videos, and Inspector demos.`,
       date: "January 13, 2025",
-      filterTags: ["playwright", "ts/js"],
+      filterTags: ["playwright", "typescript-javascript"],
     },
     {
       title: "Apache JMeter™ Pro",
@@ -387,7 +387,7 @@ const db: IDB = {
 <br>- Continuous Integration and automated tests in the CI/CD process,
 <br>- TypeScript and programming.`,
       date: "May 25, 2024",
-      filterTags: ["playwright", "ts/js"],
+      filterTags: ["playwright", "typescript-javascript"],
     },
     {
       title: "Introduction to Software Testing",
@@ -399,7 +399,7 @@ const db: IDB = {
 <br>- acquiring skills in test planning, preparation, and documentation,
 <br>- exploring the impact of testing on software quality assurance.`,
       date: "July 26, 2024",
-      filterTags: ["manual"],
+      filterTags: ["manual-testing"],
     },
     {
       title: "Data Analyst Associate",
@@ -431,7 +431,7 @@ const db: IDB = {
 <br>- providing career changers with foundational testing skills for entering the IT industry.
 <br>The course includes lectures, practical exercises, and a comprehensive program that covers web, mobile, and game testing, functional testing techniques, test case creation, and more.`,
       date: "April 30, 2023",
-      filterTags: ["manual"],
+      filterTags: ["manual-testing"],
     },
     {
       title: "BaseLinker for Beginners",
@@ -451,15 +451,15 @@ const db: IDB = {
     { name: "All", tag: allFilterTag, isActive: true },
     { name: "Playwright", tag: "playwright", isActive: false },
     {
-      name: "TS/JS",
-      tag: "ts/js",
+      name: "TypeScript/JavaScript",
+      tag: "typescript-javascript",
       isActive: false,
     },
+    { name: "Manual Testing", tag: "manual-testing", isActive: false },
     { name: "JMeter", tag: "jmeter", isActive: false },
-    { name: "BaseLinker", tag: "baselinker", isActive: false },
-    { name: "Manual", tag: "manual", isActive: false },
     { name: "SQL", tag: "sql", isActive: false },
     { name: "Data Analysis", tag: "data-analysis", isActive: false },
+    { name: "BaseLinker", tag: "baselinker", isActive: false },
   ],
   talks: [
     {

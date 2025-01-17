@@ -402,6 +402,21 @@ const db: IDB = {
       filterTags: ["manual"],
     },
     {
+      title: "Data Analyst Associate",
+      image: "MarekSzumny_DataAnalystAssociate_DataCamp.jpg",
+      source: "Data Camp",
+      link: "https://support.datacamp.com/hc/en-us/articles/7926305856919-Data-Analyst-Associate",
+      description: `This course focuses on essential skills needed for entry-level data analyst roles. It typically requires over 100 hours of learning to acquire skills and the main areas of expertise covered include:
+<br>- learning to clean and process data, identify quality issues, and perform transformations using SQL,
+<br>- gaining skills in summarizing data, transforming it into relevant formats, and creating reports and dashboards,
+<br>- applying statistical methods to conduct data-driven experiments,
+<br>- developing the ability to create dashboards, reports, and visualizations, and effectively communicate insights to stakeholders,
+<br>- testing knowledge through adaptive, timed exams covering various data analyst topics,
+<br>- completing a written report with selected visualizations and defended analysis, graded manually by experts.`,
+      date: "November 11, 2023",
+      filterTags: ["sql", "data-analysis"],
+    },
+    {
       title: "Fundamentals of Software Testing",
       image:
         "MarekSzumny_FundamentalsOfSoftwareTesting_QATestLabTrainingCenter.jpg",
@@ -443,6 +458,8 @@ const db: IDB = {
     { name: "JMeter", tag: "jmeter", isActive: false },
     { name: "BaseLinker", tag: "baselinker", isActive: false },
     { name: "Manual", tag: "manual", isActive: false },
+    { name: "SQL", tag: "sql", isActive: false },
+    { name: "Data Analysis", tag: "data-analysis", isActive: false },
   ],
   talks: [
     {

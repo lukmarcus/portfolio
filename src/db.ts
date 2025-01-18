@@ -334,6 +334,21 @@ const db: IDB = {
       filterTags: ["playwright", "typescript-javascript"],
     },
     {
+      title: "Praktyczne techniki testowania manualnego",
+      image: "MarekSzumny_PraktyczneTechnikiTestowaniaManualnego_Codenga.jpg",
+      source: "Codenga",
+      link: "https://codenga.pl/products/praktyczne_techniki_testowania_manualnego",
+      description: `Here's a summary of the knowledge gained in the course:
+<br>- learn which tools are valuable in the manual testing process,
+<br>- understand the fundamentals of API testing and Responsive Web Design (RWD) testing,
+<br>- gain knowledge about Jenkins and Docker and their roles in the testing process,
+<br>- write properly structured test cases,
+<br>- learn how to plan tests effectively,
+<br>- verify the functionality of the application provided in the course.`,
+      date: "January 13, 2025",
+      filterTags: ["manual-testing"],
+    },
+    {
       title: "Apache JMeter™ Pro",
       image: "MarekSzumny_ApacheJMeterPro_BlazeMeterUniversity.jpg",
       source: "BlazeMeter University",

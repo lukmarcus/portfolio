@@ -361,6 +361,19 @@ const db: IDB = {
       filterTags: ["jmeter"],
     },
     {
+      title: "Manual Testing",
+      image: "MarekSzumny_ManualTesting_LambdaTest.jpg",
+      source: "LambdaTest",
+      link: "https://www.lambdatest.com/certifications/manual-testing",
+      description: `This exam confirms the knowledge acquired in the field of:
+<br>- know-how of test automation frameworks,
+<br>- in-depth understanding of the DOM and Web Locators,
+<br>- in-depth understanding of website testing using test automation frameworks,
+<br>- experience in running automated tests (serial and parallel) on cloud grid.`,
+      date: "October 23, 2024",
+      filterTags: ["manual-testing"],
+    },
+    {
       title: "Playwright 101",
       image: "MarekSzumny_Playwright101_LambdaTest.jpg",
       source: "LambdaTest",

@@ -1,10 +1,13 @@
 import type { AllFilterTag, IFilter } from "./IFilters";
 
 export type ICertificateFilterTag =
-  | "manual"
+  | "manual-testing"
   | "playwright"
-  | "ts/js"
-  | "jmeter";
+  | "typescript-javascript"
+  | "jmeter"
+  | "baselinker"
+  | "sql"
+  | "data-analysis";
 
 export interface ICertificateFilter extends IFilter {
   name: string;

@@ -13,7 +13,7 @@
       principles and methodologies. The course emphasizes practical application
       and real-world scenarios, preparing participants for industry-standard
       testing practices. The second, after
-      <a href="design-for-life">Design for Life</a>), and biggest task was to
+      <a href="design-for-life">Design for Life</a>, and biggest task was to
       test the Best Friends Opencart, which was a specially prepared website for
       testing purposes. The whole process consisted of several homework
       assignments that included:
@@ -25,9 +25,9 @@
       <li>Mobile Testing</li>
     </ul>
     <p>
-      Additionally, the homework assignments included things like: creating
-      checklists, test plan, bug report in Jira, test sets and test cases in
-      TestLink, test runs and test cases in TestRail.
+      Additionally, the homework assignments included tasks like: creating
+      checklists, test plans, bug reports in Jira, test sets, and test cases in
+      TestLink, test runs, and test cases in TestRail.
     </p>
     <p></p>
   </div>
@@ -36,23 +36,23 @@
     <h3 class="section-title">My Role in This Project</h3>
     <p>
       In this project, my ultimate goal was to identify and document bugs using
-      the Mantis Bug Tracker system. With a few exceptions, most of the homework
-      tasks include working with the Best Friends website. Each task had a
-      completion scope - so you could complete it in a minimal way, but I always
-      chose the highest scoring options, which usually involved doing the same
-      thing but in greater quantity.
+      the Mantis Bug Tracker system. With a few exceptions, most homework tasks
+      include working with the Best Friends website. Each task had a completion
+      scope - so you could complete it minimally, but I always chose the
+      highest-scoring options, which usually involved doing the same thing but
+      in greater quantity.
     </p>
   </div>
 
   <div class="section-row">
     <h3 class="section-title">Challenges</h3>
     <p>
-      While Mantis Bug Tracker itself is a straightforward tool with a
-      user-friendly interface, the challenge lay in the reporting process. Each
-      bug report was subject to manual review by a QATestLab Training Center
-      employee, requiring high accuracy and adherence to specific standards.
-      Theoretical knowledge had to be effectively translated into practical
-      application, with no room for errors or omissions.
+      While Mantis Bug Tracker is a straightforward tool with a user-friendly
+      interface, the challenge lies in the reporting process. Each bug report
+      was subject to manual review by a QATestLab Training Center employee,
+      requiring high accuracy and adherence to specific standards. Theoretical
+      knowledge had to be effectively translated into practical application,
+      with no room for errors or omissions.
     </p>
   </div>
 
@@ -64,7 +64,7 @@
       Although more bugs were evident, I focused on selecting those that were
       varied in terms of priority and severity. This approach allowed me to test
       different report parameters and ensure a comprehensive understanding of
-      the bug reporting process. Here are examples of the bugs found on the
+      the bug-reporting process. Here are examples of the bugs found on the
       homepage.
     </p>
 
@@ -73,7 +73,7 @@
       The first task was about Website Layout & Cross-Browser Compatibility. I
       had to create a checklist and pass it in 3 different browsers and then
       mark the results for all checked items with Passed/Failed. I should end
-      this with adding 5-8 layout bugs in MantisBT.
+      this by adding 5-8 layout bugs in MantisBT.
     </p>
     <p><img :src="img('checklist-website-layout.png')" class="w-100" /></p>
     <p>[Click on a link to expand its description]</p>
@@ -232,16 +232,17 @@
     <p>
       The second task was about Functional Testing. Like before I had to create
       a checklist and pass it in 3 different browsers and then mark the results
-      for all checked items with Passed/Failed. I should end this with adding
-      5-8 layout bugs in MantisBT.
+      for all checked items with Passed/Failed. I should end this by adding 5-8
+      layout bugs in MantisBT.
     </p>
     <p><img :src="img('checklist-website-functional.png')" class="w-100" /></p>
 
     <h4 class="section-subtitle">Software Testing Lifecycle</h4>
     <p>
-      The third task was about Software Testing Lifecycle. This time I had to
-      create a short test plan and add up to 5 bug-reports in MantisBT. Then I
-      should create Jira account and create a bug report on new scrum board.
+      The third task was about the Software Testing Lifecycle. This time I had
+      to create a short test plan and add up to 5 bug reports in MantisBT. Then
+      I should create a Jira account and create a bug report on the new scrum
+      board.
     </p>
 
     <h4 class="section-subtitle">Test Design, Test Cases</h4>

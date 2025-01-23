@@ -90,6 +90,14 @@
             <li class="nav-item me-lg-3">
               <router-link
                 class="nav-link"
+                :to="{ name: 'certificates' }"
+                @click="closeMenu()"
+                >Certificates</router-link
+              >
+            </li>
+            <li class="nav-item me-lg-3">
+              <router-link
+                class="nav-link"
                 :to="{ name: 'talks' }"
                 @click="closeMenu()"
                 >Talks</router-link

@@ -1,4 +1,5 @@
 export * from "./IBlogPost";
+export * from "./ICertificate";
 export * from "./IDB";
 export * from "./IFilters";
 export * from "./ILanguage";

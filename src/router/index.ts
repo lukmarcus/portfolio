@@ -1,5 +1,5 @@
 import { useDB } from "@/composables";
-import { Home, Project, Projects, Resume, Talks } from "@/views";
+import { Certificates, Home, Project, Projects, Resume, Talks } from "@/views";
 import type { RouteRecordRaw, RouterScrollBehavior } from "vue-router";
 import { createRouter, createWebHistory } from "vue-router";
 import { projects } from "./projects";
@@ -22,6 +22,11 @@ const routes: Array<RouteRecordRaw> = [
     name: "project",
     component: Project,
     children: projects,
+  },
+  {
+    path: "/certificates",
+    name: "certificates",
+    component: Certificates,
   },
   {
     path: "/talks",

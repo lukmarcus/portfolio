@@ -248,17 +248,17 @@
     <h4 class="section-subtitle">Test Design, Test Cases</h4>
     <p>
       The fourth task was about using TestLink and TestRail software. I had to
-      create 10 test cases in both systems, test plan and test run, finally add
-      and pass all created test cases. I should end this with adding up to 6
-      functional bugs in MantisBT.
+      create 10 test cases in both systems, test plan, and test run, and
+      finally, add and pass all created test cases. I should end this by adding
+      up to 6 functional bugs in MantisBT.
     </p>
 
     <h4 class="section-subtitle">Mobile Application Testing</h4>
     <p>
-      The fifth and the final task of this project was about Mobile Application
-      Testing. Once again I had to create a checklist, pass it on specified
-      name/model of the mobile device and then mark the results for all checked
-      items with Passed/Failed. I should end this with adding 5-8 layout bugs in
+      The fifth and final task of this project was Mobile Application Testing.
+      Once again, I had to create a checklist, pass it on to the specified
+      name/model of the mobile device, and then mark the results for all checked
+      items with Passed/Failed. I should end this by adding 5-8 layout bugs in
       MantisBT.
     </p>
   </div>
